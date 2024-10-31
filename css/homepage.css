@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f3f7f0;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #61a561;
+  }
+  
+  nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 2em;
+    background: linear-gradient(to right, #e0f4e9, #d8f1ea);
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero button {
+    padding: 0.5em 1em;
+    color: #fff;
+    background-color: #61a561;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+  
+  .about {
+    padding: 2em;
+    background-color: #e7f0ec;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .about-images {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+  }
+  
+  .articles {
+    padding: 2em;
+    background-color: #f3f7f0;
+    text-align: center;
+  }
+  
+  .article-item {
+    padding: 1em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .comments {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  #comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+  }
+  
+  #comment-form input, #comment-form textarea {
+    width: 50%;
+    padding: 0.5em;
+  }
+  
+  footer {
+    padding: 1em;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+  }
+  
