@@ -1,0 +1,800 @@
+.inspiration-guide-panduan-child {
+	position: absolute;
+	top: 1358px;
+	left: 476px;
+	filter: blur(120px);
+	background-color: #c9dbb2;
+	width: 204px;
+	height: 97px;
+}
+.inspiration-guide-panduan-item {
+	position: absolute;
+	top: 1340px;
+	left: 738px;
+	filter: blur(200px);
+	background-color: #82bbff;
+	width: 204px;
+	height: 97px;
+}
+.vector-icon {
+	position: absolute;
+	top: 2280px;
+	left: -430px;
+	width: 1099.2px;
+	height: 1000.8px;
+	object-fit: contain;
+	opacity: 0.5;
+}
+.inspiration-guide-panduan-inner {
+	position: absolute;
+	top: 2502px;
+	left: -460px;
+	filter: blur(150px);
+	border-radius: 50%;
+	background-color: #82bbff;
+	width: 723px;
+	height: 631px;
+	opacity: 0.3;
+}
+.group-icon {
+	position: absolute;
+	top: 4152px;
+	left: 963px;
+	width: 740px;
+	height: 503px;
+}
+.unsplashoypnyfdiqgg-icon {
+	position: absolute;
+	top: -88px;
+	left: -325px;
+	width: 1881px;
+	height: 1134px;
+	object-fit: cover;
+}
+.eco-house-guide {
+	position: absolute;
+	top: 227px;
+	left: 466px;
+	letter-spacing: -0.02em;
+}
+.unsplashoypnyfdiqgg-parent {
+	position: absolute;
+	top: 89px;
+	left: 0px;
+	background-color: #000;
+	width: 1440px;
+	height: 583px;
+	overflow: hidden;
+	text-align: justify;
+	font-size: 64px;
+	color: #fff;
+}
+.navbar-child {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+	background-color: #fff;
+	width: 1440px;
+	height: 111px;
+}
+.yellow-and-green-modern-logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 284px;
+	height: 67px;
+	object-fit: cover;
+	cursor: pointer;
+}
+.label {
+	position: relative;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+.buttoncontent {
+	height: 24px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+.buttoncontent-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+.button {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+	border-radius: 50px;
+	background-color: #fff;
+	width: 127px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 24px;
+	box-sizing: border-box;
+}
+.button1 {
+	position: absolute;
+	top: 0px;
+	left: 208px;
+	box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+	border-radius: 50px;
+	background-color: #fff;
+	width: 127px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 24px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.button2 {
+	position: absolute;
+	top: 0px;
+	left: 396px;
+	border-radius: 50px;
+	background-color: #fff;
+	width: 113px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 24px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.buttonprimary {
+	position: absolute;
+	top: 0px;
+	left: 567px;
+	border-radius: 50px;
+	background-color: #739646;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 24px;
+	text-align: left;
+	color: #fff;
+}
+.button-parent {
+	position: absolute;
+	top: 9.5px;
+	left: 547px;
+	width: 681px;
+	height: 48px;
+}
+.yellow-and-green-modern-logo-parent {
+	position: absolute;
+	top: 22px;
+	left: 105px;
+	width: 1228px;
+	height: 67px;
+}
+.navbar {
+	position: absolute;
+	top: 0px;
+	left: calc(50% - 720px);
+	width: 1440px;
+	height: 111px;
+	font-size: 16px;
+	color: #5c7838;
+	font-family: Poppins;
+}
+.instance-child {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	box-shadow: 4px 4px 30px rgba(255, 255, 255, 0.5);
+	border-radius: 24px;
+	background-color: #455a2a;
+}
+.rectangle-div {
+	position: absolute;
+	top: 588px;
+	left: 120px;
+	width: 1200px;
+	height: 171px;
+}
+.an-environmentally-friendly {
+	position: absolute;
+	top: 601px;
+	left: 142px;
+	font-weight: 500;
+	font-family: Poppins;
+	color: #fff;
+	text-align: justify;
+	display: inline-block;
+	width: 1156px;
+}
+.environmentally-friendly-mater {
+	position: absolute;
+	top: 1387px;
+	left: 190px;
+	font-size: 40px;
+	letter-spacing: -0.02em;
+}
+.kayu-daur-ulang-1 {
+	position: absolute;
+	top: -72px;
+	left: -137px;
+	width: 561px;
+	height: 291px;
+	object-fit: cover;
+}
+.recycled-wood {
+	position: absolute;
+	top: 88px;
+	left: 12px;
+	letter-spacing: -0.02em;
+	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+}
+.kayu-daur-ulang-1-parent {
+	width: 200px;
+	position: relative;
+	box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+	border-radius: 24px;
+	background-color: #c4c4c4;
+	height: 200px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.insulasi-alami-1 {
+	position: absolute;
+	top: -32px;
+	left: -46px;
+	width: 285px;
+	height: 282px;
+	object-fit: cover;
+}
+.natural {
+	margin: 0;
+}
+.natural-insulation {
+	position: absolute;
+	top: 76px;
+	left: 35px;
+	letter-spacing: -0.02em;
+	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+}
+.insulasi-alami-1-parent {
+	width: 200px;
+	position: relative;
+	box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+	border-radius: 24px;
+	background-color: #5c7838;
+	height: 200px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.cat-ramah-lingkungan-1 {
+	position: absolute;
+	top: -35px;
+	left: -43px;
+	width: 343px;
+	height: 300px;
+	object-fit: cover;
+}
+.eco-friendly-paint {
+	position: absolute;
+	top: 82px;
+	left: 21px;
+	letter-spacing: -0.02em;
+	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+}
+.bata-tanah-1 {
+	position: absolute;
+	top: 0px;
+	left: -37px;
+	width: 279px;
+	height: 219px;
+	object-fit: cover;
+}
+.clay-brick {
+	position: absolute;
+	top: 92px;
+	left: 42px;
+	letter-spacing: -0.02em;
+	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+}
+.kaca-hemat-energi-1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 219px;
+	object-fit: cover;
+}
+.energy-saving-glass {
+	position: absolute;
+	top: 86px;
+	left: 13px;
+	letter-spacing: -0.02em;
+	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+}
+.bambu-1-icon {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 220px;
+	height: 200px;
+	object-fit: cover;
+}
+.bamboo {
+	position: absolute;
+	top: 88px;
+	left: 56px;
+	letter-spacing: -0.02em;
+	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+}
+.frame-parent {
+	position: absolute;
+	top: 1480px;
+	left: 0px;
+	width: 1440px;
+	height: 302px;
+	overflow-x: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 0px 50px;
+	box-sizing: border-box;
+	gap: 95px;
+	color: #fff;
+}
+.renewable-energy-technologies {
+	position: absolute;
+	top: 1919px;
+	left: 170.95px;
+	font-size: 40px;
+	letter-spacing: -0.02em;
+	display: inline-block;
+	width: 1082.5px;
+}
+.component-4-child {
+	position: absolute;
+	height: 100%;
+	width: 49.05%;
+	top: 0%;
+	right: 50.95%;
+	bottom: 0%;
+	left: 0%;
+	border-radius: 24px;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	object-fit: cover;
+}
+.monocrystalline-panels-high {
+	font-weight: 500;
+}
+.polycrystalline-panels-slight {
+	margin-bottom: 0px;
+}
+.monocrystalline-panels-high-e {
+	margin: 0;
+	font-size: inherit;
+	padding-left: 21px;
+}
+.types-monocrystalline-panels-container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	line-height: 140%;
+	display: inline-block;
+	width: 568px;
+}
+.types-monocrystalline-panels-wrapper {
+	position: absolute;
+	height: 29.89%;
+	width: 49.22%;
+	top: 27.17%;
+	right: 0%;
+	bottom: 42.93%;
+	left: 50.78%;
+}
+.solar-panels {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	letter-spacing: -0.02em;
+}
+.solar-panels-wrapper {
+	position: absolute;
+	height: 10.87%;
+	width: 22.7%;
+	top: 0%;
+	right: 26.52%;
+	bottom: 89.13%;
+	left: 50.78%;
+	font-size: 40px;
+	font-family: "Optician Sans";
+}
+.solar-panels-capture {
+	line-height: 140%;
+	font-weight: 500;
+}
+.how-it-works-container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: inline-block;
+	width: 565px;
+}
+.how-it-works-solar-panels-cap-wrapper {
+	position: absolute;
+	height: 18.21%;
+	width: 48.96%;
+	top: 63.32%;
+	right: 0%;
+	bottom: 18.48%;
+	left: 51.04%;
+	text-align: justify;
+}
+.benefits-reduces-electricity-wrapper {
+	position: absolute;
+	height: 12.23%;
+	width: 48.96%;
+	top: 87.77%;
+	right: 0%;
+	bottom: 0%;
+	left: 51.04%;
+	text-align: justify;
+}
+.component-4 {
+	position: absolute;
+	top: 2080px;
+	left: 120px;
+	width: 1200px;
+	height: 368px;
+	text-align: left;
+	font-size: 16px;
+	font-family: Poppins;
+}
+.component-2 {
+	position: absolute;
+	top: 2529px;
+	left: 120px;
+	width: 1200px;
+	height: 368px;
+	text-align: left;
+	font-size: 16px;
+	font-family: Poppins;
+}
+.types-monocrystalline-panels-container2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: inline-block;
+	width: 568px;
+}
+.component-3 {
+	position: absolute;
+	top: 2978px;
+	left: 120px;
+	width: 1200px;
+	height: 368px;
+	text-align: left;
+	font-size: 16px;
+	font-family: Poppins;
+}
+.diy-and-inspiration {
+	position: absolute;
+	top: 3514px;
+	left: 451px;
+	font-size: 64px;
+	letter-spacing: -0.02em;
+}
+.group-child {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 24px;
+	background-color: #fff;
+	width: 359px;
+	height: 343px;
+}
+.group-item {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 16px 16px 0px 0px;
+	width: 359px;
+	height: 251px;
+	overflow: hidden;
+	object-fit: cover;
+}
+.making-household-compost {
+	position: absolute;
+	top: 283px;
+	left: 15px;
+	letter-spacing: -0.02em;
+	display: inline-block;
+	width: 330px;
+}
+.rectangle-parent {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 359px;
+	height: 343px;
+}
+.inspiration-guide-panduan-inner1 {
+	position: absolute;
+	top: 3646px;
+	left: 122px;
+	width: 359px;
+	height: 343px;
+}
+.inspiration-guide-panduan-inner2 {
+	position: absolute;
+	top: 3646px;
+	left: 961px;
+	width: 359px;
+	height: 343px;
+}
+.inspiration-guide-panduan-inner3 {
+	position: absolute;
+	top: 3646px;
+	left: 537px;
+	width: 359px;
+	height: 343px;
+}
+.youtube-and-vimeo-video {
+	position: relative;
+	width: 120px;
+	height: 114px;
+}
+.yellow-and-green-modern-logo1 {
+	width: 168px;
+	position: relative;
+	height: 32px;
+	object-fit: cover;
+}
+.we-provide-information {
+	position: absolute;
+	width: 100%;
+	top: 0%;
+	left: 0%;
+	line-height: 140%;
+	display: inline-block;
+	opacity: 0.75;
+}
+.brandicofacebook-icon {
+	width: 32px;
+	position: relative;
+	height: 32px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.brandicofacebook-parent {
+	position: absolute;
+	height: 25%;
+	width: 45%;
+	top: 75%;
+	right: 55%;
+	bottom: 0%;
+	left: 0%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 24px;
+}
+.bio {
+	width: 320px;
+	position: relative;
+	height: 128px;
+}
+.yellow-and-green-modern-logo-group {
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 20px;
+}
+.property1 {
+	width: 94px;
+	position: relative;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #414958;
+}
+.discover {
+	align-self: stretch;
+	position: relative;
+	font-weight: 500;
+}
+.property {
+	width: 176px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 20px;
+}
+.article1 {
+	align-self: stretch;
+	position: relative;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #414958;
+}
+.eco-tech {
+	align-self: stretch;
+	position: relative;
+	text-transform: capitalize;
+	font-family: Lexend;
+}
+.article {
+	width: 212px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 19px;
+}
+.contact {
+	width: 265px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 20px;
+}
+.property-parent {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 30px;
+}
+.frame-wrapper {
+	width: 713px;
+	position: relative;
+	height: 168px;
+	text-align: left;
+	font-size: 14px;
+}
+.frame-group {
+	position: absolute;
+	top: 4219px;
+	left: 122px;
+	width: 1209px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	text-align: justify;
+	font-size: 11px;
+	color: #8694b4;
+	font-family: Poppins;
+}
+.benefits-if-you {
+	position: absolute;
+	top: 819px;
+	left: 491px;
+	font-size: 40px;
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+.card-panduan-7-child {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 24px;
+	width: 196px;
+	height: 346px;
+	object-fit: cover;
+}
+.card-panduan-7-item {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 24px;
+	background-color: rgba(0, 0, 0, 0);
+	width: 196px;
+	height: 346px;
+}
+.card-panduan-7 {
+	position: absolute;
+	top: 926px;
+	left: 122px;
+	width: 196px;
+	height: 346px;
+}
+.card-panduan-8 {
+	position: absolute;
+	top: 926px;
+	left: 323px;
+	width: 196px;
+	height: 346px;
+}
+.card-panduan-9 {
+	position: absolute;
+	top: 926px;
+	left: 524px;
+	width: 196px;
+	height: 346px;
+}
+.card-panduan-10 {
+	position: absolute;
+	top: 926px;
+	left: 725px;
+	width: 196px;
+	height: 346px;
+	background-image: url("card panduan 10.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.card-panduan-11 {
+	position: absolute;
+	top: 926px;
+	left: 926px;
+	width: 196px;
+	height: 346px;
+}
+.card-panduan-12 {
+	position: absolute;
+	top: 926px;
+	left: 1127px;
+	width: 196px;
+	height: 346px;
+}
+.hover-more {
+	position: absolute;
+	top: 4052px;
+	left: 582px;
+	border-radius: 50px;
+	background-color: #739646;
+	border: 2px solid rgba(255, 255, 255, 0.25);
+	box-sizing: border-box;
+	width: 276px;
+	height: 36px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 24px;
+	text-align: left;
+	font-size: 14px;
+	color: #fbfbfb;
+	font-family: Poppins;
+}
+.inspiration-guide-panduan {
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+	height: 4510px;
+	overflow-y: auto;
+	text-align: center;
+	font-size: 24px;
+	color: #000;
+	font-family: "Optician Sans";
+}
