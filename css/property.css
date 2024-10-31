@@ -1,0 +1,734 @@
+/* .root {  
+    margin: 0;
+    line-height: normal;
+}*/
+.navbar-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  width: 1440px;
+  height: 111px;
+}
+.yellow-and-green-modern-logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 284px;
+  height: 67px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.label {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.buttoncontent {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttoncontent-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 127px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+.button1 {
+  position: absolute;
+  top: 0px;
+  left: 208px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 127px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.button2 {
+  position: absolute;
+  top: 0px;
+  left: 396px;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 113px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+.buttonprimary {
+  position: absolute;
+  top: 0px;
+  left: 567px;
+  border-radius: 50px;
+  background-color: #739646;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+}
+.button-parent {
+  position: absolute;
+  top: 9.5px;
+  left: 547px;
+  width: 681px;
+  height: 48px;
+}
+.yellow-and-green-modern-logo-parent {
+  position: absolute;
+  top: 22px;
+  left: 105px;
+  width: 1228px;
+  height: 67px;
+}
+.navbar {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 722px);
+  width: 1440px;
+  height: 111px;
+  font-size: 14px;
+  color: #5c7838;
+}
+.mask-group-icon {
+  width: 1267px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  left: 0px;
+  height: 565.6px;
+  z-index: 0;
+}
+.discover-eco-friendly-homes {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  width: 448px;
+}
+.we-offer-a {
+  position: absolute;
+  top: 120px;
+  left: 0.1px;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #000;
+  text-align: justify;
+  display: inline-block;
+  width: 402px;
+}
+.discover-eco-friendly-homes-an-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 448px;
+  height: 252px;
+}
+.text {
+  width: 448px;
+  position: relative;
+  height: 272px;
+}
+.line {
+  position: absolute;
+  top: 35.25px;
+  left: 135.25px;
+  border-right: 1.5px solid #fff;
+  box-sizing: border-box;
+  width: 1.5px;
+  height: 65.5px;
+  opacity: 0.2;
+}
+.line1 {
+  position: absolute;
+  top: 35.25px;
+  left: 271.25px;
+  border-right: 1.5px solid #fff;
+  box-sizing: border-box;
+  width: 1.5px;
+  height: 65.5px;
+  opacity: 0.2;
+}
+.icon {
+  position: absolute;
+  top: 0px;
+  left: 28px;
+  width: 64px;
+  height: 64px;
+}
+.property-return-rate1 {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  line-height: 135%;
+  font-weight: 500;
+}
+.b {
+  position: absolute;
+  top: 0px;
+  left: 29px;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  color: #171e0e;
+}
+.text1 {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 120px;
+  height: 56px;
+}
+.property-return-rate {
+  width: 120px;
+  position: relative;
+  height: 136px;
+  font-size: 12px;
+  color: #000;
+}
+.icon1 {
+  position: absolute;
+  top: 0px;
+  left: 54px;
+  width: 64px;
+  height: 64px;
+}
+.b1 {
+  position: absolute;
+  top: 0px;
+  left: 72.5px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+}
+.years-experience-in {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  font-size: 12px;
+  line-height: 135%;
+  font-weight: 500;
+  color: #000;
+}
+.text2 {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 172px;
+  height: 56px;
+}
+.daily-completed-transactions {
+  width: 172px;
+  position: relative;
+  height: 136px;
+}
+.icon2 {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  width: 64px;
+  height: 64px;
+}
+.b2 {
+  position: absolute;
+  top: 0px;
+  left: 18.5px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+}
+.text3 {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 104px;
+  height: 56px;
+}
+.property-in-sell-rent {
+  width: 104px;
+  position: relative;
+  height: 136px;
+}
+.property-return-rate-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.numbers {
+  align-self: stretch;
+  position: relative;
+  height: 136px;
+  text-align: center;
+  font-size: 24px;
+  color: #171e0e;
+  font-family: 'Plus Jakarta Sans';
+}
+.text-parent {
+  width: 460.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  z-index: 1;
+}
+.discovery {
+  position: absolute;
+  top: -72.4px;
+  left: -72.4px;
+  width: 1267px;
+  height: 565.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 45px 72px;
+  box-sizing: border-box;
+  gap: 10px;
+}
+.content {
+  position: absolute;
+  top: 255.4px;
+  left: 122.9px;
+  width: 544.1px;
+  height: 411.8px;
+  text-align: left;
+  color: #2e3c1c;
+  font-family: 'Optician Sans';
+}
+.our-partners {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+}
+.logo-digital-full-black-1-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 84.3px;
+  height: 70px;
+  object-fit: cover;
+}
+.image-20-icon {
+  position: absolute;
+  top: 0px;
+  left: 100.29px;
+  width: 367.2px;
+  height: 70px;
+  object-fit: cover;
+}
+.image-21-icon {
+  position: absolute;
+  top: 0px;
+  left: 483.47px;
+  width: 234.5px;
+  height: 70px;
+  object-fit: cover;
+}
+.image-22-icon {
+  position: absolute;
+  top: 0px;
+  left: 733.97px;
+  width: 234.5px;
+  height: 70px;
+  object-fit: cover;
+}
+.logo-digital-full-black-1-parent {
+  width: 968.5px;
+  position: relative;
+  height: 70px;
+}
+.image-38-icon {
+  width: 92.4px;
+  position: relative;
+  height: 70px;
+  object-fit: cover;
+}
+.image-39-icon {
+  width: 247.2px;
+  position: relative;
+  height: 70px;
+  object-fit: cover;
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frame-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.our-partners-parent {
+  position: absolute;
+  top: 870px;
+  left: calc(50% - 670px);
+  width: 1340.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 70px;
+  font-family: 'Optician Sans';
+}
+.group-child {
+  position: absolute;
+  top: 0px;
+  left: 706px;
+  width: 740px;
+  height: 503px;
+}
+.yellow-and-green-modern-logo1 {
+  width: 168px;
+  position: relative;
+  height: 32px;
+  object-fit: cover;
+}
+.we-provide-information {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  line-height: 140%;
+  display: inline-block;
+  opacity: 0.75;
+}
+.brandicofacebook-icon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brandicofacebook-parent {
+  position: absolute;
+  height: 25%;
+  width: 45%;
+  top: 75%;
+  right: 55%;
+  bottom: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.bio {
+  width: 320px;
+  position: relative;
+  height: 128px;
+}
+.yellow-and-green-modern-logo-group {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.property2 {
+  width: 94px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #414958;
+}
+.discover {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.property1 {
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.article1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #414958;
+}
+.eco-tech {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+  font-family: Lexend;
+}
+.article {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px;
+}
+.contact {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.property-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+.frame-container {
+  width: 713px;
+  position: relative;
+  height: 168px;
+  text-align: left;
+  font-size: 14px;
+}
+.frame-group {
+  position: absolute;
+  top: 93px;
+  left: 0px;
+  width: 1209px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.group-parent {
+  position: absolute;
+  top: 2030px;
+  left: 120px;
+  width: 1446px;
+  height: 503px;
+  text-align: justify;
+  font-size: 11px;
+  color: #8694b4;
+}
+.property-recomendation {
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  letter-spacing: -0.02em;
+}
+.were-all-about {
+  position: absolute;
+  top: 43px;
+  left: calc(50% - 172.5px);
+  font-size: 14px;
+  line-height: 140%;
+  font-family: Poppins;
+  text-align: left;
+}
+.property-rekomendation1 {
+  width: 503px;
+  position: relative;
+  height: 63px;
+  text-align: center;
+  font-family: 'Optician Sans';
+}
+.buttonlink2 {
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0px;
+}
+.hover {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.kategori-property-rekom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 16px;
+}
+.search-button-icon {
+  width: 60px;
+  position: relative;
+  border-radius: 32px;
+  height: 52px;
+}
+.image-37-icon {
+  width: 205px;
+  flex: 1;
+  position: relative;
+  border-radius: 24px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.moen-smart-shower {
+  width: 259px;
+  position: relative;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 500;
+  text-align: justify;
+  display: inline-block;
+}
+.div1 {
+  width: 259px;
+  position: relative;
+  line-height: 140%;
+  color: #3c4563;
+  display: inline-block;
+}
+.hover-more {
+  width: 259px;
+  border-radius: 50px;
+  background-color: #739646;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  box-sizing: border-box;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 24px;
+  color: #fbfbfb;
+}
+.image-37-parent {
+  width: 313px;
+  height: 412px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 21px;
+  box-sizing: border-box;
+  gap: 15px;
+}
+.card1-tech {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.image-34-icon {
+  width: 205px;
+  position: relative;
+  border-radius: 24px;
+  height: 247px;
+  object-fit: cover;
+}
+.card3-tech {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  color: #0e1735;
+}
+.search-button-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-size: 14px;
+}
+.prop-rekomend1 {
+  position: absolute;
+  top: 55px;
+  left: calc(50% - 634px);
+  width: 1269px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.prop-rekomend {
+  position: absolute;
+  top: 1129px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 1370px;
+  overflow: hidden;
+  text-align: left;
+}
+.property {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 2499px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 40px;
+  color: #000;
+  font-family: Poppins;
+}
