@@ -1,160 +1,156 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-        /* Reset dasar */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+/* Latar belakang halaman */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  background: url('../asset/daun.jpg');
+}
 
-        /* Latar belakang halaman */
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            min-height: 100vh;
-            background-color: #f5f5f5;
-            background: url("../asset/daun.jpg");
-        }
+/* Header */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Menjadikan navbar tetap di atas */
+  top: 0; /* Memastikan posisinya di bagian atas */
+  z-index: 1000; /* Memastikan berada di atas elemen lainnya */
+  padding-inline: 90px;
+}
 
-        /* Header */
-        .header {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #ffffff;
-            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-            position: fixed; /* Menjadikan navbar tetap di atas */
-            top: 0; /* Memastikan posisinya di bagian atas */
-            z-index: 1000; /* Memastikan berada di atas elemen lainnya */
-            padding-inline: 90px;
-        }
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7fbf7f;
+}
 
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #7fbf7f;
-        }
+.nav {
+  display: flex;
+  gap: 90px;
+  font-size: 14px;
+  padding-left: 7cm;
+}
 
-        .nav {
-            display: flex;
-            gap: 90px;
-            font-size: 14px;
-            padding-left: 7cm;
-        }
+.nav a {
+  text-decoration: none;
+  color: #333;
+}
 
-        .nav a {
-            text-decoration: none;
-            color: #333;
-        }
+.login-button {
+  padding: 8px 20px;
+  background-color: #7fbf7f;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
 
-        .login-button {
-            padding: 8px 20px;
-            background-color: #7fbf7f;
-            color: #fff;
-            border-radius: 20px;
-            text-decoration: none;
-            font-size: 14px;
-        }
+/* Spasi untuk mengimbangi header tetap */
+.content-spacing {
+  height: 80px; /* Sesuaikan dengan tinggi navbar untuk menghindari tumpang tindih */
+}
 
-        /* Spasi untuk mengimbangi header tetap */
-        .content-spacing {
-            height: 80px; /* Sesuaikan dengan tinggi navbar untuk menghindari tumpang tindih */
-        }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-        /* Kontainer utama */
-        .container {
-            display: flex;
-            background-color: rgba(255, 255, 255, 0.9);
-            border-radius: 15px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-            max-width: 900px;
-            margin-top: 40px;
-        }
+/* Image section styling */
+.image-section {
+  width: 50%; /* Sets it to half of the container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: continer;
+}
 
-        /* Bagian gambar */
-        .image-section {
-            flex: 1;
-            background: #f0f7f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 30px;
-            position: relative;
-        }
+.image-section img {
+  width: 100%; /* Make the image fill the section */
+  height: auto; /* Keep aspect ratio */
+  object-fit: cover; /* Ensures it fits nicely */
+  border-radius: 10px; /* Optional, matching card corners */
+}
 
-        .image-section img {
-            width: 80%;
-            border-radius: 10px;
-        }
+/* Login section styling */
+.login-section {
+  width: 50%; /* Matches the width of the image section */
+  padding: 20px;
+  background-color: #eef4eb; /* Background color of the card */
+  border-radius: 10px; /* Rounded corners for a card effect */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
 
-        /* Bagian formulir login */
-        .login-section {
-            flex: 1;
-            padding: 40px;
-            background-color: #e2efdb;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+.login-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
 
-        .login-section h2 {
-            font-size: 28px;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 20px;
-        }
+.form-group {
+  margin-bottom: 15px;
+}
 
-        .form-group {
-            margin-bottom: 15px;
-        }
+.form-group label {
+  font-size: 14px;
+  color: #666;
+}
 
-        .form-group label {
-            font-size: 14px;
-            color: #666;
-        }
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 35px;
+  border: 1px solid #ccc;
+}
 
-        .form-group input {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border-radius: 35px;
-            border: 1px solid #ccc;
-        }
+.forgot-password {
+  font-size: 12px;
+  color: #6d9b5d;
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: block;
+}
 
-        .forgot-password {
-            font-size: 12px;
-            color: #6d9b5d;
-            text-align: right;
-            text-decoration: none;
-            margin-bottom: 20px;
-            display: block;
-        }
+.login-button-main {
+  width: 100%;
+  padding: 10px;
+  background-color: #6d9b5d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 16px;
+}
 
-        .login-button-main {
-            width: 100%;
-            padding: 10px;
-            background-color: #6d9b5d;
-            color: white;
-            font-weight: bold;
-            border: none;
-            border-radius: 35px;
-            cursor: pointer;
-            font-size: 16px;
-        }
+.signup {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
 
-        .signup {
-            font-size: 12px;
-            text-align: center;
-            margin-top: 20px;
-            color: #333;
-        }
-
-        .signup a {
-            color: #6d9b5d;
-            text-decoration: none;
-            font-weight: bold;
-        }
+.signup a {
+  color: #6d9b5d;
+  text-decoration: none;
+  font-weight: bold;
+}
