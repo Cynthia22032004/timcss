@@ -1,102 +1,46 @@
-.navbar-child {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-  background-color: #fff;
-  width: 1440px;
-  height: 111px;
-}
-.yellow-and-green-modern-logo {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 284px;
-  height: 67px;
-  object-fit: cover;
-  cursor: pointer;
-}
-.label {
-  position: relative;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-.buttoncontent {
-  height: 24px;
+.header {
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: flex-start;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Menjadikan navbar tetap di atas */
+  top: 0; /* Memastikan posisinya di bagian atas */
+  z-index: 1000; /* Memastikan berada di atas elemen lainnya */
+  padding-inline: 90px;
 }
-.buttoncontent-wrapper {
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7fbf7f;
+}
+
+.nav {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+  gap: 90px;
+  font-size: 15px;
+  padding-left: 7cm;
 }
-.button {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
-  border-radius: 50px;
-  background-color: #fff;
-  width: 127px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 24px;
-  box-sizing: border-box;
+
+.nav a {
+  text-decoration: none;
+  color: #5c7838;
 }
-.button1 {
-  position: absolute;
-  top: 0px;
-  left: 208px;
-  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
-  border-radius: 50px;
-  background-color: #fff;
-  width: 127px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 24px;
-  box-sizing: border-box;
-  font-size: 16px;
+
+.nav a:hover {
+  font-weight: bolder;
+  color: #5c7838;
 }
-.button2 {
-  position: absolute;
-  top: 0px;
-  left: 396px;
-  border-radius: 50px;
-  background-color: #fff;
-  width: 113px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 24px;
-  box-sizing: border-box;
-}
-.buttonprimary {
-  position: absolute;
-  top: 0px;
-  left: 567px;
-  border-radius: 50px;
+
+.login-button {
+  padding: 8px 20px;
   background-color: #739646;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 24px;
-  text-align: left;
-  font-size: 16px;
   color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 15px;
 }
 .button-parent {
   position: absolute;

@@ -8,48 +8,30 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Optician+Sans:wght@400&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Eco Property</title>
   </head>
   <body>
     <div class="property">
       <!-- Navbar Section -->
-      <div class="navbar">
-        <div class="navbar-child"></div>
-        <div class="yellow-and-green-modern-logo-parent">
-          <img class="yellow-and-green-modern-logo" alt="Logo" src="Yellow and Green Modern Logo (2).png" id="yellowAndGreenModernLogo" />
-          <div class="button-parent">
-            <div class="button">
-              <div class="buttoncontent-wrapper">
-                <div class="buttoncontent">
-                  <div class="label">INSPIRATION</div>
-                </div>
-              </div>
-            </div>
-            <div class="button1">
-              <div class="buttoncontent-wrapper">
-                <div class="buttoncontent">
-                  <b class="label">PROPERTY</b>
-                </div>
-              </div>
-            </div>
-            <div class="button2">
-              <div class="buttoncontent-wrapper">
-                <div class="buttoncontent">
-                  <div class="label">ARTICLE</div>
-                </div>
-              </div>
-            </div>
-            <div class="buttonprimary">
-              <b class="label">LOG IN</b>
-            </div>
-          </div>
+      <header class="header">
+        <div class="logo">
+          <img src="asset/logo.jpg" alt="" />
         </div>
-      </div>
+        <nav class="nav">
+          <a href="#inspirasi">INSPIRATION</a>
+          <a href="#properti">PROPERTY</a>
+          <a href="#artikel">ARTICLE</a>
+        </nav>
+        <a href="#login" class="login-button">LOG IN</a>
+      </header>
 
       <!-- Content Section -->
       <div class="content">
         <div class="discovery">
-          <img class="mask-group-icon" alt="Eco Discovery" src="Mask Group.svg" />
+          <img class="mask-group-icon" alt="Eco Discovery" src="asset/prop_illus.jpg" />
           <div class="text-parent">
             <div class="text">
               <div class="discover-eco-friendly-homes-an-parent">
@@ -65,21 +47,21 @@
               <div class="line1"></div>
               <div class="property-return-rate-parent">
                 <div class="property-return-rate">
-                  <img class="icon" alt="Property Icon" src="Icon.svg" />
+                  <img class="icon" alt="Property Icon" src="asset/Icon_prop.jpg" />
                   <div class="text1">
                     <div class="property-return-rate1">Property Return Rate</div>
                     <b class="b">7.4%</b>
                   </div>
                 </div>
                 <div class="daily-completed-transactions">
-                  <img class="icon1" alt="Experience Icon" src="Icon.svg" />
+                  <img class="icon1" alt="Experience Icon" src="asset/Icon_estate.jpg" />
                   <div class="text2">
                     <b class="b1">10</b>
                     <div class="years-experience-in">Years experience in real estate</div>
                   </div>
                 </div>
                 <div class="property-in-sell-rent">
-                  <img class="icon2" alt="Customer Icon" src="Icon.svg" />
+                  <img class="icon2" alt="Customer Icon" src="asset/Icon_customers.jpg" />
                   <div class="text3">
                     <b class="b2">3,856</b>
                     <div class="years-experience-in">Happy Customers</div>
@@ -183,7 +165,7 @@
             <!-- Product Cards -->
             <div class="card1-tech">
               <div class="image-37-parent">
-                <img class="image-37-icon" alt="Moen Smart Shower" src="image 37.png" />
+                <img class="image-37-icon" alt="Moen Smart Shower" src="asset/prop_1.jpg" />
                 <div class="moen-smart-shower">Moen Smart Shower 2-Outlet Shower Valve</div>
                 <div class="div1">$644.47</div>
                 <div class="hover-more">
@@ -193,7 +175,7 @@
             </div>
             <div class="card1-tech">
               <div class="image-37-parent">
-                <img class="image-34-icon" alt="Philips Hue LED Lamp" src="image 34.png" />
+                <img class="image-34-icon" alt="Philips Hue LED Lamp" src="asset/prop_2.jpg" />
                 <div class="moen-smart-shower">Philips Hue - LED Lamp</div>
                 <div class="div1">$279.99</div>
                 <div class="hover-more">
@@ -203,7 +185,7 @@
             </div>
             <div class="card3-tech">
               <div class="image-37-parent">
-                <img class="image-34-icon" alt="SunPower Solar Panels" src="image 29.png" />
+                <img class="image-34-icon" alt="SunPower Solar Panels" src="asset/prop_3.jpg" />
                 <div class="moen-smart-shower">SunPower Maxeon Solar Panels</div>
                 <div class="div1">$24,120</div>
                 <div class="hover-more">
