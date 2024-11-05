@@ -291,41 +291,51 @@
   font-family: 'Optician Sans', sans-serif;
 }
 
-.our-partners {
-  /* font-size: 24px; */
-  align-self: stretch;
-  position: relative;
-  /* font-weight: bold; */
-  letter-spacing: -0.02em;
-}
-
-.frame-wrapper {
-  /* width: 100%; */
+.our-partners-parent {
+  position: relative; /* Adjust as needed */
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  gap: 30px; /* Space between title and carousel */
+  font-family: 'Optician Sans', sans-serif;
+  margin: 50px 0; /* Optional: space around the section */
 }
 
-.frame-parent {
-  /* width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; */
+.our-partners {
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold; /* Optional: make it bold */
+  letter-spacing: -0.02em; /* Adjust letter spacing as needed */
+}
 
-  align-self: stretch;
+.carousel-slide-frame-wrapper {
+  width: 100%; /* Full width */
+  max-width: 1340px; /* Maximum width for the carousel */
+}
+
+.carousel-inner-frame-parent {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 16px;
+  gap: 16px; /* Space between logos */
+}
+
+.carousel-item {
+  display: flex; /* Flex container for logos */
+  justify-content: center; /* Center logos in the item */
 }
 
 .partner-logo {
   width: 100px; /* Adjust as necessary for logo size */
-  height: auto;
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Space between logos */
 }
+
+/* Optional: Hide the indicators */
+.carousel-indicators {
+  display: none; /* Comment out if you want to keep indicators */
+}
+
 
 /* .our-partners {
   align-self: stretch;

@@ -62,7 +62,7 @@ body {
 	font-size: 15px;
 }
 
-/* ... */
+/* asset */
 
 .vector-icon {
 	position: absolute;
@@ -98,12 +98,15 @@ body {
 	object-fit: cover;
 }
 
+/* eco house opening */
 .eco-house-guide {
-	position: absolute;
-	top: 227px;
-	left: 466px;
-	letter-spacing: -0.02em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+	font-weight:600;
 }
+
 .unsplashoypnyfdiqgg-parent {
 	position: absolute;
 	align-items: center;
@@ -114,130 +117,16 @@ body {
 	font-size: 64px;
 	color: #fff;
 }
-.navbar-child {
+
+.rectangle-div {
 	position: absolute;
-	top: 0px;
-	left: 0px;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-	background-color: #fff;
-	width: 1440px;
-	height: 111px;
+	top: 588px;
+	left: 50%;
+  transform: translateX(-50%);
+	width: 1200px;
+	height: 171px;
 }
-.yellow-and-green-modern-logo {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 284px;
-	height: 67px;
-	object-fit: cover;
-	cursor: pointer;
-}
-.label {
-	position: relative;
-	letter-spacing: 0.04em;
-	text-transform: uppercase;
-}
-.buttoncontent {
-	height: 24px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
-}
-.buttoncontent-wrapper {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
-}
-.button {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
-	border-radius: 50px;
-	background-color: #fff;
-	width: 127px;
-	overflow: hidden;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	padding: 12px 24px;
-	box-sizing: border-box;
-}
-.button1 {
-	position: absolute;
-	top: 0px;
-	left: 208px;
-	box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
-	border-radius: 50px;
-	background-color: #fff;
-	width: 127px;
-	overflow: hidden;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	padding: 12px 24px;
-	box-sizing: border-box;
-	font-size: 14px;
-}
-.button2 {
-	position: absolute;
-	top: 0px;
-	left: 396px;
-	border-radius: 50px;
-	background-color: #fff;
-	width: 113px;
-	overflow: hidden;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	padding: 12px 24px;
-	box-sizing: border-box;
-	font-size: 14px;
-}
-.buttonprimary {
-	position: absolute;
-	top: 0px;
-	left: 567px;
-	border-radius: 50px;
-	background-color: #739646;
-	overflow: hidden;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	padding: 12px 24px;
-	text-align: left;
-	color: #fff;
-}
-.button-parent {
-	position: absolute;
-	top: 9.5px;
-	left: 547px;
-	width: 681px;
-	height: 48px;
-}
-.yellow-and-green-modern-logo-parent {
-	position: absolute;
-	top: 22px;
-	left: 105px;
-	width: 1228px;
-	height: 67px;
-}
-.navbar {
-	position: absolute;
-	top: 0px;
-	left: calc(50% - 720px);
-	width: 1440px;
-	height: 111px;
-	font-size: 16px;
-	color: #5c7838;
-	font-family: Poppins;
-}
+
 .instance-child {
 	position: absolute;
 	height: 100%;
@@ -250,24 +139,93 @@ body {
 	border-radius: 24px;
 	background-color: #455a2a;
 }
-.rectangle-div {
-	position: absolute;
-	top: 588px;
-	left: 120px;
-	width: 1200px;
-	height: 171px;
-}
+
 .an-environmentally-friendly {
 	position: absolute;
-	top: 601px;
-	left: 142px;
-	font-weight: 500;
+	top: 670px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	font-family: Poppins;
 	color: #fff;
 	text-align: justify;
 	display: inline-block;
 	width: 1156px;
+	font-size: 23px;
 }
+
+/* benefit */
+.benefits-if-you {
+	position: absolute;
+	top: 850px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.card-bif-1 {
+	position: absolute;
+	top: 926px;
+	left: 160px;
+	/* left: 38; */
+	width: 196px;
+	height: 346px;
+}
+.card-bif-1-child {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 24px;
+	width: 196px;
+	height: 346px;
+	object-fit: cover;
+}
+.card-bif-1-item {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 24px;
+	background-color: rgba(0, 0, 0, 0);
+	width: 196px;
+	height: 346px;
+}
+.card-bif-2 {
+	position: absolute;
+	top: 926px;
+	left: 361px;
+	width: 196px;
+	height: 346px;
+}
+.card-bif-3 {
+	position: absolute;
+	top: 926px;
+	left: 562px;
+	width: 196px;
+	height: 346px;
+}
+.card-bif-4 {
+	position: absolute;
+	top: 926px;
+	left: 763px;
+	width: 196px;
+	height: 346px;
+}
+.card-bif-5 {
+	position: absolute;
+	top: 926px;
+	left: 926px;
+	width: 196px;
+	height: 346px;
+}
+.card-bif-6 {
+	position: absolute;
+	top: 926px;
+	left: 1127px;
+	width: 196px;
+	height: 346px;
+}
+
+/* environtment */
 .environmentally-friendly-mater {
 	position: absolute;
 	top: 1387px;
@@ -404,6 +362,8 @@ body {
 	gap: 95px;
 	color: #fff;
 }
+
+/* renewable */
 .renewable-energy-technologies {
 	position: absolute;
 	top: 1919px;
@@ -740,78 +700,7 @@ body {
 	color: #8694b4;
 	font-family: Poppins;
 }
-.benefits-if-you {
-	position: absolute;
-	top: 819px;
-	left: 491px;
-	font-size: 40px;
-	letter-spacing: -0.02em;
-	text-align: left;
-}
-.card-panduan-7-child {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 24px;
-	width: 196px;
-	height: 346px;
-	object-fit: cover;
-}
-.card-panduan-7-item {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 24px;
-	background-color: rgba(0, 0, 0, 0);
-	width: 196px;
-	height: 346px;
-}
-.card-panduan-7 {
-	position: absolute;
-	top: 926px;
-	left: 122px;
-	width: 196px;
-	height: 346px;
-}
-.card-panduan-8 {
-	position: absolute;
-	top: 926px;
-	left: 323px;
-	width: 196px;
-	height: 346px;
-}
-.card-panduan-9 {
-	position: absolute;
-	top: 926px;
-	left: 524px;
-	width: 196px;
-	height: 346px;
-}
-.card-panduan-10 {
-	position: absolute;
-	top: 926px;
-	left: 725px;
-	width: 196px;
-	height: 346px;
-	background-image: url("card panduan 10.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top;
-}
-.card-panduan-11 {
-	position: absolute;
-	top: 926px;
-	left: 926px;
-	width: 196px;
-	height: 346px;
-}
-.card-panduan-12 {
-	position: absolute;
-	top: 926px;
-	left: 1127px;
-	width: 196px;
-	height: 346px;
-}
+
 .hover-more {
 	position: absolute;
 	top: 4052px;

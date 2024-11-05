@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <title>Eco Property</title>
   </head>
   <body>
@@ -73,35 +79,41 @@
         </div>
       </div>
 
-      <!-- Partners Section -->
       <div class="our-partners-parent">
         <div class="our-partners">OUR PARTNERS</div>
-
-        <!-- Bootstrap Carousel for Partner Logos -->
-        <div id="partnersCarousel" class="carousel slide frame-wrapper" data-ride="carousel">
-          <!-- Indicators -->
+      
+        <div id="partnersCarousel" class="carousel slide carousel-slide-frame-wrapper" data-ride="carousel" data-interval="3000">
+          <!-- Indicators (optional) -->
           <ol class="carousel-indicators">
             <li data-target="#partnersCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#partnersCarousel" data-slide-to="1"></li>
-            <li data-target="#partnersCarousel" data-slide-to="2"></li>
           </ol>
-
+      
           <!-- Wrapper for carousel items -->
-          <div class="carousel-inner frame-parent">
-            <div class="item active">
-              <img class="partner-logo" src="asset/patner_1.jpg" alt="" />
-              <img class="partner-logo" src="asset/patner_2.jpg" alt="" />
-              <img class="partner-logo" src="asset/patner_3.jpg" alt="" />
-              <img class="partner-logo" src="asset/patner_4.jpg" alt="" />
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="partner-logo" src="asset/patner_1.jpg" alt="Partner 1" />
+              <img class="partner-logo" src="asset/patner_2.jpg" alt="Partner 2" />
+              <img class="partner-logo" src="asset/patner_3.jpg" alt="Partner 3" />
+              <img class="partner-logo" src="asset/patner_4.jpg" alt="Partner 4" />
             </div>
-            <div class="item">
-              <img class="partner-logo" src="asset/patner_5.jpg" alt="" />
-              <img class="partner-logo" src="asset/patner_6.jpg" alt="" />
-              <img class="partner-logo" src="image 39.png" alt="" />
+            <div class="carousel-item">
+              <img class="partner-logo" src="asset/patner_5.jpg" alt="Partner 5" />
+              <img class="partner-logo" src="asset/patner_6.jpg" alt="Partner 6" />
+              <img class="partner-logo" src="image 39.png" alt="Partner 7" />
             </div>
           </div>
         </div>
       </div>
+      <script>
+        $(document).ready(function(){
+          $('#partnersCarousel').carousel({
+            interval: 3000 // Auto slide every 3 seconds
+          });
+        });
+      </script>
+            
+      
 
       <!-- Footer Section -->
       <div class="group-parent">
