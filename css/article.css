@@ -1,9 +1,3 @@
-
-body {
-    margin: 0;
-    line-height: normal;
-}
-
 .article-child {
     position: absolute;
     top: 3774px;
@@ -617,64 +611,6 @@ body {
     font-size: 14px;
     color: #fbfbfb;
 }
-.the-concept-of-green {
-    align-self: stretch;
-    position: relative;
-    font-size: 14px;
-    line-height: 140%;
-    font-family: Poppins;
-    display: inline-block;
-    height: 48px;
-    flex-shrink: 0;
-}
-.title3 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 15px;
-}
-.bullets6 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 60px;
-    font-size: 11px;
-    font-family: Poppins;
-}
-.content {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    gap: 30px;
-}
-.news {
-    position: absolute;
-    top: 1200px;
-    left: 123px;
-    border-radius: 24px;
-    width: 510px;
-    height: 716px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 30px;
-    box-sizing: border-box;
-    background-image: url('News.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    cursor: pointer;
-    font-size: 24px;
-    color: #fff;
-    font-family: 'Optician Sans';
-}
 .icon-more {
     position: absolute;
     top: 2311px;
@@ -726,6 +662,91 @@ body {
     cursor: pointer;
     font-size: 16px;
     color: #000;
+}
+.the-concept-of-green {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 140%;
+    font-family: Poppins;
+    display: inline-block;
+    height: 48px;
+    flex-shrink: 0;
+}
+.title3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.bullets6 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 60px;
+    font-size: 11px;
+    font-family: Poppins;
+}
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+#newsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  .image-content {
+    flex: 0 0 400px; /* Tentukan ukuran lebar gambar */
+  }
+  
+  .eco-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+.news {
+    position: absolute;
+    top: 1200px;
+    left: 123px;
+    border-radius: 24px;
+    width: 510px;
+    height: 716px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 30px;
+    box-sizing: border-box;
+    background-image: url('./asset/imgarticle3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Optician Sans';
 }
 .article {
     width: 100%;
