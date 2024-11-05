@@ -16,9 +16,9 @@
             min-height: 100vh;
             background-color: #f5f5f5;
             background: url("../asset/daun.jpg");
+            background-size: cover;
         }
 
-        /* Header */
         .header {
             width: 100%;
             display: flex;
@@ -41,22 +41,27 @@
         .nav {
             display: flex;
             gap: 90px;
-            font-size: 14px;
+            font-size: 15px;
             padding-left: 7cm;
         }
-
+        
         .nav a {
             text-decoration: none;
-            color: #333;
+            color: #5C7838;
         }
-
+        
+        .nav a:hover{
+            font-weight: bolder;
+            color: #5c7838;
+        }
+        
         .login-button {
             padding: 8px 20px;
-            background-color: #7fbf7f;
+            background-color: #739646;
             color: #fff;
             border-radius: 20px;
             text-decoration: none;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         /* Spasi untuk mengimbangi header tetap */
@@ -67,38 +72,43 @@
         /* Kontainer utama */
         .container {
             display: flex;
-            background-color: rgba(255, 255, 255, 0.9);
             border-radius: 15px;
+            background-color: #e2efdb;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
             overflow: hidden;
             max-width: 900px;
             margin-top: 40px;
+            width: 100%;
         }
 
         /* Bagian gambar */
         .image-section {
             flex: 1;
-            background: #f0f7f4;
+            background: url("../asset/wave\ home.png");
+            background-size: cover;
+            background-position: right;
+            background-repeat: no-repeat;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 30px;
             position: relative;
+            flex-basis: 50%;
         }
 
         .image-section img {
-            width: 80%;
+            width: 100%;
             border-radius: 10px;
         }
 
         /* Bagian formulir login */
         .login-section {
             flex: 1;
-            padding: 40px;
+            padding: 50px 80px;
             background-color: #e2efdb;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            flex-basis: 50%;
         }
 
         .login-section h2 {
@@ -108,6 +118,7 @@
             margin-bottom: 20px;
         }
 
+        
         .form-group {
             margin-bottom: 15px;
         }
@@ -127,7 +138,7 @@
 
         .forgot-password {
             font-size: 12px;
-            color: #6d9b5d;
+            color: #091DFF;
             text-align: right;
             text-decoration: none;
             margin-bottom: 20px;
@@ -154,7 +165,7 @@
         }
 
         .signup a {
-            color: #6d9b5d;
+            color: #091DFF;
             text-decoration: none;
             font-weight: bold;
         }
