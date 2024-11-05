@@ -76,32 +76,45 @@
       <!-- Partners Section -->
       <div class="our-partners-parent">
         <div class="our-partners">OUR PARTNERS</div>
-        <div class="frame-wrapper">
-          <div class="frame-parent">
-            <div class="logo-digital-full-black-1-parent">
-              <img class="logo-digital-full-black-1-icon" alt="Partner Logo 1" src="Logo_Digital_Full_Black 1.png" />
-              <img class="image-20-icon" alt="Partner Logo 2" src="image 20.png" />
-              <img class="image-21-icon" alt="Partner Logo 3" src="image 21.png" />
-              <img class="image-22-icon" alt="Partner Logo 4" src="image 22.png" />
+
+        <!-- Bootstrap Carousel for Partner Logos -->
+        <div id="partnersCarousel" class="carousel slide frame-wrapper" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#partnersCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#partnersCarousel" data-slide-to="1"></li>
+            <li data-target="#partnersCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner frame-parent">
+            <div class="item active">
+              <img class="partner-logo" src="asset/patner_1.jpg" alt="" />
+              <img class="partner-logo" src="asset/patner_2.jpg" alt="" />
+              <img class="partner-logo" src="asset/patner_3.jpg" alt="" />
+              <img class="partner-logo" src="asset/patner_4.jpg" alt="" />
             </div>
-            <img class="image-38-icon" alt="Partner Logo 5" src="image 38.png" />
-            <img class="image-39-icon" alt="Partner Logo 6" src="image 39.png" />
+            <div class="item">
+              <img class="partner-logo" src="asset/patner_5.jpg" alt="" />
+              <img class="partner-logo" src="asset/patner_6.jpg" alt="" />
+              <img class="partner-logo" src="image 39.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Footer Section -->
       <div class="group-parent">
-        <img class="group-child" alt="Footer Decor" src="Group 14079.svg" />
+        <img class="group-child" alt="Footer Decor" src="asset/bg footer.jpg" />
         <div class="frame-group">
           <div class="yellow-and-green-modern-logo-group">
-            <img class="yellow-and-green-modern-logo1" alt="Footer Logo" src="Yellow and Green Modern Logo (2).png" />
+            <img class="yellow-and-green-modern-logo1" alt="Footer Logo" src="asset/logo.jpg" />
             <div class="bio">
               <div class="we-provide-information">We provide information about properties such as houses, villas, and apartments to help people find their dream home.</div>
               <div class="brandicofacebook-parent">
-                <img class="brandicofacebook-icon" alt="Facebook" src="brandico:facebook.svg" />
-                <img class="brandicofacebook-icon" alt="Twitter" src="ant-design:twitter-outlined.svg" />
-                <img class="brandicofacebook-icon" alt="Instagram" src="ant-design:instagram-filled.svg" />
+                <img class="brandicofacebook-icon" alt="Facebook" src="asset/facebook.jpg" />
+                <img class="brandicofacebook-icon" alt="Twitter" src="asset/twitter.jpg" />
+                <img class="brandicofacebook-icon" alt="Instagram" src="asset/instagram.jpg" />
               </div>
             </div>
           </div>
@@ -133,8 +146,8 @@
       <!-- Property Recommendation Section -->
       <div class="prop-rekomend">
         <div class="prop-rekomend1">
-          <div class="property-rekomendation1">
-            <div class="property-recomendation">Property Recommendation</div>
+          <div class="property-rekomendation">
+            <div class="property-recomendation1">Property Recomendation</div>
             <div class="were-all-about">We're all about smart innovation for a greener life</div>
           </div>
           <div class="kategori-property-rekom">

@@ -278,12 +278,61 @@
   color: #2e3c1c;
   font-family: 'Optician Sans';
 }
+
+.our-partners-parent {
+  position: absolute;
+  top: 870px;
+  left: calc(50% - 670px);
+  width: 1340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-family: 'Optician Sans', sans-serif;
+}
+
 .our-partners {
+  /* font-size: 24px; */
+  align-self: stretch;
+  position: relative;
+  /* font-weight: bold; */
+  letter-spacing: -0.02em;
+}
+
+.frame-wrapper {
+  /* width: 100%; */
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.frame-parent {
+  /* width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; */
+
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.partner-logo {
+  width: 100px; /* Adjust as necessary for logo size */
+  height: auto;
+}
+
+/* .our-partners {
   align-self: stretch;
   position: relative;
   letter-spacing: -0.02em;
 }
-.logo-digital-full-black-1-icon {
+/* .logo-digital-full-black-1-icon {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -314,13 +363,13 @@
   width: 234.5px;
   height: 70px;
   object-fit: cover;
-}
-.logo-digital-full-black-1-parent {
+} */
+/* .logo-digital-full-black-1-parent {
   width: 968.5px;
   position: relative;
   height: 70px;
-}
-.image-38-icon {
+} */
+/* .image-38-icon {
   width: 92.4px;
   position: relative;
   height: 70px;
@@ -331,8 +380,8 @@
   position: relative;
   height: 70px;
   object-fit: cover;
-}
-.frame-parent {
+} */
+/* .frame-parent {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -358,7 +407,7 @@
   justify-content: flex-start;
   gap: 70px;
   font-family: 'Optician Sans';
-}
+} */
 .group-child {
   position: absolute;
   top: 0px;
@@ -520,12 +569,15 @@
   text-align: left;
 }
 .property-rekomendation1 {
-  width: 503px;
+  width: 100%;
   position: relative;
   height: 63px;
   text-align: center;
+  font-size: 40px;
+  color: #000;
   font-family: 'Optician Sans';
 }
+
 .buttonlink2 {
   border-radius: 8px;
   overflow: hidden;
