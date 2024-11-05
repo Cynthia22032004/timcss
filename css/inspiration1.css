@@ -45,10 +45,10 @@ body {
 
 .nav a {
 	text-decoration: none;
-	color: #5C7838;
+	color: #5c7838;
 }
 
-.nav a:hover{
+.nav a:hover {
 	font-weight: bolder;
 	color: #5c7838;
 }
@@ -100,11 +100,11 @@ body {
 
 /* eco house opening */
 .eco-house-guide {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-	font-weight:600;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 600;
 }
 
 .unsplashoypnyfdiqgg-parent {
@@ -122,7 +122,7 @@ body {
 	position: absolute;
 	top: 588px;
 	left: 50%;
-  transform: translateX(-50%);
+	transform: translateX(-50%);
 	width: 1200px;
 	height: 171px;
 }
@@ -143,8 +143,8 @@ body {
 .an-environmentally-friendly {
 	position: absolute;
 	top: 670px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	left: 50%;
+	transform: translate(-50%, -50%);
 	font-family: Poppins;
 	color: #fff;
 	text-align: justify;
@@ -154,213 +154,154 @@ body {
 }
 
 /* benefit */
+/* benefit */
 .benefits-if-you {
 	position: absolute;
 	top: 850px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	left: 50%;
+	transform: translate(-50%, -50%);
 	font-size: 35px;
 	font-weight: bold;
 }
 
-.card-bif-1 {
-	position: absolute;
-	top: 926px;
-	left: 160px;
-	/* left: 38; */
-	width: 196px;
-	height: 346px;
-}
-.card-bif-1-child {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 24px;
-	width: 196px;
-	height: 346px;
-	object-fit: cover;
-}
-.card-bif-1-item {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 24px;
-	background-color: rgba(0, 0, 0, 0);
-	width: 196px;
-	height: 346px;
-}
-.card-bif-2 {
-	position: absolute;
-	top: 926px;
-	left: 361px;
-	width: 196px;
-	height: 346px;
-}
-.card-bif-3 {
-	position: absolute;
-	top: 926px;
-	left: 562px;
-	width: 196px;
-	height: 346px;
-}
-.card-bif-4 {
-	position: absolute;
-	top: 926px;
-	left: 763px;
-	width: 196px;
-	height: 346px;
-}
-.card-bif-5 {
-	position: absolute;
-	top: 926px;
-	left: 926px;
-	width: 196px;
-	height: 346px;
-}
+.card-bif-1,
+.card-bif-2,
+.card-bif-3,
+.card-bif-4,
+.card-bif-5,
 .card-bif-6 {
 	position: absolute;
+	width: 185px; /* Ukuran yang sama untuk semua card */
+	height: 346px; /* Ukuran yang sama untuk semua card */
+	border-radius: 24px;
+	overflow: hidden; /* Menyembunyikan bagian overlay yang keluar dari card */
+}
+
+.card-bif-1 {
 	top: 926px;
-	left: 1127px;
-	width: 196px;
-	height: 346px;
+	left: 160px;
+}
+.card-bif-2 {
+	top: 926px;
+	left: 361px;
+}
+.card-bif-3 {
+	top: 926px;
+	left: 562px;
+}
+.card-bif-4 {
+	top: 926px;
+	left: 763px;
+}
+.card-bif-5 {
+	top: 926px;
+	left: 964px;
+}
+.card-bif-6 {
+	top: 926px;
+	left: 1165px;
+}
+
+.card-bif-1-child {
+	width: 100%; /* Menggunakan lebar 100% dari wadah */
+	height: 100%; /* Menggunakan tinggi 100% dari wadah */
+	object-fit: cover; /* Menjaga proporsi gambar */
+}
+
+.card-bif-1-item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 24px;
+	background-color: rgba(0, 0, 0, 0.5); /* Warna hitam dengan transparansi */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0; /* Awalnya tidak terlihat */
+	transition: opacity 0.3s ease; /* Efek transisi */
+}
+
+.card-bif-1:hover .overlay,
+.card-bif-2:hover .overlay,
+.card-bif-3:hover .overlay,
+.card-bif-4:hover .overlay,
+.card-bif-5:hover .overlay,
+.card-bif-6:hover .overlay {
+	opacity: 1; /* Menampilkan overlay saat hover pada card */
+}
+
+.text {
+	color: white;
+	font-size: 18px; /* Ukuran teks */
+	text-align: center;
 }
 
 /* environtment */
 .environmentally-friendly-mater {
 	position: absolute;
 	top: 1387px;
-	left: 190px;
-	font-size: 40px;
-	letter-spacing: -0.02em;
+	left: 235px;
+	font-size: 35px;
+	font-weight: bold;
 }
-.kayu-daur-ulang-1 {
-	position: absolute;
-	top: -72px;
-	left: -137px;
-	width: 561px;
-	height: 291px;
-	object-fit: cover;
-}
-.recycled-wood {
-	position: absolute;
-	top: 88px;
-	left: 12px;
-	letter-spacing: -0.02em;
-	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
-}
-.kayu-daur-ulang-1-parent {
-	width: 200px;
-	position: relative;
-	box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
-	border-radius: 24px;
-	background-color: #c4c4c4;
-	height: 200px;
-	overflow: hidden;
-	flex-shrink: 0;
-}
-.insulasi-alami-1 {
-	position: absolute;
-	top: -32px;
-	left: -46px;
-	width: 285px;
-	height: 282px;
-	object-fit: cover;
-}
-.natural {
-	margin: 0;
-}
-.natural-insulation {
-	position: absolute;
-	top: 76px;
-	left: 35px;
-	letter-spacing: -0.02em;
-	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
-}
-.insulasi-alami-1-parent {
-	width: 200px;
-	position: relative;
-	box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
-	border-radius: 24px;
-	background-color: #5c7838;
-	height: 200px;
-	overflow: hidden;
-	flex-shrink: 0;
-}
-.cat-ramah-lingkungan-1 {
-	position: absolute;
-	top: -35px;
-	left: -43px;
-	width: 343px;
-	height: 300px;
-	object-fit: cover;
-}
-.eco-friendly-paint {
-	position: absolute;
-	top: 82px;
-	left: 21px;
-	letter-spacing: -0.02em;
-	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
-}
-.bata-tanah-1 {
-	position: absolute;
-	top: 0px;
-	left: -37px;
-	width: 279px;
-	height: 219px;
-	object-fit: cover;
-}
-.clay-brick {
-	position: absolute;
-	top: 92px;
-	left: 42px;
-	letter-spacing: -0.02em;
-	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
-}
-.kaca-hemat-energi-1 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 200px;
-	height: 219px;
-	object-fit: cover;
-}
-.energy-saving-glass {
-	position: absolute;
-	top: 86px;
-	left: 13px;
-	letter-spacing: -0.02em;
-	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
-}
-.bambu-1-icon {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 220px;
-	height: 200px;
-	object-fit: cover;
-}
-.bamboo {
-	position: absolute;
-	top: 88px;
-	left: 56px;
-	letter-spacing: -0.02em;
-	text-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
-}
+
 .frame-parent {
-	position: absolute;
-	top: 1480px;
-	left: 0px;
-	width: 1440px;
-	height: 302px;
-	overflow-x: auto;
 	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
-	padding: 0px 50px;
-	box-sizing: border-box;
-	gap: 95px;
-	color: #fff;
+	overflow-x: auto;
+	padding: 100px;
+	border-radius: 24px;
+	transform: translateY(1400px);
+	margin-left: 385px;
+	/* width: 100vw; */
+	white-space: nowrap; 
+}
+.frame-parent.active {
+	cursor: grabbing;
+	cursor: -webkit-grabbing;
+}
+.recycled-wood-1-parent {
+	flex: 0 0 auto; 
+	width: 200px; 
+	margin-right: 90px; 
+	border-radius: 24px; 
+	overflow: hidden; 
+	position: relative; 
+	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.549); 
+}
+
+.recycled-wood-1-parent img {
+	width: 100%; 
+	border-radius: 24px; 
+	display: block; 
+}
+
+.recycled-wood,
+.natural-insulation,
+.eco-friendly-paint,
+.clay-brick,
+.energy-saving-glass,
+.bamboo {
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	color: white; 
+	text-align: center; 
+	font-weight: bold; 
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+	padding: 5px; 
+	box-sizing: border-box; 
+	width: 90%; 
 }
 
 /* renewable */
