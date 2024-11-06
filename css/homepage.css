@@ -447,8 +447,6 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 850px;
-  height: 433px;
   object-fit: cover;
 }
 .frame-container {
@@ -724,6 +722,7 @@
   width: 479px;
   height: 698px;
   object-fit: cover;
+  border-radius: 15px;
 }
 .home-page {
   width: 100%;
