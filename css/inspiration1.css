@@ -104,11 +104,11 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-weight: 600;
+	font-family: "Optician Sans";
 }
 
 .unsplashoypnyfdiqgg-parent {
-	position: absolute;
+	margin-top: 75px;
 	align-items: center;
 	background-color: #000;
 	height: 583px;
@@ -120,7 +120,7 @@ body {
 
 .rectangle-div {
 	position: absolute;
-	top: 588px;
+	top: 570px;
 	left: 50%;
 	transform: translateX(-50%);
 	width: 1200px;
@@ -142,7 +142,7 @@ body {
 
 .an-environmentally-friendly {
 	position: absolute;
-	top: 670px;
+	top: 655px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: Poppins;
@@ -160,8 +160,8 @@ body {
 	top: 850px;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 35px;
-	font-weight: bold;
+	font-size: 40px;
+	font-family: "Optician Sans";
 }
 
 .card-bif-1,
@@ -229,6 +229,7 @@ body {
 	justify-content: center;
 	opacity: 0; /* Awalnya tidak terlihat */
 	transition: opacity 0.3s ease; /* Efek transisi */
+	font-family: "Optician Sans";
 }
 
 .card-bif-1:hover .overlay,
@@ -249,41 +250,46 @@ body {
 /* environtment */
 .environmentally-friendly-mater {
 	position: absolute;
-	top: 1387px;
+	top: 1400px;
 	left: 235px;
-	font-size: 35px;
-	font-weight: bold;
+	font-size: 40px;
+	font-family: "Optician Sans";
 }
 
 .frame-parent {
-  display: flex;
-  overflow-x: auto;
-  padding: 100px;
-  border-radius: 24px;
-  transform: translateY(1400px);
-  margin-left: 385px;
-  white-space: nowrap; 
-  cursor: grab; /* Initial cursor style */
+	display: flex;
+	overflow-x: auto;
+	padding: 100px;
+	border-radius: 24px;
+	transform: translateY(750px);
+	margin-left: 385px;
+	white-space: nowrap;
+	cursor: grab;
+	/*Initialcursorstyle*/:;
+	-webkit-transform: translateY(750px);
+	-moz-transform: translateY(750px);
+	-ms-transform: translateY(750px);
+	-o-transform: translateY(750px);
 }
 
 .frame-parent.active {
-  cursor: grabbing;
+	cursor: grabbing;
 }
 
 .recycled-wood-1-parent {
-  flex: 0 0 auto; 
-  width: 200px; 
-  margin-right: 90px; 
-  border-radius: 24px; 
-  overflow: hidden; 
-  position: relative; 
-  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.549); 
+	flex: 0 0 auto;
+	width: 200px;
+	margin-right: 90px;
+	border-radius: 24px;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.549);
 }
 
 .recycled-wood-1-parent img {
-  width: 100%; 
-  border-radius: 24px; 
-  display: block; 
+	width: 100%;
+	border-radius: 24px;
+	display: block;
 }
 
 .recycled-wood,
@@ -292,31 +298,42 @@ body {
 .clay-brick,
 .energy-saving-glass,
 .bamboo {
-  position: absolute; 
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  color: white; 
-  text-align: center; 
-  font-weight: bold; 
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
-  padding: 5px; 
-  box-sizing: border-box; 
-  width: 90%; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+	padding: 5px;
+	box-sizing: border-box;
+	width: 90%;
+	font-family: "Optician Sans";
 }
-
 
 /* renewable */
 .renewable-energy-technologies {
 	position: absolute;
 	top: 1919px;
-	left: 170.95px;
+	left: 50%; /* Posisi horizontal di tengah */
+	transform: translateX(-50%); /* Menggeser elemen ke kiri setengah lebarnya */
 	font-size: 40px;
 	letter-spacing: -0.02em;
-	display: inline-block;
 	width: 1082.5px;
+	text-align: center;
+	font-family: "Optician Sans";
 }
-.component-4-child {
+.component-1 {
+	position: absolute;
+	top: 2080px;
+	left: 120px;
+	width: 1200px;
+	height: 368px;
+	text-align: left;
+	font-size: 16px;
+	font-family: Poppins;
+}
+.component-1-child {
 	position: absolute;
 	height: 100%;
 	width: 49.05%;
@@ -330,24 +347,19 @@ body {
 	max-height: 100%;
 	object-fit: cover;
 }
-.monocrystalline-panels-high {
-	font-weight: 500;
-}
-.polycrystalline-panels-slight {
-	margin-bottom: 0px;
-}
-.monocrystalline-panels-high-e {
-	margin: 0;
-	font-size: inherit;
-	padding-left: 21px;
-}
-.types-monocrystalline-panels-container {
-	position: absolute;
+.solar-panels {
 	top: 0px;
 	left: 0px;
-	line-height: 140%;
-	display: inline-block;
-	width: 568px;
+	letter-spacing: -0.02em;
+}
+.solar-panels-wrapper {
+	position: absolute;
+	height: 10.87%;
+	top: 0%;
+	bottom: 89.13%;
+	left: 50.78%;
+	font-size: 40px;
+	font-family: "Optician Sans";
 }
 .types-monocrystalline-panels-wrapper {
 	position: absolute;
@@ -358,43 +370,24 @@ body {
 	bottom: 42.93%;
 	left: 50.78%;
 }
-.solar-panels {
+.types-monocrystalline-panels-container {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	letter-spacing: -0.02em;
-}
-.solar-panels-wrapper {
-	position: absolute;
-	height: 10.87%;
-	width: 22.7%;
-	top: 0%;
-	right: 26.52%;
-	bottom: 89.13%;
-	left: 50.78%;
-	font-size: 40px;
-	font-family: "Optician Sans";
-}
-.solar-panels-capture {
 	line-height: 140%;
+	display: inline-block;
+	width: 568px;
+}
+.monocrystalline-panels-high-e {
+	margin: 0;
+	font-size: inherit;
+	padding-left: 21px;
+}
+.monocrystalline-panels-high {
 	font-weight: 500;
 }
-.how-it-works-container {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	display: inline-block;
-	width: 565px;
-}
-.how-it-works-solar-panels-cap-wrapper {
-	position: absolute;
-	height: 18.21%;
-	width: 48.96%;
-	top: 63.32%;
-	right: 0%;
-	bottom: 18.48%;
-	left: 51.04%;
-	text-align: justify;
+.polycrystalline-panels-slight {
+	margin-bottom: 0px;
 }
 .benefits-reduces-electricity-wrapper {
 	position: absolute;
@@ -406,16 +399,44 @@ body {
 	left: 51.04%;
 	text-align: justify;
 }
-.component-4 {
+.how-it-works-solar-panels-cap-wrapper {
 	position: absolute;
-	top: 2080px;
-	left: 120px;
-	width: 1200px;
-	height: 368px;
-	text-align: left;
-	font-size: 16px;
-	font-family: Poppins;
+	height: 18.21%;
+	width: 48.96%;
+	top: 63.32%;
+	right: 0%;
+	bottom: 18.48%;
+	left: 51.04%;
+	text-align: justify;
 }
+.how-it-works-container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: inline-block;
+	width: 565px;
+}
+.benefits-reduces-electricity-wrapper {
+	position: absolute;
+	height: 12.23%;
+	width: 48.96%;
+	top: 87.77%;
+	right: 0%;
+	bottom: 0%;
+	left: 51.04%;
+	text-align: justify;
+}
+.how-it-works-solar-panels-cap-wrapper {
+	position: absolute;
+	height: 18.21%;
+	width: 48.96%;
+	top: 63.32%;
+	right: 0%;
+	bottom: 18.48%;
+	left: 51.04%;
+	text-align: justify;
+}
+
 .component-2 {
 	position: absolute;
 	top: 2529px;
@@ -433,6 +454,7 @@ body {
 	display: inline-block;
 	width: 568px;
 }
+
 .component-3 {
 	position: absolute;
 	top: 2978px;
@@ -443,74 +465,128 @@ body {
 	font-size: 16px;
 	font-family: Poppins;
 }
+
+/* DIY */
 .diy-and-inspiration {
 	position: absolute;
 	top: 3514px;
-	left: 451px;
-	font-size: 64px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 40px;
 	letter-spacing: -0.02em;
+	width: 1082.5px;
+	text-align: center;
+	font-family: "Optician Sans";
 }
-.group-child {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-	border-radius: 24px;
+.diy-projects {
+	display: grid;
+	gap: 60px;
+	padding: 10px;
+	width: 1300px;
+	height: 350px;
+}
+
+@media (min-width: 900px) {
+	.diy-projects {
+		grid-template-columns: repeat(3, minmax(250px, 1fr));
+	}
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+	.diy-projects {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 599px) {
+	.diy-projects {
+		grid-template-columns: 1fr;
+	}
+}
+
+.diy-project {
 	background-color: #fff;
-	width: 359px;
-	height: 343px;
-}
-.group-item {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 16px 16px 0px 0px;
-	width: 359px;
-	height: 251px;
+	border-radius: 16px;
+	text-align: center;
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.15);
 	overflow: hidden;
-	object-fit: cover;
-}
-.making-household-compost {
-	position: absolute;
-	top: 283px;
-	left: 15px;
-	letter-spacing: -0.02em;
-	display: inline-block;
-	width: 330px;
-}
-.rectangle-parent {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 359px;
-	height: 343px;
-}
-.inspiration-guide-panduan-inner1 {
-	position: absolute;
-	top: 3646px;
-	left: 122px;
-	width: 359px;
-	height: 343px;
-}
-.inspiration-guide-panduan-inner2 {
-	position: absolute;
-	top: 3646px;
-	left: 961px;
-	width: 359px;
-	height: 343px;
-}
-.inspiration-guide-panduan-inner3 {
-	position: absolute;
-	top: 3646px;
-	left: 537px;
-	width: 359px;
-	height: 343px;
-}
-.youtube-and-vimeo-video {
+	padding-bottom: 10px;
+	transition: background-color 0.3s ease, color 0.3s ease;
 	position: relative;
-	width: 120px;
-	height: 114px;
+	top: 2550px;
 }
+
+.diy-project:hover {
+	background-color: #739646;
+	color: #fff;
+}
+.diy-project img {
+	width: 100%;           /* Lebar gambar 100% dari kontainer */
+	height: auto;          /* Tinggi gambar disesuaikan otomatis */
+	display: block;        /* Menghilangkan spasi kecil di bawah gambar */
+	border-radius: 16px 16px 0 0; /* Radius hanya di bagian atas gambar agar sesuai dengan kontainer */
+}
+.diy-project h3 {
+	font-size: 24px;
+	margin: 10px 10px;
+	font-family: "Optician Sans";
+	text-decoration: none;
+	padding: 0px;
+	font-weight: 300;
+	margin-top: 25px;
+}
+
+.youtube-icon::before {
+	content: "▶";
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	color: #000000;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 16%;
+	padding: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	z-index: 1;
+}
+
+.youtube-icon:hover:before {
+	color: #ffffff;
+	background: #739646;
+}
+
+.youtube-icon img {
+	display: block;
+}
+
+.hover-more {
+  text-align: center; 
+	overflow: hidden;
+	position: relative;
+	top: 2600px;
+}
+
+.cta-button {
+  background-color: #739646;
+  color: #fff;
+  padding: 7px 100px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid #739646;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  display: inline-block; /* Membuat tombol mengikuti text-align */
+}
+
+.cta-button:hover {
+  background-color: #fff;
+  color: #6ea54e;
+}
+
+
 .yellow-and-green-modern-logo1 {
 	width: 168px;
 	position: relative;
@@ -644,26 +720,7 @@ body {
 	font-family: Poppins;
 }
 
-.hover-more {
-	position: absolute;
-	top: 4052px;
-	left: 582px;
-	border-radius: 50px;
-	background-color: #739646;
-	border: 2px solid rgba(255, 255, 255, 0.25);
-	box-sizing: border-box;
-	width: 276px;
-	height: 36px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	padding: 0px 24px;
-	text-align: left;
-	font-size: 14px;
-	color: #fbfbfb;
-	font-family: Poppins;
-}
+
 .inspiration-guide-panduan {
 	width: 100%;
 	position: relative;

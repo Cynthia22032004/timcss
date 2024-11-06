@@ -119,7 +119,8 @@ body {
 .diy-projects {
   display: grid;
   gap: 40px; /* Adjusts gap between grid items */
-  padding: 10px; /* Padding around the grid */
+  padding-left: 100px; /* Padding around the grid */
+  padding-right: 100px;
   max-width: 1100px; /* Limits the grid container width */
   margin: 0 auto; /* Centers the grid container */
 }
@@ -235,8 +236,8 @@ body {
 .gradient-bg {
   background-image: url("../asset/inspiration2/gradient.png");
   background-size: 50%;
-  background-position: left;
-  padding: 10px 0; /* Adjust padding as needed */
+  background-position: left 10px;
+  padding-bottom: 0px; /* Adjust padding as needed */
   position: relative;
   z-index: 0;
   background-repeat: no-repeat;
@@ -246,7 +247,9 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
   gap: 20px; /* Adjusts gap between grid items */
-  padding: 20px; /* Adds padding around the grid */
+  padding-top: 20px; /* Adds padding around the grid */
+  padding-left: 50px;
+  padding-right: 50px;
   max-width: 1000px; /* Sets the width of the grid container */
   margin: 0 auto; /* Centers the grid container */
   position: relative;
@@ -303,8 +306,10 @@ body {
 
 /* Footer */
 footer {
-  background-color: #ffffff;
-  padding: 50px 70px;
+  /* background-color: #ffffff; */
+  padding: 0px 100px;
+  padding-top: 100px;
+  padding-bottom: 40px;
   color: #414958;
   display: flex;
   justify-content: space-between;
@@ -326,7 +331,7 @@ footer {
   right: 0;
   width: 50%;
   height: 100%;
-  background-image: url("../asset/footer\ gr.png"); /* Ganti dengan path file gambar Anda */
+  /* background-image: url("asset/footer.png"); Ganti dengan path file gambar Anda */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -334,10 +339,14 @@ footer {
   z-index: 0; /* Menempatkan gambar di belakang tulisan */
 }
 
+.footer-background img {
+  padding-left: 100px;
+}
+
 .footer-section {
   flex: 1;
   min-width: 10px;
-  margin-top: 10px;
+  /* margin-top: 0px; */
   padding-right: 70px;
 }
 
@@ -346,10 +355,11 @@ footer {
   font-size: 10px;
   opacity: 0.75;
   padding-left: 5px;
+  text-decoration: none;
 }
 
 .footer-section-property {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   padding-left: 10px;
   padding-right: 20px;
   position: relative;
@@ -358,16 +368,58 @@ footer {
   display: inline-block;
   color: #414958;
 }
+.footer-section-property h4 {
+  color: #414958;
+  margin-bottom: 15px;
+  padding-left: 0px;
+}
+.footer-section-property p {
+  font-size: 14px;
+  color: #8694b4;
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  padding-left: 0px;
+}
 
 .footer-section-article {
   padding-left: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
+}
+.footer-section-article h4 {
+  color: #414958;
+  margin-bottom: 15px;
+  padding-left: 0px;
+}
+.footer-section-article p {
+  font-size: 14px;
+  color: #8694b4;
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  padding-left: 0px;
 }
 
 .footer-section-contact {
   padding-left: 50px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   padding-left: 110px;
+}
+.footer-section-contact h4 {
+  color: #414958;
+  margin-bottom: 15px;
+  padding-left: 0px;
+}
+.footer-section-contact p {
+  font-size: 14px;
+  color: #8694b4;
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  padding-left: 0px;
 }
 
 .footer-section img {
@@ -375,12 +427,6 @@ footer {
   margin-top: 20px;
 }
 
-footer h4 {
-  color: #414958;
-  margin-bottom: 15px;
-}
-
-footer p,
 footer a {
   font-size: 14px;
   color: #8694b4;
