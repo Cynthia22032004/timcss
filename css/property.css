@@ -76,7 +76,7 @@
   margin-left: 700px;
   top: 0px;
   left: 0px;
-  height: 565.6px;
+  height: 550px;
   z-index: 0;
 }
 
@@ -88,18 +88,15 @@
 
 .discover-eco-friendly-homes {
   font-size: 36px;
-  /* font-weight: bold; */
-
-  color: #2e3c1c;
-  /* top: 0px;*/
 
   position: absolute;
 }
 .discover-eco-friendly-homes p {
   margin-top: -20px;
   letter-spacing: -0.02em;
-  padding-top: 50px;
-  line-height: 38px;
+  padding-top: 30px;
+  line-height: 42px; /* Mengatur spasi antar kalimat */
+  font-size: 40px;
 }
 .we-offer-a {
   font-size: 16px;
@@ -116,28 +113,7 @@
   height: 272px;
 }
 
-/* .line {
-  position: absolute;
-  top: 35.25px;
-  left: 135.25px;
-  border-right: 1.5px solid #fff;
-  box-sizing: border-box;
-  width: 1.5px;
-  height: 65.5px;
-  opacity: 0.2;
-}
-.line1 {
-  position: absolute;
-  top: 35.25px;
-  left: 271.25px;
-  border-right: 1.5px solid #fff;
-  box-sizing: border-box;
-  width: 1.5px;
-  height: 65.5px;
-  opacity: 0.2;
-} */
-
-/* Property icon */
+/* Property Discovery icon */
 .icon {
   position: absolute;
   top: 0px;
@@ -238,7 +214,7 @@
 }
 .property-return-rate-parent {
   position: absolute;
-  top: 0px;
+  top: 25px;
   left: 0px;
   display: flex;
   flex-direction: row;
@@ -288,13 +264,13 @@
   width: 544.1px;
   height: 411.8px;
   text-align: left;
-  color: #2e3c1c;
+  color: #000000;
   font-family: 'Optician Sans';
 }
 
 .our-partners-parent {
   position: absolute;
-  top: 870px;
+  top: 800px; /* spasi our patner dengan margin top */
   left: calc(50% - 670px);
   width: 1340px;
   display: flex;
@@ -309,9 +285,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px; /* Space between title and carousel */
+  gap: 35px; /* Space between title and carousel */
   font-family: 'Optician Sans', sans-serif;
-  margin: 50px 0; /* Optional: space around the section */
+  /* margin: 50px 0; Optional: space around the section */
 }
 
 .our-partners {
@@ -430,6 +406,9 @@
   gap: 70px;
   font-family: 'Optician Sans';
 } */
+
+/* 
+FOOTER
 .group-child {
   position: absolute;
   top: 0px;
@@ -574,12 +553,43 @@
   text-align: justify;
   font-size: 11px;
   color: #8694b4;
+} */
+
+/* PROPERTY REKOMENDATION */
+.prop-rekomend {
+  position: absolute;
+  top: 1129px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 1370px;
+  overflow: hidden;
+  text-align: left;
+}
+.prop-rekomend1 {
+  position: absolute;
+  top: 55px;
+  left: calc(50% - 634px);
+  width: 1269px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
 }
 .property-recomendation {
   position: absolute;
   top: 0px;
   left: 3px;
   letter-spacing: -0.02em;
+}
+.property-rekomendation1 {
+  width: 100%;
+  position: relative;
+  height: 63px;
+  text-align: center;
+  font-size: 40px;
+  color: #000;
+  font-family: 'Optician Sans';
 }
 .were-all-about {
   position: absolute;
@@ -590,14 +600,19 @@
   font-family: Poppins;
   text-align: left;
 }
-.property-rekomendation1 {
-  width: 100%;
-  position: relative;
-  height: 63px;
-  text-align: center;
-  font-size: 40px;
-  color: #000;
-  font-family: 'Optician Sans';
+.kategori-property-rekom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 16px;
+}
+.hover {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .buttonlink2 {
@@ -609,20 +624,7 @@
   justify-content: center;
   padding: 12px 0px;
 }
-.hover {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.kategori-property-rekom {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  font-size: 16px;
-}
+
 .search-button-icon {
   width: 60px;
   position: relative;
@@ -716,6 +718,7 @@
   padding: 15px;
 }
 
+/* BUTTON NAV NEXT */
 .search-button-parent {
   align-self: stretch;
   display: flex;
@@ -726,27 +729,7 @@
   font-size: 14px;
 }
 
-/* button link rekomend */
-.prop-rekomend1 {
-  position: absolute;
-  top: 55px;
-  left: calc(50% - 634px);
-  width: 1269px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 70px;
-}
-.prop-rekomend {
-  position: absolute;
-  top: 1129px;
-  left: calc(50% - 720px);
-  width: 1440px;
-  height: 1370px;
-  overflow: hidden;
-  text-align: left;
-}
+/* div pembungkus */
 .property {
   width: 100%;
   position: relative;
