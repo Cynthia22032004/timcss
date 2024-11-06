@@ -558,7 +558,7 @@ FOOTER
 /* PROPERTY REKOMENDATION */
 .prop-rekomend {
   position: absolute;
-  top: 1129px;
+  top: 350px;
   left: calc(50% - 720px);
   width: 1440px;
   height: 1370px;
@@ -567,14 +567,14 @@ FOOTER
 }
 .prop-rekomend1 {
   position: absolute;
-  top: 55px;
+  /* top: 55px; */
   left: calc(50% - 634px);
   width: 1269px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 70px;
+  gap: 30px;
 }
 .property-recomendation {
   position: absolute;
@@ -593,7 +593,7 @@ FOOTER
 }
 .were-all-about {
   position: absolute;
-  top: 43px;
+  top: 55px;
   left: calc(50% - 172.5px);
   font-size: 14px;
   line-height: 140%;
@@ -605,10 +605,11 @@ FOOTER
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  /* gap: 40px; */
   font-size: 16px;
+  margin: 20px;
 }
-.hover {
+/* .hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -623,7 +624,7 @@ FOOTER
   align-items: center;
   justify-content: center;
   padding: 12px 0px;
-}
+} */
 
 .search-button-icon {
   width: 60px;
@@ -684,9 +685,30 @@ FOOTER
   display: inline-block; /* Membuat tombol mengikuti text-align */
 }
 
+.cta-button1 {
+  /* background-color: #739646; */
+  color: #000;
+  padding: 6px 40px;
+  /* border-radius: 50px; */
+  text-decoration: none;
+  font-size: 16px;
+  /* border: 2px solid #739646; */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block; /* Membuat tombol mengikuti text-align */
+  font-family: 'poppins';
+  /* font-weight: 300; */
+}
+
 .cta-button:hover {
   background-color: #fff;
   color: #6ea54e;
+}
+
+.cta-button1:hover {
+  /* background-color: #fff;
+  color: #6ea54e; */
+  font-weight: bold;
 }
 
 /* .property-tech {
@@ -734,7 +756,7 @@ FOOTER
   width: 100%;
   position: relative;
   background-color: #fff;
-  height: 2499px;
+  height: 3000px;
   overflow: hidden;
   text-align: center;
   font-size: 40px;
