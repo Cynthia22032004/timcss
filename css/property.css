@@ -302,8 +302,8 @@
 }
 
 .our-partners {
-  font-size: 24px; /* Adjust font size as needed */
-  font-weight: bold; /* Optional: make it bold */
+  align-self: stretch;
+  position: relative;
   letter-spacing: -0.02em; /* Adjust letter spacing as needed */
 }
 
@@ -335,7 +335,6 @@
 .carousel-indicators {
   display: none; /* Comment out if you want to keep indicators */
 }
-
 
 /* .our-partners {
   align-self: stretch;
