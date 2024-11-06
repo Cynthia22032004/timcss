@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 .vector-icon {
   position: absolute;
   top: 307px;
@@ -15,282 +21,67 @@
   height: 976.7px;
   object-fit: contain;
 }
-.navbar-child {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-  background-color: #fff;
-  width: 1440px;
-  height: 111px;
+/* Header */
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #f5f5f5;
+	overflow-x: hidden;
 }
-.yellow-and-green-modern-logo {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 284px;
-  height: 67px;
-  object-fit: cover;
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ffffff;
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+	position: fixed; /* Menjadikan navbar tetap di atas */
+	top: 0; /* Memastikan posisinya di bagian atas */
+	z-index: 1000; /* Memastikan berada di atas elemen lainnya */
+	padding-inline: 90px;
 }
-.label {
-  position: relative;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+
+.logo {
+	font-size: 24px;
+	font-weight: bold;
+	color: #7fbf7f;
 }
-.buttoncontent {
-  height: 24px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+
+.nav {
+	display: flex;
+	gap: 90px;
+	font-size: 15px;
+	padding-left: 7cm;
 }
-.buttoncontent-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+
+.nav a {
+	text-decoration: none;
+	color: #5c7838;
 }
-.button {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
-  border-radius: 50px;
-  background-color: #fff;
-  width: 127px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 24px;
-  box-sizing: border-box;
+
+.nav a:hover {
+	font-weight: bolder;
+	color: #5c7838;
 }
-.button1 {
-  position: absolute;
-  top: 0px;
-  left: 208px;
-  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
-  border-radius: 50px;
-  background-color: #fff;
-  width: 127px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 24px;
-  box-sizing: border-box;
+
+.login-button {
+	padding: 8px 20px;
+	background-color: #739646;
+	color: #fff;
+	border-radius: 20px;
+	text-decoration: none;
+	font-size: 15px;
 }
-.button2 {
-  position: absolute;
-  top: 0px;
-  left: 396px;
-  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
-  border-radius: 50px;
-  background-color: #fff;
-  width: 113px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 24px;
-  box-sizing: border-box;
-}
-.buttonprimary {
-  position: absolute;
-  top: 0px;
-  left: 567px;
-  box-shadow: 0px -1px 0px rgba(14, 14, 44, 0.4) inset, 0px 6px 2px -4px rgba(14, 14, 44, 0.1);
-  border-radius: 50px;
-  background-color: #739646;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 24px;
-  cursor: pointer;
-  text-align: left;
-  font-size: 16px;
-  color: #fff;
-}
-.button-parent {
-  position: absolute;
-  top: 9.5px;
-  left: 547px;
-  width: 681px;
-  height: 48px;
-}
-.yellow-and-green-modern-logo-parent {
-  position: absolute;
-  top: 22px;
-  left: 105px;
-  width: 1228px;
-  height: 67px;
-}
-.navbar {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 1440px;
-  height: 111px;
-  text-align: center;
-  font-size: 14px;
-  color: #5c7838;
-}
-.home-page-child {
-  position: absolute;
-  top: 3092px;
-  left: 840px;
-  width: 747px;
-  height: 513px;
-}
-.yellow-and-green-modern-logo1 {
-  width: 168px;
-  position: relative;
-  height: 32px;
-  object-fit: cover;
-}
-.we-provide-information {
-  position: absolute;
-  width: 100%;
-  top: 0%;
-  left: 0%;
-  line-height: 140%;
-  display: inline-block;
-  opacity: 0.75;
-}
-.brandicofacebook-icon {
-  width: 32px;
-  position: relative;
-  height: 32px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.brandicofacebook-parent {
-  position: absolute;
-  height: 25%;
-  width: 45%;
-  top: 75%;
-  right: 55%;
-  bottom: 0%;
-  left: 0%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 24px;
-}
-.bio {
-  width: 320px;
-  position: relative;
-  height: 128px;
-}
-.yellow-and-green-modern-logo-group {
-  width: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 20px;
-}
-.property1 {
-  width: 94px;
-  position: relative;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  display: inline-block;
-  color: #414958;
-}
-.discover {
-  align-self: stretch;
-  position: relative;
-  font-weight: 500;
-}
-.property {
-  width: 176px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 20px;
-}
-.article1 {
-  align-self: stretch;
-  position: relative;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #414958;
-}
-.eco-tech {
-  align-self: stretch;
-  position: relative;
-  text-transform: capitalize;
-  font-family: Lexend;
-}
-.article {
-  width: 212px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 19px;
-}
-.contact {
-  width: 265px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 20px;
-}
-.property-parent {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 30px;
-}
-.frame-wrapper {
-  width: 713px;
-  position: relative;
-  height: 168px;
-  text-align: left;
-  font-size: 14px;
-}
-.frame-parent {
-  position: absolute;
-  top: 3136px;
-  left: calc(50% - 597px);
-  width: 1209px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  text-align: justify;
-  font-size: 11px;
-  color: #8694b4;
-}
-.vector-icon1 {
-  position: absolute;
-  top: 112px;
-  left: 1079px;
-  width: 758.8px;
-  height: 636px;
-  object-fit: contain;
-  opacity: 0.03;
-}
+
+/* homepage */
 .home-page-item {
   position: absolute;
-  top: 298px;
-  left: 857px;
+  top: 217px;
+  left: 960px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
   border-radius: 50px;
@@ -300,20 +91,27 @@
   width: 466px;
   height: 568px;
 }
+.home-page-icon {
+  position: absolute;
+  left: 925px;
+  height: 1000px;
+  object-fit: cover;
+  border-radius: 15px;
+}
 .smart-living-greener {
   position: absolute;
-  top: 377px;
-  left: calc(50% - 600px);
+  top: 330px;
+  left: 100px;
   font-size: 64px;
   letter-spacing: -0.02em;
   font-family: 'Optician Sans';
   display: inline-block;
   width: 588px;
 }
-.at-ecosmophere-we {
+.at-ecosmophere {
   position: absolute;
-  top: 536px;
-  left: calc(50% - 597px);
+  top: 490px;
+  left: 100px;
   font-size: 24px;
   font-weight: 500;
   text-align: justify;
@@ -321,7 +119,31 @@
   align-items: center;
   width: 585px;
 }
-.contact-now {
+.hover-more {
+	overflow: hidden;
+	position: relative;
+	top: 760px;
+  left: 100px;
+}
+.cta-button {
+  background-color: #739646;
+  color: #fff;
+  padding: 7px 100px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid #739646;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  display: inline-block; 
+}
+
+.cta-button:hover {
+  background-color: #fff;
+  color: #6ea54e;
+}
+
+/* .contact-now {
   flex: 1;
   border-radius: 32px;
   background-color: #739646;
@@ -346,7 +168,7 @@
   box-sizing: border-box;
   cursor: pointer;
   color: #fff;
-}
+} */
 .vector-icon2 {
   position: absolute;
   top: 1219px;
@@ -715,15 +537,7 @@
   cursor: pointer;
   color: #fff;
 }
-.file-1-icon {
-  position: absolute;
-  top: 213px;
-  left: 847px;
-  width: 479px;
-  height: 698px;
-  object-fit: cover;
-  border-radius: 15px;
-}
+
 .home-page {
   width: 100%;
   position: relative;
@@ -736,3 +550,152 @@
   font-family: Poppins;
 }
 
+
+
+.home-page-child {
+  position: absolute;
+  top: 3092px;
+  left: 840px;
+  width: 747px;
+  height: 513px;
+}
+.yellow-and-green-modern-logo1 {
+  width: 168px;
+  position: relative;
+  height: 32px;
+  object-fit: cover;
+}
+.we-provide-information {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  line-height: 140%;
+  display: inline-block;
+  opacity: 0.75;
+}
+.brandicofacebook-icon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brandicofacebook-parent {
+  position: absolute;
+  height: 25%;
+  width: 45%;
+  top: 75%;
+  right: 55%;
+  bottom: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.bio {
+  width: 320px;
+  position: relative;
+  height: 128px;
+}
+.yellow-and-green-modern-logo-group {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.property1 {
+  width: 94px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #414958;
+}
+.discover {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.property {
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.article1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #414958;
+}
+.eco-tech {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+  font-family: Lexend;
+}
+.article {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px;
+}
+.contact {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.property-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+.frame-wrapper {
+  width: 713px;
+  position: relative;
+  height: 168px;
+  text-align: left;
+  font-size: 14px;
+}
+.frame-parent {
+  position: absolute;
+  top: 3136px;
+  left: calc(50% - 597px);
+  width: 1209px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: justify;
+  font-size: 11px;
+  color: #8694b4;
+}
+.vector-icon1 {
+  position: absolute;
+  top: 112px;
+  left: 1079px;
+  width: 758.8px;
+  height: 636px;
+  object-fit: contain;
+  opacity: 0.03;
+}
