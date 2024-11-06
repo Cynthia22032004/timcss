@@ -63,7 +63,6 @@ body {
 }
 
 /* asset */
-
 .vector-icon {
 	position: absolute;
 	top: 2280px;
@@ -93,7 +92,7 @@ body {
 }
 
 .unsplashoypnyfdiqgg-icon {
-	width: 100vw; /* Ensure image spans full width */
+	width: 100vw; 
 	height: 100%;
 	object-fit: cover;
 }
@@ -154,7 +153,6 @@ body {
 }
 
 /* benefit */
-/* benefit */
 .benefits-if-you {
 	position: absolute;
 	top: 850px;
@@ -171,10 +169,10 @@ body {
 .card-bif-5,
 .card-bif-6 {
 	position: absolute;
-	width: 185px; /* Ukuran yang sama untuk semua card */
-	height: 346px; /* Ukuran yang sama untuk semua card */
+	width: 185px; 
+	height: 346px; 
 	border-radius: 24px;
-	overflow: hidden; /* Menyembunyikan bagian overlay yang keluar dari card */
+	overflow: hidden; 
 }
 
 .card-bif-1 {
@@ -203,9 +201,9 @@ body {
 }
 
 .card-bif-1-child {
-	width: 100%; /* Menggunakan lebar 100% dari wadah */
-	height: 100%; /* Menggunakan tinggi 100% dari wadah */
-	object-fit: cover; /* Menjaga proporsi gambar */
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover; 
 }
 
 .card-bif-1-item {
@@ -223,12 +221,12 @@ body {
 	right: 0;
 	bottom: 0;
 	border-radius: 24px;
-	background-color: rgba(0, 0, 0, 0.5); /* Warna hitam dengan transparansi */
+	background-color: rgba(0, 0, 0, 0.5); 
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	opacity: 0; /* Awalnya tidak terlihat */
-	transition: opacity 0.3s ease; /* Efek transisi */
+	opacity: 0; 
+	transition: opacity 0.3s ease;
 	font-family: "Optician Sans";
 }
 
@@ -238,7 +236,7 @@ body {
 .card-bif-4:hover .overlay,
 .card-bif-5:hover .overlay,
 .card-bif-6:hover .overlay {
-	opacity: 1; /* Menampilkan overlay saat hover pada card */
+	opacity: 1; 
 }
 
 .text {
@@ -265,11 +263,7 @@ body {
 	margin-left: 385px;
 	white-space: nowrap;
 	cursor: grab;
-	/*Initialcursorstyle*/:;
-	-webkit-transform: translateY(750px);
-	-moz-transform: translateY(750px);
-	-ms-transform: translateY(750px);
-	-o-transform: translateY(750px);
+	width: 100vw;
 }
 
 .frame-parent.active {
@@ -315,8 +309,8 @@ body {
 .renewable-energy-technologies {
 	position: absolute;
 	top: 1919px;
-	left: 50%; /* Posisi horizontal di tengah */
-	transform: translateX(-50%); /* Menggeser elemen ke kiri setengah lebarnya */
+	left: 50%; 
+	transform: translateX(-50%); 
 	font-size: 40px;
 	letter-spacing: -0.02em;
 	width: 1082.5px;
@@ -521,10 +515,10 @@ body {
 	color: #fff;
 }
 .diy-project img {
-	width: 100%;           /* Lebar gambar 100% dari kontainer */
-	height: auto;          /* Tinggi gambar disesuaikan otomatis */
-	display: block;        /* Menghilangkan spasi kecil di bawah gambar */
-	border-radius: 16px 16px 0 0; /* Radius hanya di bagian atas gambar agar sesuai dengan kontainer */
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 16px 16px 0 0; 
 }
 .diy-project h3 {
 	font-size: 24px;
@@ -533,7 +527,7 @@ body {
 	text-decoration: none;
 	padding: 0px;
 	font-weight: 300;
-	margin-top: 25px;
+	margin-top: 16px;
 }
 
 .youtube-icon::before {
@@ -578,7 +572,7 @@ body {
   border: 2px solid #739646;
   transition: background-color 0.3s ease, color 0.3s ease;
   font-family: "Poppins", sans-serif;
-  display: inline-block; /* Membuat tombol mengikuti text-align */
+  display: inline-block; 
 }
 
 .cta-button:hover {
