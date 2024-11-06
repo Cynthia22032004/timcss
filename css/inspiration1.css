@@ -256,33 +256,34 @@ body {
 }
 
 .frame-parent {
-	display: flex;
-	overflow-x: auto;
-	padding: 100px;
-	border-radius: 24px;
-	transform: translateY(1400px);
-	margin-left: 385px;
-	/* width: 100vw; */
-	white-space: nowrap; 
+  display: flex;
+  overflow-x: auto;
+  padding: 100px;
+  border-radius: 24px;
+  transform: translateY(1400px);
+  margin-left: 385px;
+  white-space: nowrap; 
+  cursor: grab; /* Initial cursor style */
 }
+
 .frame-parent.active {
-	cursor: grabbing;
-	cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
+
 .recycled-wood-1-parent {
-	flex: 0 0 auto; 
-	width: 200px; 
-	margin-right: 90px; 
-	border-radius: 24px; 
-	overflow: hidden; 
-	position: relative; 
-	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.549); 
+  flex: 0 0 auto; 
+  width: 200px; 
+  margin-right: 90px; 
+  border-radius: 24px; 
+  overflow: hidden; 
+  position: relative; 
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.549); 
 }
 
 .recycled-wood-1-parent img {
-	width: 100%; 
-	border-radius: 24px; 
-	display: block; 
+  width: 100%; 
+  border-radius: 24px; 
+  display: block; 
 }
 
 .recycled-wood,
@@ -291,18 +292,19 @@ body {
 .clay-brick,
 .energy-saving-glass,
 .bamboo {
-	position: absolute; 
-	top: 50%; 
-	left: 50%; 
-	transform: translate(-50%, -50%); 
-	color: white; 
-	text-align: center; 
-	font-weight: bold; 
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
-	padding: 5px; 
-	box-sizing: border-box; 
-	width: 90%; 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white; 
+  text-align: center; 
+  font-weight: bold; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+  padding: 5px; 
+  box-sizing: border-box; 
+  width: 90%; 
 }
+
 
 /* renewable */
 .renewable-energy-technologies {
