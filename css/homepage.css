@@ -697,6 +697,12 @@
   object-fit: contain;
   opacity: 0.3;
 }
+
+.cta-button:hover {
+  background-color: #fff;
+  color: #6ea54e;
+} 
+
 .buttonprimary1 {
   position: absolute;
   top: 2820px;
