@@ -91,14 +91,10 @@ body {
 	height: 503px;
 }
 
-.unsplashoypnyfdiqgg-icon {
-	width: 100vw; 
-	height: 100%;
-	object-fit: cover;
-}
+
 
 /* 1 */
-.unsplashoypnyfdiqgg-parent {
+.eco-house-guide-cover{
 	margin-top: 75px;
 	align-items: center;
 	background-color: #000;
@@ -108,6 +104,11 @@ body {
 	font-size: 64px;
 	color: #fff;
 }
+.eco-house-guide-cover-icon {
+	width: 100vw; 
+	height: 100%;
+	object-fit: cover;
+}
 .eco-house-guide {
 	position: absolute;
 	top: 50%;
@@ -115,7 +116,7 @@ body {
 	transform: translate(-50%, -50%);
 	font-family: "Optician Sans";
 }
-.rectangle-div {
+.eco-frame {
 	position: absolute;
 	top: 570px;
 	left: 50%;
@@ -123,7 +124,7 @@ body {
 	width: 1200px;
 	height: 171px;
 }
-.instance-child {
+.eco-inner-frame {
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -135,7 +136,7 @@ body {
 	border-radius: 24px;
 	background-color: #455a2a;
 }
-.an-environmentally-friendly {
+.eco-desc {
 	position: absolute;
 	top: 655px;
 	left: 50%;
@@ -149,7 +150,7 @@ body {
 }
 
 /* 2. benefit */
-.benefits-if-you {
+.benefits-title {
 	position: absolute;
 	top: 850px;
 	left: 50%;
@@ -235,14 +236,14 @@ body {
 }
 
 /* 3. environtment */
-.environmentally-friendly-mater {
+.environmentally-title {
 	position: absolute;
 	top: 1400px;
 	left: 235px;
 	font-size: 40px;
 	font-family: "Optician Sans";
 }
-.frame-parent {
+.environment-frame {
 	display: flex;
 	overflow-x: auto;
 	padding: 100px;
@@ -253,10 +254,7 @@ body {
 	cursor: grab;
 	width: 100vw;
 }
-.frame-parent.active {
-	cursor: grabbing;
-}
-.recycled-wood-1-parent {
+.environment-categories {
 	flex: 0 0 auto;
 	width: 200px;
 	margin-right: 90px;
@@ -265,7 +263,7 @@ body {
 	position: relative;
 	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.549);
 }
-.recycled-wood-1-parent img {
+.environment-categories img {
 	width: 100%;
 	border-radius: 24px;
 	display: block;
@@ -290,7 +288,7 @@ body {
 }
 
 /* 4. renewable */
-.renewable-energy-technologies {
+.renewable-title {
 	position: absolute;
 	top: 1919px;
 	left: 50%; 
@@ -311,7 +309,7 @@ body {
 	font-size: 16px;
 	font-family: Poppins;
 }
-.component-1-child {
+.component-1 img {
 	position: absolute;
 	height: 100%;
 	width: 49.05%;
@@ -325,12 +323,7 @@ body {
 	max-height: 100%;
 	object-fit: cover;
 }
-.solar-panels {
-	top: 0px;
-	left: 0px;
-	letter-spacing: -0.02em;
-}
-.solar-panels-wrapper {
+.renew-title-wrapper {
 	position: absolute;
 	height: 10.87%;
 	top: 0%;
@@ -339,7 +332,12 @@ body {
 	font-size: 40px;
 	font-family: "Optician Sans";
 }
-.types-monocrystalline-panels-wrapper {
+.renew-title {
+	top: 0px;
+	left: 0px;
+	letter-spacing: -0.02em;
+}
+.comp-type {
 	position: absolute;
 	height: 29.89%;
 	width: 49.22%;
@@ -348,7 +346,7 @@ body {
 	bottom: 42.93%;
 	left: 50.78%;
 }
-.types-monocrystalline-panels-container {
+.comp-type-container {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -356,28 +354,13 @@ body {
 	display: inline-block;
 	width: 568px;
 }
-.monocrystalline-panels-high-e {
+.renew-list {
 	margin: 0;
 	font-size: inherit;
 	padding-left: 21px;
-}
-.monocrystalline-panels-high {
 	font-weight: 500;
 }
-.polycrystalline-panels-slight {
-	margin-bottom: 0px;
-}
-.benefits-reduces-electricity-wrapper {
-	position: absolute;
-	height: 12.23%;
-	width: 48.96%;
-	top: 87.77%;
-	right: 0%;
-	bottom: 0%;
-	left: 51.04%;
-	text-align: justify;
-}
-.how-it-works-solar-panels-cap-wrapper {
+.renew-how {
 	position: absolute;
 	height: 18.21%;
 	width: 48.96%;
@@ -387,30 +370,24 @@ body {
 	left: 51.04%;
 	text-align: justify;
 }
-.how-it-works-container {
+.renew-how-ben-container {
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	display: inline-block;
 	width: 565px;
+	line-height: 140%;
 }
-.benefits-reduces-electricity-wrapper {
+.renew-how-ben-capture {
+	font-weight: 500;
+}
+.renew-ben {
 	position: absolute;
 	height: 12.23%;
 	width: 48.96%;
 	top: 87.77%;
 	right: 0%;
 	bottom: 0%;
-	left: 51.04%;
-	text-align: justify;
-}
-.how-it-works-solar-panels-cap-wrapper {
-	position: absolute;
-	height: 18.21%;
-	width: 48.96%;
-	top: 63.32%;
-	right: 0%;
-	bottom: 18.48%;
 	left: 51.04%;
 	text-align: justify;
 }
@@ -424,13 +401,6 @@ body {
 	text-align: left;
 	font-size: 16px;
 	font-family: Poppins;
-}
-.types-monocrystalline-panels-container2 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	display: inline-block;
-	width: 568px;
 }
 
 .component-3 {
