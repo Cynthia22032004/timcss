@@ -826,7 +826,59 @@ footer {
     font-family: 'Optician Sans';
 }
 
-
+.card-bif-1 {
+    position: absolute;
+    border-radius: 24px;
+    overflow: hidden;
+	width: 384px;
+	height: 384px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.549);
+}
+/* .card-bif-1,
+.card-bif-2,
+.card-bif-3,
+.card-bif-4,
+.card-bif-5,
+.card-bif-6 {
+	position: absolute;
+	width: 185px;
+	height: 346px;
+	border-radius: 24px;
+	overflow: hidden;
+} */
+ .image-icon1 {
+	width: 100%; 
+	height: 100%; 
+    object-fit:cover;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 24px;
+	background-color: rgba(0, 0, 0, 0.5); 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0; 
+	transition: opacity 0.3s ease;
+	font-family: "Optician Sans";
+}
+.card-bif-1:hover .overlay,
+.card-bif-2:hover .overlay,
+.card-bif-3:hover .overlay,
+.card-bif-4:hover .overlay,
+.card-bif-5:hover .overlay,
+.card-bif-6:hover .overlay {
+	opacity: 1; 
+}
+.text {
+	color: white;
+	font-size: 18px; /* Ukuran teks */
+	text-align: center;
+}
 .image-icon2 {
     position: absolute;
     height: 100%;
@@ -975,22 +1027,9 @@ footer {
     font-family: Poppins;
 }
 
-.image-icon1 {
-    position: absolute;
-    height: 82.23%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 17.77%;
-    left: 0%;
-    border-radius: 24px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-}
 
-.overlay {
+
+/* .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1010,4 +1049,4 @@ footer {
     color: #000;
     text-align: center;
     font-size: 18px;
-}
+} */
