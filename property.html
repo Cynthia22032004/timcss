@@ -107,12 +107,12 @@
               <img class="partner-logo" src="asset/ikea.jpg" alt="Partner 8" />
             </div>
             <div class="carousel-item">
-              <img class="partner-logo" src="asset/ciputra.jpg" alt="Partner 9" />
               <img class="partner-logo" src="asset/patner_2.jpg" alt="Partner 2" />
               <img class="partner-logo" src="asset/patner_3.jpg" alt="Partner 3" />
               <img class="partner-logo" src="asset/agungsaha.jpg" alt="Partner 4" />
               <img class="partner-logo" src="asset/pakuwon.jpg" alt="Partner 5" />
-              <img class="partner-logo" src="asset/pinhome.jpg" alt="Partner 6" />
+              <img class="logo" src="asset/ciputra.jpg" alt="Partner 9" style="height: 60px; width: 80px; margin: 0 10px;"/>
+              <img class="logo" src="asset/pinhome.jpg" alt="Partner 6" style="height: 60px; width: 60px; margin: 0 10px"/>
               <img class="partner-logo" src="asset/lippo group.jpg" alt="Partner 7" />
               <img class="partner-logo" src="asset/99co.jpg" alt="Partner 8" />
           </div>
@@ -179,54 +179,53 @@
             <a href="#" class="cta-button1">DESIGN</a>
           </div>
           <section class="search-button-parent">
-            <img class="search-button-icon" alt="Search Button" src="Search button.svg" />
-
+            <button class="nav-button prev-button">Previous</button>
+          
             <!-- Product Cards -->
-            <div class="card1-tech">
-              <div class="image-37-parent">
-                <img class="image-37-icon" alt="Moen Smart Shower" src="asset/prop_1.jpg" />
-                <div class="moen-smart-shower">Moen Smart Shower 2-Outlet Shower Valve</div>
-                <div class="div1">$644.47</div>
-                <a href="#" class="cta-button">More information</a>
+            <div class="cards-container">
+              <div class="card1-tech">
+                <div class="image-37-parent">
+                  <img class="image-37-icon" alt="Moen Smart Shower" src="asset/prop_1.jpg" />
+                  <div class="moen-smart-shower">Moen Smart Shower 2-Outlet Shower Valve</div>
+                  <div class="div1">$644.47</div>
+                  <a href="#" class="cta-button">More information</a>
+                </div>
+              </div>
+              <div class="card1-tech">
+                <div class="image-37-parent">
+                  <img class="image-37-icon" alt="Philips Hue LED Lamp" src="asset/prop_2.jpg" />
+                  <div class="moen-smart-shower">Philips Hue - LED Lamp</div>
+                  <div class="div1">$279.99</div>
+                  <a href="#" class="cta-button">More information</a>
+                </div>
+              </div>
+              <div class="card1-tech">
+                <div class="image-37-parent">
+                  <img class="image-37-icon" alt="SunPower Solar Panels" src="asset/prop_3.jpg" />
+                  <div class="moen-smart-shower">SunPower Maxeon Solar Panels</div>
+                  <div class="div1">$24,120</div>
+                  <a href="#" class="cta-button">More information</a>
+                </div>
+              </div>
+              <div class="card1-tech">
+                <div class="image-37-parent">
+                  <img class="image-37-icon" alt="SunPower Solar Panels" src="asset/prop_3.jpg" />
+                  <div class="moen-smart-shower">SunPower Maxeon Solar Panels</div>
+                  <div class="div1">$24,120</div>
+                  <a href="#" class="cta-button">More information</a>
+                </div>
               </div>
             </div>
-            <div class="card1-tech">
-              <div class="image-37-parent">
-                <img class="image-37-icon" alt="Philips Hue LED Lamp" src="asset/prop_2.jpg" />
-                <div class="moen-smart-shower">Philips Hue - LED Lamp</div>
-                <div class="div1">$279.99</div>
-                <a href="#" class="cta-button">More information</a>
-              </div>
-            </div>
-            <div class="card1-tech">
-              <div class="image-37-parent">
-                <img class="image-37-icon" alt="SunPower Solar Panels" src="asset/prop_3.jpg" />
-                <div class="moen-smart-shower">SunPower Maxeon Solar Panels</div>
-                <div class="div1">$24,120</div>
-                <a href="#" class="cta-button">More information</a>
-              </div>
-            </div>
-            <div class="card1-tech">
-              <div class="image-37-parent">
-                <img class="image-37-icon" alt="SunPower Solar Panels" src="asset/prop_3.jpg" />
-                <div class="moen-smart-shower">SunPower Maxeon Solar Panels</div>
-                <div class="div1">$24,120</div>
-                <a href="#" class="cta-button">More information</a>
-              </div>
-            </div>
-            <img class="search-button-icon" alt="Search Button" src="Search button.svg" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script>
-      const yellowAndGreenModernLogo = document.getElementById('yellowAndGreenModernLogo');
-      if (yellowAndGreenModernLogo) {
-        yellowAndGreenModernLogo.addEventListener('click', function (e) {
-          // Add your code here
-        });
-      }
-    </script>
+          
+            <button class="nav-button next-button">Next</button>
+          </section>
+          <script>('.next-button').addEventListener('click', function() {
+            // Logic untuk menampilkan card berikutnya
+          });
+          
+          document.querySelector('.prev-button').addEventListener('click', function() {
+            // Logic untuk menampilkan card sebelumnya
+          });</script>
+                    
   </body>
 </html>
