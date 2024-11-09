@@ -689,6 +689,14 @@ FOOTER
   text-align: center; /* Center text under image */
 }
 
+.image-37-parent {
+  display: flex;
+  flex-direction: column; /* Align elements vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center; /* Center text under image */
+}
+
 /* Konten kartu */
 .moen-smart-shower {
   font-size: 14px;
