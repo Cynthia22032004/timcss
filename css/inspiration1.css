@@ -97,15 +97,7 @@ body {
 	object-fit: cover;
 }
 
-/* eco house opening */
-.eco-house-guide {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-family: "Optician Sans";
-}
-
+/* 1 */
 .unsplashoypnyfdiqgg-parent {
 	margin-top: 75px;
 	align-items: center;
@@ -116,7 +108,13 @@ body {
 	font-size: 64px;
 	color: #fff;
 }
-
+.eco-house-guide {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: "Optician Sans";
+}
 .rectangle-div {
 	position: absolute;
 	top: 570px;
@@ -125,7 +123,6 @@ body {
 	width: 1200px;
 	height: 171px;
 }
-
 .instance-child {
 	position: absolute;
 	height: 100%;
@@ -138,7 +135,6 @@ body {
 	border-radius: 24px;
 	background-color: #455a2a;
 }
-
 .an-environmentally-friendly {
 	position: absolute;
 	top: 655px;
@@ -152,7 +148,7 @@ body {
 	font-size: 23px;
 }
 
-/* benefit */
+/* 2. benefit */
 .benefits-if-you {
 	position: absolute;
 	top: 850px;
@@ -161,7 +157,6 @@ body {
 	font-size: 40px;
 	font-family: "Optician Sans";
 }
-
 .card-bif-1,
 .card-bif-2,
 .card-bif-3,
@@ -174,7 +169,6 @@ body {
 	border-radius: 24px;
 	overflow: hidden;
 }
-
 .card-bif-1 {
 	top: 926px;
 	left: 160px;
@@ -199,13 +193,11 @@ body {
 	top: 926px;
 	left: 1165px;
 }
-
 .card-bif-1-child {
 	width: 100%; 
 	height: 100%; 
 	object-fit: cover; 
 }
-
 .card-bif-1-item {
 	position: absolute;
 	top: 0;
@@ -213,7 +205,6 @@ body {
 	width: 100%;
 	height: 100%;
 }
-
 .overlay {
 	position: absolute;
 	top: 0;
@@ -229,7 +220,6 @@ body {
 	transition: opacity 0.3s ease;
 	font-family: "Optician Sans";
 }
-
 .card-bif-1:hover .overlay,
 .card-bif-2:hover .overlay,
 .card-bif-3:hover .overlay,
@@ -238,14 +228,13 @@ body {
 .card-bif-6:hover .overlay {
 	opacity: 1; 
 }
-
 .text {
 	color: white;
 	font-size: 18px; /* Ukuran teks */
 	text-align: center;
 }
 
-/* environtment */
+/* 3. environtment */
 .environmentally-friendly-mater {
 	position: absolute;
 	top: 1400px;
@@ -253,7 +242,6 @@ body {
 	font-size: 40px;
 	font-family: "Optician Sans";
 }
-
 .frame-parent {
 	display: flex;
 	overflow-x: auto;
@@ -265,11 +253,9 @@ body {
 	cursor: grab;
 	width: 100vw;
 }
-
 .frame-parent.active {
 	cursor: grabbing;
 }
-
 .recycled-wood-1-parent {
 	flex: 0 0 auto;
 	width: 200px;
@@ -279,13 +265,11 @@ body {
 	position: relative;
 	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.549);
 }
-
 .recycled-wood-1-parent img {
 	width: 100%;
 	border-radius: 24px;
 	display: block;
 }
-
 .recycled-wood,
 .natural-insulation,
 .eco-friendly-paint,
@@ -305,7 +289,7 @@ body {
 	font-family: "Optician Sans";
 }
 
-/* renewable */
+/* 4. renewable */
 .renewable-energy-technologies {
 	position: absolute;
 	top: 1919px;
@@ -460,8 +444,8 @@ body {
 	font-family: Poppins;
 }
 
-/* DIY */
-.diy-and-inspiration {
+/* 5. DIY */
+.diy-title {
 	position: absolute;
 	top: 3514px;
 	left: 50%;
@@ -472,7 +456,7 @@ body {
 	text-align: center;
 	font-family: "Optician Sans";
 }
-.diy-projects {
+.diy-content {
 	display: grid;
 	gap: 60px;
 	padding: 10px;
@@ -481,24 +465,24 @@ body {
 }
 
 @media (min-width: 900px) {
-	.diy-projects {
+	.diy-content {
 		grid-template-columns: repeat(3, minmax(250px, 1fr));
 	}
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-	.diy-projects {
+	.diy-content {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
 @media (max-width: 599px) {
-	.diy-projects {
+	.diy-content {
 		grid-template-columns: 1fr;
 	}
 }
 
-.diy-project {
+.diy-vid {
 	background-color: #fff;
 	border-radius: 16px;
 	text-align: center;
@@ -510,17 +494,17 @@ body {
 	top: 2550px;
 }
 
-.diy-project:hover {
+.diy-vid:hover {
 	background-color: #739646;
 	color: #fff;
 }
-.diy-project img {
+.diy-vid img {
 	width: 100%;
 	height: auto;
 	display: block;
 	border-radius: 16px 16px 0 0; 
 }
-.diy-project h3 {
+.diy-vid h3 {
 	font-size: 24px;
 	margin: 10px 10px;
 	font-family: "Optician Sans";
@@ -580,7 +564,7 @@ body {
   color: #6ea54e;
 }
 
-
+/* footer */
 .yellow-and-green-modern-logo1 {
 	width: 168px;
 	position: relative;
