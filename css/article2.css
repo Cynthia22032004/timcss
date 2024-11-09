@@ -22,6 +22,7 @@
     padding-bottom: 5px;
   }
 
+  
   .nav {
     display: flex;
     align-items: center; /* Membuat elemen di dalamnya rata secara vertikal */
@@ -35,6 +36,11 @@
     text-decoration: none;
     color: #5c7838;
     transition: font-weight 0.3s ease, color 0.3s ease;
+  }
+
+  .nav a:hover {
+    font-weight: bold;
+    color: 5c7838;
   }
   
   .cta-button {
@@ -69,6 +75,7 @@
     margin-left: 20px; /* Memberikan jarak dari menu */
   }
 
+  
 .yellow-and-green-modern-logo {
     position: absolute;
     top: 0px;
@@ -411,13 +418,7 @@
     font-family: poppins;
     
 }
-.line {
-    width: 1px;
-    position: relative;
-    border-right: 1px solid rgba(0, 0, 0, 0.72);
-    box-sizing: border-box;
-    height: 13px;
-}
+
 .planradar {
     position: relative;
     line-height: 140%;
@@ -484,7 +485,7 @@
 }
 .spacexs-starship-spacecraft {
     position: absolute;
-    top: 75px;
+    top: 55px;
     left: 0px;
     font-size: 14px;
     line-height: 140%;
@@ -664,7 +665,7 @@ footer {
 .line1 {
     position: absolute;
     top: 1.5px;
-    left: 120.5px;
+    left: 120px;
     border-right: 1px solid rgba(0, 0, 0, 0.72);
     box-sizing: border-box;
     width: 1px;
@@ -673,14 +674,15 @@ footer {
 .mins-read {
     position: absolute;
     top: 0px;
-    left: 133px;
+    left: 140px;
     line-height: 140%;
+  
 }
 .category-and-est-read-time1 {
     position: absolute;
     top: 142px;
     left: 0px;
-    width: 196px;
+    width: 250px;
     height: 16px;
     font-size: 11px;
     color: rgba(0, 0, 0, 0.72);
@@ -712,7 +714,7 @@ footer {
 }
 .spacexs-starship-spacecraft-container {
     position: absolute;
-    top: 75px;
+    top: 55px;
     left: 0px;
     font-size: 14px;
     line-height: 140%;
@@ -802,20 +804,7 @@ footer {
     font-size: 14px;
     color: #fbfbfb;
 }
-.image-icon1 {
-    position: absolute;
-    height: 82.23%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 17.77%;
-    left: 0%;
-    border-radius: 24px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-}
+
 .research-institute-wins {
     position: absolute;
     top: 84.58%;
@@ -836,6 +825,8 @@ footer {
     height: 467px;
     font-family: 'Optician Sans';
 }
+
+
 .image-icon2 {
     position: absolute;
     height: 100%;
@@ -915,6 +906,7 @@ footer {
     font-size: 14px;
     line-height: 140%;
     text-align: center;
+    font-family: poppins;
 }
 .line13 {
     position: absolute;
@@ -981,4 +973,41 @@ footer {
     font-size: 24px;
     color: #000;
     font-family: Poppins;
+}
+
+.image-icon1 {
+    position: absolute;
+    height: 82.23%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 17.77%;
+    left: 0%;
+    border-radius: 24px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 24px;
+	background-color: rgba(0, 0, 0, 0.5); 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0; 
+	transition: opacity 0.3s ease;
+	font-family: "Optician Sans";
+}
+
+.text {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
 }
