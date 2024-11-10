@@ -456,7 +456,7 @@
     height: 282px;
     object-fit: cover;
 } */
-.color {
+/* .color {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -464,7 +464,9 @@
     width: 282px;
     height: 282px;
     mix-blend-mode: color;
-}
+    overflow: hidden;
+} */
+
 .image {
     width: 282px;
     position: relative;
