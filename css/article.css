@@ -1,638 +1,637 @@
 .article-child {
-    position: absolute;
-    top: 3774px;
-    left: 826px;
-    width: 740px;
-    height: 503px;
+  position: absolute;
+  top: 3774px;
+  left: 826px;
+  width: 740px;
+  height: 503px;
 }
 /* NAVBAR */
 .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-    position: fixed; /* Menjadikan navbar tetap di atas */
-    top: 0; /* Memastikan posisinya di bagian atas */
-    z-index: 1000; /* Memastikan berada di atas elemen lainnya */
-    padding-inline: 90px; /* Padding atas/bawah dan samping */
-    box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar total */
-    padding-bottom: 5px;
-  }
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Menjadikan navbar tetap di atas */
+  top: 0; /* Memastikan posisinya di bagian atas */
+  z-index: 1000; /* Memastikan berada di atas elemen lainnya */
+  padding-inline: 90px; /* Padding atas/bawah dan samping */
+  box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar total */
+  padding-bottom: 5px;
+}
 
-  .nav {
-    display: flex;
-    align-items: center; /* Membuat elemen di dalamnya rata secara vertikal */
-    gap: 70px; /* Mengatur jarak antar item di navbar */
-    font-size: 15px;
-    font-family: Poppins;
-    padding-top: 10px;
-  }
-  
-  .nav a {
-    text-decoration: none;
-    color: #5c7838;
-    transition: font-weight 0.3s ease, color 0.3s ease;
-  }
-  
-  .nav a:hover {
-    font-weight: bold;
-    color: #5c7838;
-  }
-  
-  .nav .login-button {
-    padding: 7px 20px;
-    background-color: #739646;
-    color: #fff;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 15px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px; /* Memberikan jarak dari menu */
-  }
+.nav {
+  display: flex;
+  align-items: center; /* Membuat elemen di dalamnya rata secara vertikal */
+  gap: 70px; /* Mengatur jarak antar item di navbar */
+  font-size: 15px;
+  font-family: Poppins;
+  padding-top: 10px;
+}
 
+.nav a {
+  text-decoration: none;
+  color: #5c7838;
+  transition: font-weight 0.3s ease, color 0.3s ease;
+}
+
+.nav a:hover {
+  font-weight: bold;
+  color: #5c7838;
+}
+
+.nav .login-button {
+  padding: 7px 20px;
+  background-color: #739646;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px; /* Memberikan jarak dari menu */
+}
 
 .yellow-and-green-modern-logo {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 284px;
-    height: 67px;
-    object-fit: cover;
-    cursor: pointer;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 284px;
+  height: 67px;
+  object-fit: cover;
+  cursor: pointer;
 }
 .label {
-    position: relative;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 .buttoncontent {
-    height: 24px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .buttoncontent-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .button {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
-    border-radius: 50px;
-    background-color: #fff;
-    width: 127px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 24px;
-    box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 127px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
 }
 .button1 {
-    position: absolute;
-    top: 0px;
-    left: 208px;
-    box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
-    border-radius: 50px;
-    background-color: #fff;
-    width: 127px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 24px;
-    box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  left: 208px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 127px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
 }
 .button2 {
-    position: absolute;
-    top: 0px;
-    left: 396px;
-    border-radius: 50px;
-    background-color: #fff;
-    width: 113px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 24px;
-    box-sizing: border-box;
-    font-size: 16px;
+  position: absolute;
+  top: 0px;
+  left: 396px;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 113px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 .buttonprimary {
-    position: absolute;
-    top: 0px;
-    left: 567px;
-    border-radius: 50px;
-    background-color: #739646;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 24px;
-    text-align: left;
-    font-size: 16px;
-    color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 567px;
+  border-radius: 50px;
+  background-color: #739646;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
 }
 .button-parent {
-    position: absolute;
-    top: 9.5px;
-    left: 547px;
-    width: 681px;
-    height: 48px;
+  position: absolute;
+  top: 9.5px;
+  left: 547px;
+  width: 681px;
+  height: 48px;
 }
 .yellow-and-green-modern-logo-parent {
-    position: absolute;
-    top: 22px;
-    left: 105px;
-    width: 1228px;
-    height: 67px;
+  position: absolute;
+  top: 22px;
+  left: 105px;
+  width: 1228px;
+  height: 67px;
 }
 .navbar {
-    position: absolute;
-    top: 0px;
-    left: calc(50% - 720px);
-    width: 1440px;
-    height: 111px;
-    text-align: center;
-    font-size: 14px;
-    color: #5c7838;
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 111px;
+  text-align: center;
+  font-size: 14px;
+  color: #5c7838;
 }
 .in-depth-articles-for {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.02em;
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
 }
 .explore-our-in-depth {
-    width: 615px;
-    position: relative;
-    font-size: 24px;
-    font-weight: 500;
-    font-family: Poppins;
-    display: inline-block;
+  width: 615px;
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Poppins;
+  display: inline-block;
 }
 .txt {
-    position: absolute;
-    top: 260px;
-    left: 120px;
-    width: 690px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 60px;
-    font-size: 64px;
-    font-family: 'Optician Sans';
+  position: absolute;
+  top: 260px;
+  left: 120px;
+  width: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+  font-size: 64px;
+  font-family: 'Optician Sans';
 }
 .icon {
-    position: absolute;
-    top: 260px;
-    left: 1116px;
-    border-radius: 24px;
-    width: 202px;
-    height: 460px;
-    overflow: hidden;
-    object-fit: cover;
+  position: absolute;
+  top: 260px;
+  left: 1116px;
+  border-radius: 24px;
+  width: 202px;
+  height: 460px;
+  overflow: hidden;
+  object-fit: cover;
 }
 .icon1 {
-    position: absolute;
-    top: 304px;
-    left: 834px;
-    border-radius: 24px;
-    width: 204px;
-    height: 460px;
-    overflow: hidden;
-    object-fit: cover;
+  position: absolute;
+  top: 304px;
+  left: 834px;
+  border-radius: 24px;
+  width: 204px;
+  height: 460px;
+  overflow: hidden;
+  object-fit: cover;
 }
 .article-item {
-    position: absolute;
-    top: 1199px;
-    left: 706px;
-    border-radius: 24px;
-    width: 204px;
-    height: 204px;
-    overflow: hidden;
-    object-fit: cover;
-    cursor: pointer;
+  position: absolute;
+  top: 1199px;
+  left: 706px;
+  border-radius: 24px;
+  width: 204px;
+  height: 204px;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
 }
 .icons-calendar {
-    width: 20px;
-    position: relative;
-    height: 20px;
-    overflow: hidden;
-    flex-shrink: 0;
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .calendar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
 }
 .advices {
-    position: relative;
-    line-height: 18px;
+  position: relative;
+  line-height: 18px;
 }
 .category {
-    display: none;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 15px;
-    font-size: 12px;
-    font-family: Lato;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  font-size: 12px;
+  font-family: Lato;
 }
 .danastra {
-    position: relative;
-    line-height: 140%;
+  position: relative;
+  line-height: 140%;
 }
 .bullets {
-    width: 420px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 30px;
+  width: 420px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
 }
 .eco-house-environmentally {
-    align-self: stretch;
-    position: relative;
-    font-size: 24px;
-    letter-spacing: -0.02em;
-    font-family: 'Optician Sans';
-    color: #333;
-    text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  color: #333;
+  text-decoration: none;
 }
 .headline {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 5px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
 }
 .have-you-ever {
-    align-self: stretch;
-    position: relative;
-    font-size: 14px;
-    line-height: 140%;
-    color: #333;
-    text-align: justify;
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333;
+  text-align: justify;
 }
 .text {
-    position: absolute;
-    top: 1199px;
-    left: 936px;
-    width: 382px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 11px;
-    cursor: pointer;
-    color: #656565;
+  position: absolute;
+  top: 1199px;
+  left: 936px;
+  width: 382px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+  cursor: pointer;
+  color: #656565;
 }
 .article-inner {
-    position: absolute;
-    top: 1456px;
-    left: 706px;
-    border-radius: 24px;
-    width: 204px;
-    height: 203px;
-    overflow: hidden;
-    object-fit: cover;
-    cursor: pointer;
+  position: absolute;
+  top: 1456px;
+  left: 706px;
+  border-radius: 24px;
+  width: 204px;
+  height: 203px;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
 }
 .text1 {
-    position: absolute;
-    top: 1455px;
-    left: 938px;
-    width: 379px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 10px;
-    cursor: pointer;
-    color: #656565;
+  position: absolute;
+  top: 1455px;
+  left: 938px;
+  width: 379px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  color: #656565;
 }
 .frame-icon {
-    position: absolute;
-    top: 1714px;
-    left: 707px;
-    border-radius: 24px;
-    width: 203px;
-    height: 201px;
-    overflow: hidden;
-    object-fit: cover;
-    cursor: pointer;
+  position: absolute;
+  top: 1714px;
+  left: 707px;
+  border-radius: 24px;
+  width: 203px;
+  height: 201px;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
 }
 .text2 {
-    position: absolute;
-    top: 1711px;
-    left: 936px;
-    width: 381px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 30px;
-    cursor: pointer;
-    color: #656565;
+  position: absolute;
+  top: 1711px;
+  left: 936px;
+  width: 381px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  cursor: pointer;
+  color: #656565;
 }
 .more-articles {
-    position: absolute;
-    top: 2294px;
-    left: 120px;
-    font-size: 64px;
-    letter-spacing: -0.02em;
-    font-family: 'Optician Sans';
-    display: inline-block;
-    width: 467px;
+  position: absolute;
+  top: 2294px;
+  left: 120px;
+  font-size: 64px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  display: inline-block;
+  width: 467px;
 }
 .img-icon {
-    position: absolute;
-    top: 2406px;
-    left: 121px;
-    border-radius: 32px;
-    width: 587px;
-    height: 345px;
-    overflow: hidden;
-    object-fit: cover;
-    cursor: pointer;
+  position: absolute;
+  top: 2406px;
+  left: 121px;
+  border-radius: 32px;
+  width: 587px;
+  height: 345px;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
 }
 .eco-greenhouses {
-    margin: 0;
+  margin: 0;
 }
 .title {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.02em;
-    color: inherit;
-    text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  color: inherit;
+  text-decoration: none;
 }
 .headline4 {
-    width: 585px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+  width: 585px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .bullets3 {
-    width: 585px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 60px;
-    font-size: 11px;
-    font-family: Poppins;
+  width: 585px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+  font-size: 11px;
+  font-family: Poppins;
 }
 .headline3 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
 }
 .our-age-is {
-    align-self: stretch;
-    position: relative;
-    font-size: 14px;
-    line-height: 140%;
-    font-family: Poppins;
-    text-align: justify;
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: Poppins;
+  text-align: justify;
 }
 .body {
-    position: absolute;
-    top: 2406px;
-    left: 735px;
-    width: 586px;
-    height: 345px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    cursor: pointer;
-    font-size: 40px;
-    font-family: 'Optician Sans';
+  position: absolute;
+  top: 2406px;
+  left: 735px;
+  width: 586px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 40px;
+  font-family: 'Optician Sans';
 }
 .title1 {
-    width: 574px;
-    position: relative;
-    letter-spacing: -0.02em;
-    color: inherit;
-    display: inline-block;
-    text-decoration: none;
+  width: 574px;
+  position: relative;
+  letter-spacing: -0.02em;
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
 }
 .headline6 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .body1 {
-    position: absolute;
-    top: 2816px;
-    left: 121px;
-    width: 587px;
-    height: 344px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    cursor: pointer;
-    font-size: 40px;
-    font-family: 'Optician Sans';
+  position: absolute;
+  top: 2816px;
+  left: 121px;
+  width: 587px;
+  height: 344px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 40px;
+  font-family: 'Optician Sans';
 }
 .img-icon1 {
-    position: absolute;
-    top: 2816px;
-    left: 735px;
-    border-radius: 32px;
-    width: 587px;
-    height: 345px;
-    overflow: hidden;
-    object-fit: cover;
-    cursor: pointer;
+  position: absolute;
+  top: 2816px;
+  left: 735px;
+  border-radius: 32px;
+  width: 587px;
+  height: 345px;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
 }
 .img-icon2 {
-    position: absolute;
-    top: 3226px;
-    left: 121px;
-    border-radius: 32px;
-    width: 587px;
-    height: 345px;
-    overflow: hidden;
-    object-fit: cover;
-    cursor: pointer;
+  position: absolute;
+  top: 3226px;
+  left: 121px;
+  border-radius: 32px;
+  width: 587px;
+  height: 345px;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
 }
 .healthy-living-can-container {
-    align-self: stretch;
-    position: relative;
-    font-size: 14px;
-    line-height: 140%;
-    text-align: justify;
-    display: inline-block;
-    height: 172px;
-    flex-shrink: 0;
-    font-family: Poppins;
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  display: inline-block;
+  height: 172px;
+  flex-shrink: 0;
+  font-family: Poppins;
 }
 .body2 {
-    position: absolute;
-    top: 3226px;
-    left: 737px;
-    width: 583px;
-    height: 344px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    cursor: pointer;
-    font-size: 40px;
-    font-family: 'Optician Sans';
+  position: absolute;
+  top: 3226px;
+  left: 737px;
+  width: 583px;
+  height: 344px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 40px;
+  font-family: 'Optician Sans';
 }
-.yellow-and-green-modern-logo1 {
-    width: 168px;
-    position: relative;
-    height: 32px;
-    object-fit: cover;
+.Logo {
+  width: 168px;
+  position: relative;
+  height: 32px;
+  object-fit: cover;
 }
 .we-provide-information {
-    position: absolute;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-    line-height: 140%;
-    display: inline-block;
-    opacity: 0.75;
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  line-height: 140%;
+  display: inline-block;
+  opacity: 0.75;
 }
 .brandicofacebook-icon {
-    width: 32px;
-    position: relative;
-    height: 32px;
-    overflow: hidden;
-    flex-shrink: 0;
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .brandicofacebook-parent {
-    position: absolute;
-    height: 25%;
-    width: 45%;
-    top: 75%;
-    right: 55%;
-    bottom: 0%;
-    left: 0%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 24px;
+  position: absolute;
+  height: 25%;
+  width: 45%;
+  top: 75%;
+  right: 55%;
+  bottom: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
 }
 .bio {
-    width: 320px;
-    position: relative;
-    height: 128px;
+  width: 320px;
+  position: relative;
+  height: 128px;
 }
-.yellow-and-green-modern-logo-group {
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 20px;
+.group-logo {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
 }
 .property1 {
-    width: 94px;
-    position: relative;
-    font-size: 16px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    display: inline-block;
-    color: #414958;
+  width: 94px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #414958;
 }
 .discover {
-    align-self: stretch;
-    position: relative;
-    font-weight: 500;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
 }
 .property {
-    width: 176px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 20px;
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
 }
 .article2 {
-    align-self: stretch;
-    position: relative;
-    font-size: 16px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #414958;
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #414958;
 }
 .eco-tech {
-    align-self: stretch;
-    position: relative;
-    text-transform: capitalize;
-    font-family: Lexend;
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+  font-family: Lexend;
 }
 .article1 {
-    width: 212px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 19px;
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px;
 }
 .contact {
-    width: 265px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 20px;
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
 }
 .property-parent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
 }
 .frame-wrapper {
-    width: 713px;
-    position: relative;
-    height: 168px;
-    text-align: left;
-    font-size: 14px;
+  width: 713px;
+  position: relative;
+  height: 168px;
+  text-align: left;
+  font-size: 14px;
 }
 .frame-parent {
-    position: absolute;
-    top: 3867px;
-    left: 120px;
-    width: 1209px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    text-align: justify;
-    color: #8694b4;
+  position: absolute;
+  top: 3867px;
+  left: 120px;
+  width: 1209px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: justify;
+  color: #8694b4;
 }
 /* .hover-more {
     position: absolute;
@@ -653,151 +652,149 @@
     color: #fbfbfb;
 } */
 .icon-more {
-    position: absolute;
-    top: 2311px;
-    left: 1287px;
-    width: 30.3px;
-    height: 30.3px;
+  position: absolute;
+  top: 2311px;
+  left: 1287px;
+  width: 30.3px;
+  height: 30.3px;
 }
 .eco-tech1 {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  text-transform: uppercase;
 }
 .article-categories {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 135px;
-    height: 24px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 135px;
+  height: 24px;
 }
 .article-categories1 {
-    position: absolute;
-    top: 0px;
-    left: 380px;
-    width: 132px;
-    height: 24px;
+  position: absolute;
+  top: 0px;
+  left: 380px;
+  width: 132px;
+  height: 24px;
 }
 .article-categories2 {
-    position: absolute;
-    top: 0px;
-    left: 757px;
-    width: 113px;
-    height: 24px;
+  position: absolute;
+  top: 0px;
+  left: 757px;
+  width: 113px;
+  height: 24px;
 }
 .article-categories3 {
-    position: absolute;
-    top: 0px;
-    left: 1116px;
-    width: 82px;
-    height: 24px;
+  position: absolute;
+  top: 0px;
+  left: 1116px;
+  width: 82px;
+  height: 24px;
 }
 .article-categories-parent {
-    position: absolute;
-    top: calc(50% - 977px);
-    left: calc(50% - 600px);
-    width: 1198px;
-    height: 24px;
-    cursor: pointer;
-    font-size: 16px;
-    color: #000;
+  position: absolute;
+  top: calc(50% - 977px);
+  left: calc(50% - 600px);
+  width: 1198px;
+  height: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #000;
 }
 .the-concept-of-green {
-    align-self: stretch;
-    position: relative;
-    font-size: 14px;
-    line-height: 140%;
-    font-family: Poppins;
-    display: inline-block;
-    height: 48px;
-    flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: Poppins;
+  display: inline-block;
+  height: 48px;
+  flex-shrink: 0;
 }
 .title3 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 15px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
 }
 .bullets6 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 60px;
-    font-size: 11px;
-    font-family: Poppins;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+  font-size: 11px;
+  font-family: Poppins;
 }
 .content {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    gap: 30px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 30px;
 }
 
 #newsContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
-  
-  .text-content {
-    flex: 1;
-  }
-  
-  .image-content {
-    flex: 0 0 400px; /* Tentukan ukuran lebar gambar */
-  }
-  
-  .eco-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-.news {
-    position: absolute;
-    top: 1200px;
-    left: 123px;
-    border-radius: 24px;
-    width: 510px;
-    height: 716px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 30px;
-    box-sizing: border-box;
-    background-image: url('./asset/imgarticle3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    cursor: pointer;
-    font-size: 24px;
-    color: #fff;
-    font-family: 'Optician Sans';
-}
-.article {
-    width: 100%;
-    position: relative;
-    background-color: #fff;
-    height: 4136px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 11px;
-    color: #333;
-    font-family: Poppins;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.image-content {
+  flex: 0 0 400px; /* Tentukan ukuran lebar gambar */
+}
+
+.eco-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.news {
+  position: absolute;
+  top: 1200px;
+  left: 123px;
+  border-radius: 24px;
+  width: 510px;
+  height: 716px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 30px;
+  box-sizing: border-box;
+  /* background-image: url('./asset/imgarticle3.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Optician Sans';
+}
+.article {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 4136px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 11px;
+  color: #333;
+  font-family: Poppins;
+}
