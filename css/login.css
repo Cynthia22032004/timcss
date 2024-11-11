@@ -19,6 +19,7 @@
             background-size: cover;
         }
 
+        /* Navbar */
         .header {
             width: 100%;
             display: flex;
@@ -29,40 +30,55 @@
             position: fixed; /* Menjadikan navbar tetap di atas */
             top: 0; /* Memastikan posisinya di bagian atas */
             z-index: 1000; /* Memastikan berada di atas elemen lainnya */
-            padding-inline: 90px;
+            padding-inline: 90px; /* Padding atas/bawah dan samping */
+            box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar total */
+            padding-bottom: 5px;
         }
-
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
         .logo {
             font-size: 24px;
             font-weight: bold;
             color: #7fbf7f;
         }
-
+        
         .nav {
             display: flex;
-            gap: 90px;
+            align-items: center; /* Membuat elemen di dalamnya rata secara vertikal */
+            gap: 70px; /* Mengatur jarak antar item di navbar */
             font-size: 15px;
-            padding-left: 7cm;
+            font-family: Poppins;
+            padding-top: 10px;
         }
         
         .nav a {
             text-decoration: none;
-            color: #5C7838;
+            color: #5c7838;
+            transition: font-weight 0.3s ease, color 0.3s ease;
         }
         
-        .nav a:hover{
-            font-weight: bolder;
+        .nav a:hover {
+            font-weight: bold;
             color: #5c7838;
         }
         
-        .login-button {
-            padding: 8px 20px;
+        .nav .login-button {
+            padding: 7px 20px;
             background-color: #739646;
             color: #fff;
             border-radius: 20px;
             text-decoration: none;
             font-size: 15px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 20px; /* Memberikan jarak dari menu */
         }
+
 
         /* Spasi untuk mengimbangi header tetap */
         .content-spacing {
