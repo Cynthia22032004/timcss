@@ -463,7 +463,22 @@
     
 }
 
-.image-1 {
+.image-1,
+.image-2,
+.image-3,
+.image-4,
+.image-5,
+.image-6,
+.image-7,
+.image-8,
+.image-9,
+.image-10,
+.image-11,
+.image-12,
+.image-13,
+.image-14,
+.image-15,
+.image-16{
     width: 282px;
     position: relative;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
@@ -472,13 +487,45 @@
     overflow: hidden;
 }
 
-.image-1 .overlay {
+.image-1 .overlay,
+.image-2 .overlay,
+.image-3 .overlay,
+.image-4 .overlay,
+.image-5 .overlay,
+.image-6 .overlay,
+.image-7 .overlay,
+.image-8 .overlay,
+.image-9 .overlay,
+.image-10 .overlay,
+.image-11 .overlay,
+.image-12 .overlay,
+.image-13 .overlay,
+.image-14 .overlay,
+.image-15 .overlay,
+.image-16 .overlay {
     opacity: 0;
 }
 
-.image-1 .overlay:hover {
+.image-1 .overlay:hover,
+.image-2 .overlay:hover,
+.image-3 .overlay:hover,
+.image-4 .overlay:hover,
+.image-5 .overlay:hover,
+.image-6 .overlay:hover,
+.image-7 .overlay:hover,
+.image-8 .overlay:hover,
+.image-9 .overlay:hover,
+.image-10 .overlay:hover,
+.image-11 .overlay:hover,
+.image-12 .overlay:hover,
+.image-13 .overlay:hover,
+.image-14 .overlay:hover,
+.image-15 .overlay:hover,
+.image-16 .overlay:hover{
     opacity: 1;
 }
+
+
 
 .long-march-9 {
     position: absolute;
