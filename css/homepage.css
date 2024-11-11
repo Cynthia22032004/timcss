@@ -1,70 +1,71 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* asset */
 .vector-icon {
-	position: absolute;
-	top: 307px;
-	left: 947px;
-	width: 758.8px;
-	height: 636px;
-	object-fit: contain;
-	opacity: 0.3;
+  position: absolute;
+  top: 307px;
+  left: 947px;
+  width: 758.8px;
+  height: 636px;
+  object-fit: contain;
+  opacity: 0.3;
 }
 .color-blur-icon {
-	position: absolute;
-	top: 319px;
-	left: 563px;
-	width: 1002.2px;
-	height: 976.7px;
-	object-fit: contain;
+  position: absolute;
+  top: 319px;
+  left: 563px;
+  width: 1002.2px;
+  height: 976.7px;
+  object-fit: contain;
 }
 .vector-icon2 {
-	position: absolute;
-	top: 1219px;
-	left: 15px;
-	width: 758.8px;
-	height: 636px;
-	object-fit: contain;
-	opacity: 0.3;
+  position: absolute;
+  top: 1219px;
+  left: 15px;
+  width: 758.8px;
+  height: 636px;
+  object-fit: contain;
+  opacity: 0.3;
 }
 .vector-icon3 {
-	position: absolute;
-	top: 1294px;
-	left: 33px;
-	width: 1173.7px;
-	height: 640.2px;
-	object-fit: contain;
-	opacity: 0.3;
+  position: absolute;
+  top: 1294px;
+  left: 33px;
+  width: 1173.7px;
+  height: 640.2px;
+  object-fit: contain;
+  opacity: 0.3;
 }
 
 .home-page {
-	width: 100%;
-	position: relative;
-	background-color: #fff;
-	height: 3443px;
-	overflow: hidden;
-	text-align: left;
-	font-size: 16px;
-	color: #000;
-	font-family: Poppins;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 3443px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Poppins;
 }
 
 body {
-	font-family: Arial, sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	min-height: 100vh;
-	background-color: #f5f5f5;
-	overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
 }
 /* Navbar */
 .header {
+
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -124,71 +125,73 @@ body {
   }
 
 
+
+
 /* 1 */
 
 .home-page-item {
-	position: absolute;
-	top: 217px;
-	left: 960px;
-	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-	backdrop-filter: blur(5px);
-	border-radius: 50px;
-	background-color: rgba(255, 255, 255, 0.25);
-	border: 1px solid rgba(255, 255, 255, 0.36);
-	box-sizing: border-box;
-	width: 466px;
-	height: 568px;
+  position: absolute;
+  top: 217px;
+  left: 960px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  box-sizing: border-box;
+  width: 466px;
+  height: 568px;
 }
 .home-page-icon {
-	position: absolute;
-	left: 925px;
-	height: 1000px;
-	object-fit: cover;
-	border-radius: 15px;
+  position: absolute;
+  left: 925px;
+  height: 1000px;
+  object-fit: cover;
+  border-radius: 15px;
 }
 .smart-living-greener {
-	position: absolute;
-	top: 330px;
-	left: 100px;
-	font-size: 64px;
-	letter-spacing: -0.02em;
-	font-family: "Optician Sans";
-	display: inline-block;
-	width: 588px;
+  position: absolute;
+  top: 330px;
+  left: 100px;
+  font-size: 64px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  display: inline-block;
+  width: 588px;
 }
 .at-ecosmophere {
-	position: absolute;
-	top: 490px;
-	left: 100px;
-	font-size: 24px;
-	font-weight: 500;
-	text-align: justify;
-	display: flex;
-	align-items: center;
-	width: 585px;
+  position: absolute;
+  top: 490px;
+  left: 100px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  width: 585px;
 }
 .hover-more {
-	overflow: hidden;
-	position: relative;
-	top: 760px;
-	left: 100px;
+  overflow: hidden;
+  position: relative;
+  top: 760px;
+  left: 100px;
 }
 .cta-button {
-	background-color: #739646;
-	color: #fff;
-	padding: 7px 100px;
-	border-radius: 50px;
-	text-decoration: none;
-	font-size: 18px;
-	border: 2px solid #739646;
-	transition: background-color 0.3s ease, color 0.3s ease;
-	font-family: "Poppins", sans-serif;
-	display: inline-block;
+  background-color: #739646;
+  color: #fff;
+  padding: 7px 100px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid #739646;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
 }
 
 .cta-button:hover {
-	background-color: #fff;
-	color: #6ea54e;
+  background-color: #fff;
+  color: #6ea54e;
 }
 
 /* .contact-now {
@@ -220,163 +223,163 @@ body {
 
 /* 2 */
 .about-us {
-	position: absolute;
-	top: 1282px;
-	left: 770px;
-	font-size: 64px;
-	letter-spacing: -0.02em;
-	font-family: "Optician Sans";
+  position: absolute;
+  top: 1282px;
+  left: 770px;
+  font-size: 64px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
 }
 .detail-about-us {
-	position: absolute;
-	top: 1375px;
-	left: 770px;
-	font-size: 24px;
-	font-weight: 500;
-	text-align: justify;
-	display: inline-block;
-	width: 552px;
-	height: 370px;
+  position: absolute;
+  top: 1375px;
+  left: 770px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: justify;
+  display: inline-block;
+  width: 552px;
+  height: 370px;
 }
 .frame-type-1 {
-	position: absolute;
-	top: 1281px;
-	left: 105px;
-	border-radius: 8px;
-	width: 280px;
-	height: 257px;
-	overflow: hidden;
+  position: absolute;
+  top: 1281px;
+  left: 105px;
+  border-radius: 8px;
+  width: 280px;
+  height: 257px;
+  overflow: hidden;
 }
 .about-us-1 {
-	position: absolute;
-	object-fit: cover;
+  position: absolute;
+  object-fit: cover;
 }
 .frame-type-2 {
-	position: absolute;
-	top: 1282px;
-	left: 420px;
-	border-radius: 8px;
-	width: 282px;
-	height: 325px;
-	overflow: hidden;
+  position: absolute;
+  top: 1282px;
+  left: 420px;
+  border-radius: 8px;
+  width: 282px;
+  height: 325px;
+  overflow: hidden;
 }
 .about-us-2 {
-	position: absolute;
-	object-fit: cover;
+  position: absolute;
+  object-fit: cover;
 }
 .frame-type-3 {
-	position: absolute;
-	top: 1560px;
-	left: 105px;
-	border-radius: 8px;
-	width: 282px;
-	height: 325px;
-	overflow: hidden;
+  position: absolute;
+  top: 1560px;
+  left: 105px;
+  border-radius: 8px;
+  width: 282px;
+  height: 325px;
+  overflow: hidden;
 }
 .about-us-3 {
-	position: absolute;
-	object-fit: cover;
+  position: absolute;
+  object-fit: cover;
 }
 .frame-type-4 {
-	position: absolute;
-	top: 1629px;
-	left: 420px;
-	border-radius: 8px;
-	width: 279px;
-	height: 256px;
+  position: absolute;
+  top: 1629px;
+  left: 420px;
+  border-radius: 8px;
+  width: 279px;
+  height: 256px;
 }
 .about-us-4 {
-	position: absolute;
-	object-fit: cover;
+  position: absolute;
+  object-fit: cover;
 }
 
 /* 3 */
 .section-3 {
-	position: absolute;
-	top: 2465px;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 1200px;
-	height: 716px;
-	color: #1b1c57;
+  position: absolute;
+  top: 2465px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 716px;
+  color: #1b1c57;
 }
 .title {
-	position: absolute;
-	top: 120px;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 548px;
-	height: 125px;
-	text-align: center;
-	font-size: 40px;
-	font-family: "Optician Sans";
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 548px;
+  height: 125px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Optician Sans';
 }
 .title1 {
-	position: absolute;
-	top: 0px;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 548px;
-	height: 125px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 548px;
+  height: 125px;
 }
 .title-up {
-	position: absolute;
-	top: 0px;
-	left: 100px;
-	width: 348px;
-	height: 33px;
-	font-size: 24px;
-	color: #000;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  width: 348px;
+  height: 33px;
+  font-size: 24px;
+  color: #000;
 }
 .title-up-caption {
-	position: absolute;
-	top: 9px;
-	left: 0px;
-	letter-spacing: -0.02em;
+  position: absolute;
+  top: 9px;
+  left: 0px;
+  letter-spacing: -0.02em;
 }
 .title-acc {
-	position: absolute;
-	top: 0px;
-	left: 155px;
-	background-color: #000;
-	width: 32px;
-	height: 1px;
+  position: absolute;
+  top: 0px;
+  left: 155px;
+  background-color: #000;
+  width: 32px;
+  height: 1px;
 }
 .title-down {
-	position: absolute;
-	top: 85px;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	letter-spacing: -0.02em;
-	display: inline-block;
-	width: 548px;
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 548px;
 }
 
 .left-side {
-	position: absolute;
-	top: 196px;
-	left: 0px;
-	width: 572px;
-	height: 520px;
+  position: absolute;
+  top: 196px;
+  left: 0px;
+  width: 572px;
+  height: 520px;
 }
 .article-1 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
-	gap: 32px;
-	cursor: pointer;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  cursor: pointer;
 }
 .article-content {
-	width: 340px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	gap: 16px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
 }
 /* .article-title {
 	align-self: stretch;
@@ -386,20 +389,20 @@ body {
 	justify-content: flex-start;
 } */
 .article-title {
-	align-self: stretch;
-	position: relative;
-	line-height: 140%;
-	font-weight: 500;
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
 }
 .article-time {
-	align-self: stretch;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
-	gap: 12px;
-	font-size: 14px;
-	color: #888b97;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 14px;
+  color: #888b97;
 }
 /* .clock-icon {
 	width: 24px;
@@ -415,83 +418,83 @@ body {
 	font-weight: 500;
 } */
 .article-2 {
-	position: absolute;
-	top: 188px;
-	left: 0px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
-	gap: 32px;
-	cursor: pointer;
+  position: absolute;
+  top: 188px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  cursor: pointer;
 }
 .article-3 {
-	position: absolute;
-	top: 376px;
-	left: 0px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
-	gap: 32px;
-	cursor: pointer;
+  position: absolute;
+  top: 376px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  cursor: pointer;
 }
 .right-side {
-	position: absolute;
-	top: 198px;
-	left: 640px;
-	width: 560px;
-	height: 500px;
+  position: absolute;
+  top: 198px;
+  left: 640px;
+  width: 560px;
+  height: 500px;
 }
 .article-4 {
-	position: absolute;
-	top: 304px;
-	left: 0px;
-	width: 560px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	gap: 16px;
+  position: absolute;
+  top: 304px;
+  left: 0px;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
 }
 .article-4-content {
-	align-self: stretch;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	gap: 12px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
 }
 .article-4-desc {
-	align-self: stretch;
-	position: relative;
-	font-size: 14px;
-	line-height: 140%;
-	font-weight: 500;
-	color: #626687;
-	opacity: 0.75;
-	text-align: justify;
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  color: #626687;
+  opacity: 0.75;
+  text-align: justify;
 }
 .click-me {
-	overflow: hidden;
-	position: absolute;
-	top: 2820px;
-	left: 800px;
+  overflow: hidden;
+  position: absolute;
+  top: 2820px;
+  left: 800px;
 }
 .cta-button-2 {
-	background-color: #739646;
-	color: #fff;
-	padding: 12px 24px;
-	border-radius: 50px;
-	text-decoration: none;
-	font-size: 18px;
-	border: 2px solid #739646;
-	transition: background-color 0.3s ease, color 0.3s ease;
-	font-family: "Poppins", sans-serif;
-	display: flex;
-	width: 560px;
-	align-items: center;
-	justify-content: center;
+  background-color: #739646;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid #739646;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  width: 560px;
+  align-items: center;
+  justify-content: center;
 }
 .cta-button-2:hover {
   background-color: #fff;
@@ -517,6 +520,7 @@ body {
 	color: #fff;
 } */
 
+ 
 footer {
 	background-color: #ffffff;
 	padding: 0px 100px;
@@ -665,3 +669,601 @@ footer {
   .social-icons a:hover {
 	color: #0084b4; /* Warna biru lebih gelap saat hover */
   }
+
+/* footer */
+.home-page-child {
+  position: absolute;
+  top: 3092px;
+  left: 840px;
+  width: 747px;
+  height: 513px;
+}
+.yellow-and-green-modern-logo1 {
+  width: 168px;
+  position: relative;
+  height: 32px;
+  object-fit: cover;
+}
+.we-provide-information {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  line-height: 140%;
+  display: inline-block;
+  opacity: 0.75;
+}
+.brandicofacebook-icon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brandicofacebook-parent {
+  position: absolute;
+  height: 25%;
+  width: 45%;
+  top: 75%;
+  right: 55%;
+  bottom: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.bio {
+  width: 320px;
+  position: relative;
+  height: 128px;
+}
+.yellow-and-green-modern-logo-group {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.property1 {
+  width: 94px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #414958;
+}
+.discover {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.property {
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.article1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #414958;
+}
+.eco-tech {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+  font-family: Lexend;
+}
+.article {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px;
+}
+.contact {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.property-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+.frame-wrapper {
+  width: 713px;
+  position: relative;
+  height: 168px;
+  text-align: left;
+  font-size: 14px;
+}
+.frame-parent {
+  position: absolute;
+  top: 3136px;
+  left: calc(50% - 597px);
+  width: 1209px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: justify;
+  font-size: 11px;
+  color: #8694b4;
+}
+.vector-icon1 {
+  position: absolute;
+  top: 112px;
+  left: 1079px;
+  width: 758.8px;
+  height: 636px;
+  object-fit: contain;
+  opacity: 0.03;
+}
+.home-page-item {
+  position: absolute;
+  top: 298px;
+  left: 857px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  box-sizing: border-box;
+  width: 466px;
+  height: 568px;
+}
+.smart-living-greener {
+  position: absolute;
+  top: 377px;
+  left: calc(50% - 600px);
+  font-size: 64px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  display: inline-block;
+  width: 588px;
+}
+.at-ecosmophere-we {
+  position: absolute;
+  top: 536px;
+  left: calc(50% - 597px);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  width: 585px;
+}
+.contact-now {
+  flex: 1;
+  border-radius: 32px;
+  background-color: #739646;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+}
+.contact-now-wrapper {
+  position: absolute;
+  top: 798px;
+  left: calc(50% - 606px);
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #fff;
+}
+.vector-icon2 {
+  position: absolute;
+  top: 1219px;
+  left: 15px;
+  width: 758.8px;
+  height: 636px;
+  object-fit: contain;
+  opacity: 0.3;
+}
+.frame-child {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background-color: #d9d9d9;
+  width: 279px;
+  height: 256px;
+}
+.unsplashianadanu7mg-icon {
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  width: 280px;
+  height: 257px;
+  object-fit: cover;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 1281px;
+  left: 125px;
+  border-radius: 8px;
+  width: 280px;
+  height: 257px;
+  overflow: hidden;
+}
+.frame-item {
+  position: absolute;
+  top: -278px;
+  left: 309px;
+  background-color: #fff;
+  width: 282px;
+  height: 325px;
+  overflow: hidden;
+}
+.frame-inner {
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  background-color: #d9d9d9;
+  width: 279px;
+  height: 325px;
+}
+.unsplashewkxn5capa4-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 282px;
+  height: 325px;
+  object-fit: cover;
+}
+.frame-group {
+  position: absolute;
+  top: 1282px;
+  left: 435px;
+  border-radius: 8px;
+  width: 282px;
+  height: 325px;
+  overflow: hidden;
+}
+.about-us {
+  position: absolute;
+  top: 1282px;
+  left: 771px;
+  font-size: 64px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+}
+.vector-icon3 {
+  position: absolute;
+  top: 1294px;
+  left: 33px;
+  width: 1173.7px;
+  height: 640.2px;
+  object-fit: contain;
+  opacity: 0.3;
+}
+.ecosmophere-was-founded {
+  position: absolute;
+  top: 1375px;
+  left: 771px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: justify;
+  display: inline-block;
+  width: 552px;
+  height: 370px;
+}
+.download-1-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  object-fit: cover;
+}
+.frame-container {
+  position: absolute;
+  top: 1560px;
+  left: 123px;
+  border-radius: 8px;
+  width: 282px;
+  height: 325px;
+  overflow: hidden;
+}
+.frame-child1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 8px;
+  background-color: #d9d9d9;
+  width: 279px;
+  height: 256px;
+}
+.unsplashwzp3ynv9t-u-icon {
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  border-radius: 8px;
+  width: 276px;
+  height: 256px;
+  object-fit: cover;
+}
+.rectangle-group {
+  position: absolute;
+  top: 1629px;
+  left: 435px;
+  border-radius: 8px;
+  width: 279px;
+  height: 256px;
+}
+.vector-icon4 {
+  position: absolute;
+  top: 2080px;
+  left: -146px;
+  width: 494px;
+  height: 438px;
+  object-fit: contain;
+  opacity: 0.3;
+}
+.rectangle-icon {
+  width: 200px;
+  position: relative;
+  border-radius: 16px;
+  height: 144px;
+  object-fit: cover;
+}
+.beginners-guide-to {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+}
+.beginners-guide-to-installing-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icround-access-time-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.powerstarelectricals-oct {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+}
+.icround-access-time-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 14px;
+  color: #888b97;
+}
+.frame-parent1 {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  cursor: pointer;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 188px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  cursor: pointer;
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 376px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  cursor: pointer;
+}
+.col-1 {
+  position: absolute;
+  top: 196px;
+  left: 0px;
+  width: 572px;
+  height: 520px;
+}
+.col-2-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 16px;
+  width: 560px;
+  height: 280px;
+  object-fit: cover;
+}
+.inexpensive-ideas-to {
+  align-self: stretch;
+  position: relative;
+}
+.many-assume-that {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+  color: #626687;
+  opacity: 0.75;
+}
+.inexpensive-ideas-to-make-your-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.frame-parent4 {
+  position: absolute;
+  top: 304px;
+  left: 0px;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.col-2 {
+  position: absolute;
+  top: 198px;
+  left: 640px;
+  width: 560px;
+  height: 500px;
+}
+.explore-articles-to {
+  position: absolute;
+  top: 45px;
+  left: calc(50% - 274px);
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 548px;
+}
+.find-knowledge-that {
+  position: absolute;
+  top: 9px;
+  left: 0px;
+  letter-spacing: -0.02em;
+}
+.group-child {
+  position: absolute;
+  top: 0px;
+  left: 155px;
+  background-color: #000;
+  width: 32px;
+  height: 1px;
+}
+.find-knowledge-that-matters-parent {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  width: 348px;
+  height: 33px;
+  font-size: 24px;
+  color: #000;
+}
+.title1 {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 274px);
+  width: 548px;
+  height: 125px;
+}
+.title {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 286px);
+  width: 548px;
+  height: 125px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Optician Sans';
+}
+.section-6 {
+  position: absolute;
+  top: 2104px;
+  left: 123px;
+  width: 1200px;
+  height: 716px;
+  color: #1b1c57;
+}
+.vector-icon5 {
+  position: absolute;
+  top: 2337px;
+  left: -118px;
+  width: 494px;
+  height: 438px;
+  object-fit: contain;
+  opacity: 0.3;
+}
+.buttonprimary1 {
+  position: absolute;
+  top: 2820px;
+  left: 763px;
+  box-shadow: 0px -1px 0px rgba(14, 14, 44, 0.4) inset, 0px 6px 2px -4px rgba(14, 14, 44, 0.1);
+  border-radius: 50px;
+  background-color: #739646;
+  width: 560px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #fff;
+}
+.file-1-icon {
+  position: absolute;
+  top: 213px;
+  left: 847px;
+  width: 479px;
+  height: 698px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.home-page {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 3443px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Poppins;
+}
+

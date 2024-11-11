@@ -1,0 +1,611 @@
+.navbar-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  width: 1440px;
+  height: 111px;
+}
+.yellow-and-green-modern-logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 284px;
+  height: 67px;
+  object-fit: cover;
+}
+.label {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.buttoncontent {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttoncontent-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button {
+  position: absolute;
+  top: -0.5px;
+  left: -154px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 127px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+.button1 {
+  position: absolute;
+  top: -0.5px;
+  left: 33px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 127px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+.button2 {
+  position: absolute;
+  top: -0.5px;
+  left: 220px;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 113px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+.button3 {
+  position: absolute;
+  top: -0.5px;
+  left: 393px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 113px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.buttonprimary {
+  position: absolute;
+  top: 0px;
+  left: 567px;
+  border-radius: 50px;
+  background-color: #739646;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+}
+.button-parent {
+  position: absolute;
+  top: 9.5px;
+  left: 547px;
+  width: 681px;
+  height: 48px;
+}
+.yellow-and-green-modern-logo-parent {
+  position: absolute;
+  top: 22px;
+  left: 105px;
+  width: 1228px;
+  height: 67px;
+}
+.navbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 111px;
+  text-align: center;
+  font-size: 14px;
+  color: #5c7838;
+}
+.frame-child {
+  width: 65px;
+  position: relative;
+  border-radius: 50%;
+  height: 65px;
+  object-fit: cover;
+}
+.muhammad-sumbul {
+  position: relative;
+}
+.min-read {
+  position: relative;
+  font-size: 11px;
+  line-height: 140%;
+}
+.muhammad-sumbul-parent {
+  width: 264px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 321px;
+  left: 223px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 37px;
+}
+.starting-my-eco-home {
+  position: absolute;
+  top: 190px;
+  left: calc(50% - 497px);
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  color: #171e0e;
+  text-align: justify;
+  display: inline-block;
+  width: 998px;
+}
+.back-icon {
+  position: absolute;
+  top: 203px;
+  left: 140px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frame-item {
+  width: 996px;
+  position: relative;
+  height: 1px;
+  object-fit: contain;
+}
+.love-icon {
+  width: 32px;
+  position: relative;
+  height: 24px;
+  object-fit: cover;
+}
+.div {
+  width: 35px;
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  height: 19.2px;
+  flex-shrink: 0;
+}
+.chat-message-icon {
+  width: 33px;
+  position: relative;
+  height: 24px;
+  object-fit: cover;
+}
+.div1 {
+  width: 16px;
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  height: 23px;
+  flex-shrink: 0;
+}
+.chat-message-parent {
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 39px;
+}
+.more-icon {
+  width: 26px;
+  position: relative;
+  height: 26px;
+  object-fit: cover;
+}
+.frame-inner {
+  width: 997px;
+  position: relative;
+  border-top: 1px solid #8694b4;
+  box-sizing: border-box;
+  height: 1px;
+}
+.line-parent {
+  position: absolute;
+  top: 1787px;
+  left: calc(50% - 496px);
+  width: 996px;
+  height: 77px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 20px 791px;
+  text-align: justify;
+}
+.rectangle-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 12px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 444px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.hello-ecosphere-community {
+  margin: 0;
+}
+.hello-ecosphere-community-container {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 439px;
+  left: calc(50% - 495px);
+  width: 994px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 95px;
+  text-align: justify;
+  font-size: 24px;
+}
+.forum-page-2-child {
+  position: absolute;
+  top: 2098px;
+  left: 225px;
+  width: 996px;
+  height: 1px;
+  object-fit: contain;
+}
+.forum-page-2-item {
+  position: absolute;
+  top: 2312px;
+  left: 225px;
+  width: 996px;
+  height: 1px;
+  object-fit: contain;
+}
+.forum-page-2-inner {
+  position: absolute;
+  top: 2549px;
+  left: 225px;
+  width: 996px;
+  height: 1px;
+  object-fit: contain;
+}
+.line-icon {
+  position: absolute;
+  top: 2767px;
+  left: 225px;
+  width: 996px;
+  height: 1px;
+  object-fit: contain;
+}
+.more-icon1 {
+  position: absolute;
+  top: 8px;
+  left: 958px;
+  width: 26px;
+  height: 26px;
+  object-fit: cover;
+}
+.group-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.alexandra {
+  position: absolute;
+  top: 3px;
+  left: 66px;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  width: 254px;
+}
+.aug-04-2024 {
+  position: absolute;
+  top: 35px;
+  left: 66px;
+  font-size: 11px;
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.72);
+  display: inline-block;
+  width: 136px;
+}
+.group-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 320px;
+  height: 50px;
+}
+.hi-i-just {
+  position: absolute;
+  top: 75px;
+  left: 66px;
+  line-height: 140%;
+  font-weight: 500;
+  text-align: justify;
+  display: inline-block;
+  width: 931px;
+}
+.more-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 997px;
+  height: 141px;
+}
+.reply {
+  position: absolute;
+  top: 165px;
+  right: 901px;
+  font-size: 11px;
+  line-height: 140%;
+}
+.group-parent {
+  position: absolute;
+  top: 1893px;
+  left: 224px;
+  width: 997px;
+  height: 180px;
+}
+.more-group {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 997px;
+  height: 119px;
+}
+.reply1 {
+  position: absolute;
+  top: 140px;
+  right: 901px;
+  font-size: 11px;
+  line-height: 140%;
+}
+.group-container {
+  position: absolute;
+  top: 2128px;
+  left: 224px;
+  width: 997px;
+  height: 155px;
+}
+.reply2 {
+  position: absolute;
+  top: 163px;
+  right: 901px;
+  font-size: 11px;
+  line-height: 140%;
+}
+.group-div {
+  position: absolute;
+  top: 2342px;
+  left: 225px;
+  width: 997px;
+  height: 178px;
+}
+.reply3 {
+  position: absolute;
+  top: 144px;
+  right: 901px;
+  font-size: 11px;
+  line-height: 140%;
+}
+.group-parent1 {
+  position: absolute;
+  top: 2579px;
+  left: 225px;
+  width: 997px;
+  height: 159px;
+}
+.group-icon {
+  position: absolute;
+  top: 0px;
+  left: 706px;
+  width: 740px;
+  height: 537px;
+}
+.yellow-and-green-modern-logo1 {
+  width: 168px;
+  position: relative;
+  height: 32px;
+  object-fit: cover;
+}
+.we-provide-information {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  line-height: 140%;
+  display: inline-block;
+  opacity: 0.75;
+}
+.brandicofacebook-icon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brandicofacebook-parent {
+  position: absolute;
+  height: 25%;
+  width: 45%;
+  top: 75%;
+  right: 55%;
+  bottom: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.bio {
+  width: 320px;
+  position: relative;
+  height: 128px;
+}
+.yellow-and-green-modern-logo-group {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.property1 {
+  width: 94px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #414958;
+}
+.property {
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.article1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #414958;
+}
+.eco-tech {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+  font-family: Lexend;
+}
+.article {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px;
+}
+.contact {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.property-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+.frame-wrapper {
+  width: 713px;
+  position: relative;
+  height: 168px;
+  text-align: left;
+  font-size: 14px;
+}
+.frame-group {
+  position: absolute;
+  top: 148px;
+  left: 0px;
+  width: 1209px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.group-parent2 {
+  position: absolute;
+  top: 2881px;
+  left: 224px;
+  width: 1446px;
+  height: 537px;
+  text-align: justify;
+  font-size: 11px;
+  color: #8694b4;
+}
+.forum-page-2 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 3275px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Poppins;
+}
+

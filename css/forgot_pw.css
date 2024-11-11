@@ -73,12 +73,8 @@
             border-radius: 20px;
             text-decoration: none;
             font-size: 15px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            margin-left: 20px; /* Memberikan jarak dari menu */
-          }
-          
+        }
+
         /* Spasi untuk mengimbangi header tetap */
         .content-spacing {
             height: 80px; /* Sesuaikan dengan tinggi navbar untuk menghindari tumpang tindih */
