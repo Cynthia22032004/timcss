@@ -54,6 +54,25 @@
   margin-left: 20px; /* Memberikan jarak dari menu */
 }
 
+.cta-button {
+  background-color: #739646;
+  color: #fff;
+  padding: 5px 60px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid #739646;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  display: inline-block; /* Membuat tombol mengikuti text-align */
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #fff;
+  color: #6ea54e;
+}
+
 .yellow-and-green-modern-logo {
   position: absolute;
   top: 0px;
