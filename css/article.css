@@ -633,24 +633,24 @@
   text-align: justify;
   color: #8694b4;
 }
-/* .hover-more {
-    position: absolute;
-    top: 728px;
-    left: 120px;
-    border-radius: 50px;
-    background-color: #739646;
-    border: 2px solid rgba(255, 255, 255, 0.25);
-    box-sizing: border-box;
-    width: 276px;
-    height: 36px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 24px;
-    font-size: 14px;
-    color: #fbfbfb;
-} */
+.hover-more {
+  position: absolute;
+  top: 728px;
+  left: 120px;
+  border-radius: 50px;
+  background-color: #739646;
+  color: white;
+  box-sizing: border-box;
+  width: 276px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 24px;
+  font-size: 14px;
+  color: #fbfbfb;
+}
 .icon-more {
   position: absolute;
   top: 2311px;
