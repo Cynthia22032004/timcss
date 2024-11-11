@@ -245,7 +245,8 @@ body {
 }
 .environment-frame {
 	display: flex;
-	overflow-x: auto;
+	overflow-x: scroll;
+	scroll-behavior: smooth;
 	padding: 100px;
 	border-radius: 24px;
 	transform: translateY(750px);

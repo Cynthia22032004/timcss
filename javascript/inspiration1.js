@@ -1,55 +1,46 @@
-// const frameParent = document.getElementById("frameParent");
+const environmentFrame = document.querySelector('.environment-frame');
 
-// let isDragging = false;
-// let startX;
-// let scrollLeft;
-
-// frameParent.addEventListener("mousedown", (e) => {
-//   isDragging = true;
-//   frameParent.classList.add("active"); // Adds the active class for the grabbing cursor
-//   startX = e.pageX - frameParent.offsetLeft;
-//   scrollLeft = frameParent.scrollLeft;
-// });
-
-// frameParent.addEventListener("mouseleave", () => {
-//   isDragging = false;
-//   frameParent.classList.remove("active");
-// });
-
-// frameParent.addEventListener("mouseup", () => {
-//   isDragging = false;
-//   frameParent.classList.remove("active");
-// });
-
-// frameParent.addEventListener("mousemove", (e) => {
-//   if (!isDragging) return;  // Don't do anything if not dragging
-//   e.preventDefault();  // Prevent text selection while dragging
-  
-//   const x = e.pageX - frameParent.offsetLeft; // Get the current mouse position
-//   const walk = (x - startX) * 3; // The multiplier affects the speed of scrolling
-  
-//   frameParent.scrollLeft = scrollLeft - walk; // Set the new scroll position
-// });
-
-
-const slider = document.querySelector('.frameParent');
-let isDown = false;
+let isDragging = false;
 let startX;
 let scrollLeft;
 
-slider.addEventListener('mousedown', () => {
-isDown = true;
+environmentFrame.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    environmentFrame.classList.add('active');
+    startX = e.pageX - environmentFrame.offsetLeft;
+    scrollLeft = environmentFrame.scrollLeft;
 });
 
-slider.addEventListener('mouseleave', () => {
-isDown = false;
+environmentFrame.addEventListener('mouseleave', () => {
+    isDragging = false;
 });
 
-slider.addEventListener('mouseup', () => {
-isDown = false
+environmentFrame.addEventListener('mouseup', () => {
+    isDragging = false;
 });
 
-slider.addEventListener('mousemove', () => {
-console.log(isDown);
-console.log('Do work!');
+environmentFrame.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    e.preventDefault();
+    const x = e.pageX - environmentFrame.offsetLeft;
+    const walk = (x - startX) * 1.5; // Adjust the multiplier for drag speed
+    environmentFrame.scrollLeft = scrollLeft - walk;
+});
+
+// Touch support
+environmentFrame.addEventListener('touchstart', (e) => {
+    isDragging = true;
+    startX = e.touches[0].pageX - environmentFrame.offsetLeft;
+    scrollLeft = environmentFrame.scrollLeft;
+});
+
+environmentFrame.addEventListener('touchend', () => {
+    isDragging = false;
+});
+
+environmentFrame.addEventListener('touchmove', (e) => {
+    if (!isDragging) return;
+    const x = e.touches[0].pageX - environmentFrame.offsetLeft;
+    const walk = (x - startX) * 1.5;
+    environmentFrame.scrollLeft = scrollLeft - walk;
 });
