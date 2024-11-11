@@ -1,0 +1,1014 @@
+.navbar-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  width: 1440px;
+  height: 111px;
+}
+.yellow-and-green-modern-logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 284px;
+  height: 67px;
+  object-fit: cover;
+}
+.label {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.buttoncontent {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttoncontent-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button {
+  position: absolute;
+  top: -0.5px;
+  left: -154px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 127px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+.button1 {
+  position: absolute;
+  top: -0.5px;
+  left: 33px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 127px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+.button2 {
+  position: absolute;
+  top: -0.5px;
+  left: 220px;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 113px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+.button3 {
+  position: absolute;
+  top: -0.5px;
+  left: 393px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 113px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.buttonprimary {
+  position: absolute;
+  top: 0px;
+  left: 567px;
+  border-radius: 50px;
+  background-color: #739646;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+}
+.button-parent {
+  position: absolute;
+  top: 9.5px;
+  left: 547px;
+  width: 681px;
+  height: 48px;
+}
+.yellow-and-green-modern-logo-parent {
+  position: absolute;
+  top: 22px;
+  left: 105px;
+  width: 1228px;
+  height: 67px;
+}
+.navbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 111px;
+  text-align: center;
+  font-size: 14px;
+  color: #5c7838;
+}
+.frame-child {
+  position: absolute;
+  top: 38px;
+  left: 162px;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 1000px;
+  height: 65px;
+}
+.frame-item {
+  position: absolute;
+  top: 20px;
+  left: 32px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.whats-your-question {
+  position: absolute;
+  top: 52px;
+  left: 196px;
+  font-weight: 500;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 229px;
+  left: 120px;
+  border-radius: 24px;
+  background-color: #c9dbb2;
+  width: 1200px;
+  height: 149px;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.5);
+}
+.group-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 24px;
+  background-color: #c9dbb2;
+  width: 1200px;
+  height: 548px;
+}
+.love-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.div {
+  position: absolute;
+  top: 7px;
+  left: 67px;
+  font-weight: 500;
+}
+.love-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 97px;
+  height: 50px;
+}
+.chat-message-parent {
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  width: 83px;
+  height: 50px;
+}
+.group-container {
+  position: absolute;
+  top: 414px;
+  left: 0px;
+  width: 316px;
+  height: 50px;
+}
+.hi-everyone {
+  margin: 0;
+}
+.hi-everyone-container {
+  position: absolute;
+  top: 204px;
+  left: 0px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1044px;
+}
+.looking-for-simple {
+  position: absolute;
+  top: 101px;
+  left: 0px;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 1044px;
+}
+.more-icon {
+  position: absolute;
+  top: 8px;
+  left: 997px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.group-item {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+.ester-howard {
+  position: absolute;
+  top: 4px;
+  left: 100px;
+  font-weight: 500;
+  display: inline-block;
+  width: 233px;
+}
+.aug-24-2024 {
+  position: absolute;
+  top: 40px;
+  left: 102px;
+  font-size: 11px;
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.72);
+}
+.ellipse-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 333px;
+  height: 65px;
+}
+.more-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1047px;
+  height: 65px;
+  font-size: 24px;
+  font-family: Poppins;
+}
+.looking-for-simple-tips-to-sta-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1047px;
+  height: 181px;
+  text-align: left;
+  font-size: 40px;
+  font-family: 'Optician Sans';
+}
+.hi-everyone-im-new-to-the-parent {
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  width: 1047px;
+  height: 384px;
+}
+.group-parent {
+  position: absolute;
+  top: 37px;
+  left: 73px;
+  width: 1052px;
+  height: 464px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 1428px;
+  left: 120px;
+  width: 1200px;
+  height: 548px;
+  text-align: justify;
+}
+.love-group {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 90px;
+  height: 50px;
+}
+.group-parent1 {
+  position: absolute;
+  top: 410px;
+  left: 0px;
+  width: 316px;
+  height: 50px;
+}
+.hi-ecosphere-community {
+  position: absolute;
+  top: 61px;
+  left: 0px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1044px;
+  height: 227px;
+}
+.how-do-you {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  text-align: left;
+  display: inline-block;
+  width: 1044px;
+}
+.hi-ecosphere-community-iv-parent {
+  position: absolute;
+  top: 101px;
+  left: 6px;
+  width: 1044px;
+  height: 288px;
+}
+.group-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 6px;
+  width: 333px;
+  height: 65px;
+  text-align: left;
+}
+.group-div {
+  position: absolute;
+  top: 37px;
+  left: 72px;
+  width: 1050px;
+  height: 460px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 4416px;
+  left: 120px;
+  width: 1200px;
+  height: 548px;
+  text-align: justify;
+}
+.forum-child {
+  position: absolute;
+  top: 5011px;
+  left: 120px;
+  border-radius: 24px;
+  background-color: #c9dbb2;
+  width: 1200px;
+  height: 1079px;
+}
+.hi-everyone1 {
+  position: absolute;
+  top: 5726px;
+  left: 197px;
+  font-weight: 500;
+  text-align: justify;
+  display: inline-block;
+  width: 1044px;
+  height: 227px;
+}
+.building-a-sustainable {
+  position: absolute;
+  top: 5149px;
+  left: 198px;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  display: inline-block;
+  width: 1044px;
+}
+.forum-inner {
+  position: absolute;
+  top: 5048px;
+  left: 198px;
+  width: 333px;
+  height: 65px;
+}
+.label4 {
+  position: relative;
+  font-weight: 500;
+}
+.buttonlink2 {
+  position: absolute;
+  top: 2884px;
+  left: 1112px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0px;
+  font-size: 14px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 24px;
+  background-color: #c9dbb2;
+  width: 1203px;
+  height: 956px;
+}
+.buttonprimary1 {
+  position: absolute;
+  top: 82px;
+  left: 0px;
+  box-shadow: 0px -1px 0px rgba(14, 14, 44, 0.4) inset, 0px 6px 2px -4px rgba(14, 14, 44, 0.1);
+  border-radius: 50px;
+  background-color: #739646;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  color: #fff;
+}
+.answer {
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  line-height: 140%;
+  font-weight: 500;
+}
+.last-answer-1h {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-size: 11px;
+  line-height: 140%;
+}
+.what-eco-friendly-diy {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+.buttonprimary-parent {
+  position: absolute;
+  top: 94px;
+  left: 52px;
+  width: 666px;
+  height: 130px;
+}
+.buttonprimary-group {
+  position: absolute;
+  top: 302px;
+  left: 52px;
+  width: 756px;
+  height: 130px;
+}
+.buttonprimary-container {
+  position: absolute;
+  top: 510px;
+  left: 52px;
+  width: 1010px;
+  height: 130px;
+}
+.buttonprimary-parent1 {
+  position: absolute;
+  top: 718px;
+  left: 52px;
+  width: 814px;
+  height: 130px;
+}
+.question-for-you {
+  position: absolute;
+  top: 0px;
+  left: 52px;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  color: #000;
+}
+.line-div {
+  position: absolute;
+  top: 55px;
+  left: calc(50% - 573.5px);
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+  width: 1148px;
+  height: 1px;
+}
+.group-child2 {
+  position: absolute;
+  top: 679px;
+  left: calc(50% - 573.5px);
+  border-top: 1px solid #8694b4;
+  box-sizing: border-box;
+  width: 1148px;
+  height: 1px;
+}
+.group-child3 {
+  position: absolute;
+  top: 263px;
+  left: calc(50% - 573.5px);
+  border-top: 1px solid #8694b4;
+  box-sizing: border-box;
+  width: 1148px;
+  height: 1px;
+}
+.group-child4 {
+  position: absolute;
+  top: 471px;
+  left: calc(50% - 573.5px);
+  border-top: 1px solid #8694b4;
+  box-sizing: border-box;
+  width: 1148px;
+  height: 1px;
+}
+.group-parent2 {
+  position: absolute;
+  top: 44px;
+  left: 26px;
+  width: 1147px;
+  height: 848px;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 425px;
+  left: 120px;
+  width: 1203px;
+  height: 956px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.75);
+}
+.group-child5 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 24px;
+  background-color: #c9dbb2;
+  width: 1200px;
+  height: 1032px;
+}
+.muhammad-sumbul {
+  position: absolute;
+  top: 4px;
+  left: 100px;
+  font-weight: 500;
+  display: inline-block;
+  width: 267px;
+}
+.ellipse-parent1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 367px;
+  height: 65px;
+}
+.group-wrapper1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 367px;
+  height: 65px;
+  font-size: 24px;
+  font-family: Poppins;
+}
+.starting-my-eco-home-journey-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1044px;
+  height: 181px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 207px;
+  left: 0px;
+  border-radius: 12px;
+  width: 1047px;
+  height: 449px;
+  object-fit: cover;
+}
+.group-parent4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1047px;
+  height: 656px;
+}
+.group-frame {
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  width: 1047px;
+  height: 656px;
+}
+.chat-message-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 83px;
+  height: 50px;
+}
+.group-wrapper2 {
+  position: absolute;
+  top: 0px;
+  left: 230px;
+  width: 83px;
+  height: 50px;
+}
+.div5 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-weight: 500;
+}
+.wrapper {
+  position: absolute;
+  top: 7px;
+  left: 64px;
+  width: 30px;
+  height: 36px;
+}
+.group-parent6 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 94px;
+  height: 50px;
+}
+.group-parent5 {
+  position: absolute;
+  top: 892px;
+  left: 0px;
+  width: 313px;
+  height: 50px;
+  text-align: justify;
+  font-size: 24px;
+  font-family: Poppins;
+}
+.group-parent3 {
+  position: absolute;
+  top: 37px;
+  left: 76px;
+  width: 1049px;
+  height: 942px;
+}
+.hello-ecosphere-community {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1044px;
+}
+.buttonlink21 {
+  position: absolute;
+  top: 139px;
+  left: 905px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0px;
+  text-align: left;
+  font-size: 14px;
+}
+.hello-ecosphere-community-parent {
+  position: absolute;
+  top: 719px;
+  left: 78px;
+  width: 1044px;
+  height: 187px;
+  text-align: justify;
+  font-size: 24px;
+  font-family: Poppins;
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 2023px;
+  left: 120px;
+  width: 1200px;
+  height: 1032px;
+  font-size: 40px;
+  font-family: 'Optician Sans';
+}
+.forum-item {
+  position: absolute;
+  top: 3102px;
+  left: 120px;
+  border-radius: 24px;
+  background-color: #c9dbb2;
+  width: 1200px;
+  height: 1267px;
+}
+.sustainable-home-renovation {
+  position: absolute;
+  top: 3240px;
+  left: 198px;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  display: inline-block;
+  width: 1044px;
+}
+.forum-inner1 {
+  position: absolute;
+  top: 3139px;
+  left: 198px;
+  width: 367px;
+  height: 65px;
+}
+.forum-child1 {
+  position: absolute;
+  top: 3348px;
+  left: 198px;
+  border-radius: 12px;
+  width: 1047px;
+  height: 677px;
+  object-fit: cover;
+}
+.forum-inner2 {
+  position: absolute;
+  top: 4263px;
+  left: 426px;
+  width: 97px;
+  height: 50px;
+  text-align: justify;
+}
+.container {
+  position: absolute;
+  top: 4270px;
+  left: 260px;
+  width: 29px;
+  height: 36px;
+  text-align: justify;
+}
+.love-icon3 {
+  position: absolute;
+  top: 4263px;
+  left: 196px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.group-wrapper3 {
+  position: absolute;
+  top: 0px;
+  left: 229px;
+  width: 90px;
+  height: 50px;
+}
+.frame {
+  position: absolute;
+  top: 7px;
+  left: 63px;
+  width: 29px;
+  height: 36px;
+}
+.group-parent8 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 92px;
+  height: 50px;
+}
+.group-parent7 {
+  position: absolute;
+  top: 5974px;
+  left: 195px;
+  width: 319px;
+  height: 50px;
+  text-align: justify;
+}
+.buttonlink22 {
+  position: absolute;
+  top: 138px;
+  left: 924px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0px;
+  text-align: left;
+  font-size: 14px;
+}
+.hello-fellow-eco-enthusiasts-parent {
+  position: absolute;
+  top: 4053px;
+  left: 198px;
+  width: 1044px;
+  height: 186px;
+  text-align: justify;
+}
+.forum-child2 {
+  position: absolute;
+  top: 5256px;
+  left: 198px;
+  border-radius: 12px;
+  width: 1047px;
+  height: 444px;
+  object-fit: cover;
+}
+.buttonlink23 {
+  position: absolute;
+  top: 5900px;
+  left: 984px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0px;
+  font-size: 14px;
+}
+.group-icon {
+  position: absolute;
+  top: 0px;
+  left: 706px;
+  width: 740px;
+  height: 537px;
+}
+.yellow-and-green-modern-logo1 {
+  width: 168px;
+  position: relative;
+  height: 32px;
+  object-fit: cover;
+}
+.we-provide-information {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  line-height: 140%;
+  display: inline-block;
+  opacity: 0.75;
+}
+.brandicofacebook-icon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brandicofacebook-parent {
+  position: absolute;
+  height: 25%;
+  width: 45%;
+  top: 75%;
+  right: 55%;
+  bottom: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.bio {
+  width: 320px;
+  position: relative;
+  height: 128px;
+}
+.yellow-and-green-modern-logo-group {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.property1 {
+  width: 94px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #414958;
+}
+.discover {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.property {
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.article1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #414958;
+}
+.eco-tech {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+  font-family: Lexend;
+}
+.article {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px;
+}
+.contact {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.property-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+.frame-wrapper {
+  width: 713px;
+  position: relative;
+  height: 168px;
+  text-align: left;
+  font-size: 14px;
+}
+.frame-parent {
+  position: absolute;
+  top: 148px;
+  left: 0px;
+  width: 1209px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.group-parent9 {
+  position: absolute;
+  top: 6275px;
+  left: 120px;
+  width: 1446px;
+  height: 537px;
+  text-align: justify;
+  font-size: 11px;
+  color: #8694b4;
+}
+.forum {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 6689px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Poppins;
+}
+
