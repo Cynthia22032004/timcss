@@ -1,5 +1,5 @@
 /* NAVBAR */
-.header {
+/* .header { 
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -7,9 +7,9 @@
   background-color: #ffffff;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   position: fixed; /* Menjadikan navbar tetap di atas */
-  top: 0; /* Memastikan posisinya di bagian atas */
-  z-index: 1000; /* Memastikan berada di atas elemen lainnya */
-  padding-inline: 90px;
+/* top: 0; Memastikan posisinya di bagian atas */
+/* z-index: 1000; /* Memastikan berada di atas elemen lainnya  */
+/* padding-inline: 90px; *
 }
 
 .logo {
@@ -65,6 +65,61 @@
   height: 111px;
   font-size: 14px;
   color: #5c7838;
+} */
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Menjadikan navbar tetap di atas */
+  top: 0; /* Memastikan posisinya di bagian atas */
+  z-index: 1000; /* Memastikan berada di atas elemen lainnya */
+  padding-inline: 90px; /* Padding atas/bawah dan samping */
+  box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar total */
+  padding-bottom: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7fbf7f;
+}
+
+.nav {
+  display: flex;
+  align-items: center; /* Membuat elemen di dalamnya rata secara vertikal */
+  gap: 70px; /* Mengatur jarak antar item di navbar */
+  font-size: 15px;
+  font-family: Poppins;
+  padding-top: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #5c7838;
+  transition: font-weight 0.3s ease, color 0.3s ease;
+}
+
+.nav a:hover {
+  font-weight: bold;
+  color: #5c7838;
+}
+
+.nav .login-button {
+  padding: 7px 20px;
+  background-color: #739646;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 /* DISCOVERY */
@@ -325,236 +380,6 @@
 .carousel-indicators {
   display: none; /* Comment out if you want to keep indicators */
 }
-
-/* .our-partners {
-  align-self: stretch;
-  position: relative;
-  letter-spacing: -0.02em;
-}
-/* .logo-digital-full-black-1-icon {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 84.3px;
-  height: 70px;
-  object-fit: cover;
-}
-.image-20-icon {
-  position: absolute;
-  top: 0px;
-  left: 100.29px;
-  width: 367.2px;
-  height: 70px;
-  object-fit: cover;
-}
-.image-21-icon {
-  position: absolute;
-  top: 0px;
-  left: 483.47px;
-  width: 234.5px;
-  height: 70px;
-  object-fit: cover;
-}
-.image-22-icon {
-  position: absolute;
-  top: 0px;
-  left: 733.97px;
-  width: 234.5px;
-  height: 70px;
-  object-fit: cover;
-} */
-/* .logo-digital-full-black-1-parent {
-  width: 968.5px;
-  position: relative;
-  height: 70px;
-} */
-/* .image-38-icon {
-  width: 92.4px;
-  position: relative;
-  height: 70px;
-  object-fit: cover;
-}
-.image-39-icon {
-  width: 247.2px;
-  position: relative;
-  height: 70px;
-  object-fit: cover;
-} */
-/* .frame-parent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 16px;
-}
-.frame-wrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.our-partners-parent {
-  position: absolute;
-  top: 870px;
-  left: calc(50% - 670px);
-  width: 1340.1px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 70px;
-  font-family: 'Optician Sans';
-} */
-
-/* 
-FOOTER
-.group-child {
-  position: absolute;
-  top: 0px;
-  left: 706px;
-  width: 740px;
-  height: 503px;
-}
-.yellow-and-green-modern-logo1 {
-  width: 168px;
-  position: relative;
-  height: 32px;
-  object-fit: cover;
-}
-.we-provide-information {
-  position: absolute;
-  width: 100%;
-  top: 0%;
-  left: 0%;
-  line-height: 140%;
-  display: inline-block;
-  opacity: 0.75;
-}
-.brandicofacebook-icon {
-  width: 32px;
-  position: relative;
-  height: 32px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.brandicofacebook-parent {
-  position: absolute;
-  height: 25%;
-  width: 45%;
-  top: 75%;
-  right: 55%;
-  bottom: 0%;
-  left: 0%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 24px;
-}
-.bio {
-  width: 320px;
-  position: relative;
-  height: 128px;
-}
-.yellow-and-green-modern-logo-group {
-  width: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 20px;
-}
-.property2 {
-  width: 94px;
-  position: relative;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  display: inline-block;
-  color: #414958;
-}
-.discover {
-  align-self: stretch;
-  position: relative;
-  font-weight: 500;
-}
-.property1 {
-  width: 176px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 20px;
-}
-.article1 {
-  align-self: stretch;
-  position: relative;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #414958;
-}
-.eco-tech {
-  align-self: stretch;
-  position: relative;
-  text-transform: capitalize;
-  font-family: Lexend;
-}
-.article {
-  width: 212px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 19px;
-}
-.contact {
-  width: 265px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 20px;
-}
-.property-parent {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 30px;
-}
-.frame-container {
-  width: 713px;
-  position: relative;
-  height: 168px;
-  text-align: left;
-  font-size: 14px;
-}
-.frame-group {
-  position: absolute;
-  top: 93px;
-  left: 0px;
-  width: 1209px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.group-parent {
-  position: absolute;
-  top: 2030px;
-  left: 120px;
-  width: 1446px;
-  height: 503px;
-  text-align: justify;
-  font-size: 11px;
-  color: #8694b4;
-} */
 
 /* PROPERTY REKOMENDATION */
 .prop-rekomend {
