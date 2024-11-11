@@ -102,7 +102,7 @@
   font-size: 16px;
   line-height: 140%;
   font-weight: 500;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   color: #000;
   text-align: justify;
   margin-top: 140px;
@@ -229,7 +229,7 @@
   text-align: center;
   font-size: 24px;
   color: #171e0e;
-  font-family: "Plus Jakarta Sans";
+  font-family: 'Plus Jakarta Sans';
 }
 .text-parent {
   width: 460.1px;
@@ -265,7 +265,7 @@
   height: 411.8px;
   text-align: left;
   color: #000000;
-  font-family: "Optician Sans";
+  font-family: 'Optician Sans';
 }
 
 /* OUR PATNER */
@@ -278,7 +278,7 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  font-family: "Optician Sans", sans-serif;
+  font-family: 'Optician Sans', sans-serif;
 }
 
 .our-partners-parent {
@@ -287,7 +287,7 @@
   flex-direction: column;
   align-items: center;
   gap: 35px; /* Space between title and carousel */
-  font-family: "Optician Sans", sans-serif;
+  font-family: 'Optician Sans', sans-serif;
   /* margin: 50px 0; Optional: space around the section */
 }
 
@@ -590,7 +590,7 @@ FOOTER
   text-align: center;
   font-size: 40px;
   color: #000;
-  font-family: "Optician Sans";
+  font-family: 'Optician Sans';
 }
 .were-all-about {
   position: absolute;
@@ -723,7 +723,7 @@ FOOTER
   border: none;
   margin-top: 10px;
   transition: background-color 0.3s ease, color 0.3s ease;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .cta-button1 {
@@ -735,9 +735,9 @@ FOOTER
   font-size: 16px;
   /* border: 2px solid #739646; */
   transition: background-color 0.3s ease, color 0.3s ease;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: inline-block; /* Membuat tombol mengikuti text-align */
-  font-family: "poppins";
+  font-family: 'poppins';
   /* font-weight: 300; */
 }
 .cta-button1:hover {
