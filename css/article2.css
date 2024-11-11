@@ -21,7 +21,17 @@
     box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar total */
     padding-bottom: 5px;
   }
-
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7fbf7f;
+  }
   
   .nav {
     display: flex;
@@ -37,13 +47,22 @@
     color: #5c7838;
     transition: font-weight 0.3s ease, color 0.3s ease;
   }
-
+  
   .nav a:hover {
     font-weight: bold;
-    color: 5c7838;
+    color: #5c7838;
   }
   
-  .cta-button {
+  .nav .login-button {
+    padding: 7px 20px;
+    background-color: #739646;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.cta-button {
     background-color: #739646;
     color: #fff;
     padding: 5px 60px;
@@ -61,20 +80,6 @@
     background-color: #fff;
     color: #6ea54e;
   }
-  
-  .nav .login-button {
-    padding: 7px 20px;
-    background-color: #739646;
-    color: #fff;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 15px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px; /* Memberikan jarak dari menu */
-  }
-
   
 .yellow-and-green-modern-logo {
     position: absolute;
