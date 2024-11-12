@@ -551,7 +551,7 @@
 }
 .body1 {
   position: absolute;
-  top: 2816px;
+  top: 2600px;
   left: 121px;
   width: 587px;
   height: 344px;
@@ -565,7 +565,7 @@
 }
 .img-icon1 {
   position: absolute;
-  top: 2816px;
+  top: 2600px;
   left: 735px;
   border-radius: 32px;
   width: 587px;
@@ -576,7 +576,7 @@
 }
 .img-icon2 {
   position: absolute;
-  top: 3226px;
+  top: 3050px;
   left: 121px;
   border-radius: 32px;
   width: 587px;
@@ -598,7 +598,7 @@
 }
 .body2 {
   position: absolute;
-  top: 3226px;
+  top: 3050px;
   left: 737px;
   width: 583px;
   height: 344px;
@@ -782,8 +782,9 @@
 /* Footer */
 footer {
   /* background-color: #ffffff; */
+  top: -200px;
   padding: 0px 100px;
-  padding-bottom: 40px;
+  padding-bottom: -100px;
   color: #414958;
   display: flex;
   justify-content: space-between;
