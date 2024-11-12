@@ -1,71 +1,4 @@
 /* NAVBAR */
-/* .header { 
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-  position: fixed; /* Menjadikan navbar tetap di atas */
-/* top: 0; Memastikan posisinya di bagian atas */
-/* z-index: 1000; /* Memastikan berada di atas elemen lainnya  */
-/* padding-inline: 90px; *
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #7fbf7f;
-}
-
-.nav {
-  display: flex;
-  gap: 90px;
-  font-size: 15px;
-  padding-left: 7cm;
-}
-
-.nav a {
-  text-decoration: none;
-  color: #5c7838;
-}
-
-.nav a:hover {
-  font-weight: bolder;
-  color: #5c7838;
-}
-
-.login-button {
-  padding: 8px 20px;
-  background-color: #739646;
-  color: #fff;
-  border-radius: 20px;
-  text-decoration: none;
-  font-size: 15px;
-}
-.button-parent {
-  position: absolute;
-  top: 9.5px;
-  left: 547px;
-  width: 681px;
-  height: 48px;
-}
-.yellow-and-green-modern-logo-parent {
-  position: absolute;
-  top: 22px;
-  left: 105px;
-  width: 1228px;
-  height: 67px;
-}
-.navbar {
-  position: absolute;
-  top: 0px;
-  left: calc(50% - 722px);
-  width: 1440px;
-  height: 111px;
-  font-size: 14px;
-  color: #5c7838;
-} */
 
 .header {
   width: 100%;
@@ -297,10 +230,6 @@
 }
 .discovery {
   position: absolute;
-  /* top: -72.4px;
-  left: -72.4px;
-  width: 1267px;
-  height: 565.6px; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -313,7 +242,6 @@
 /* isi konten keseluruhan discovery */
 .content {
   position: absolute;
-  /* padding: 10rem; */
   top: 100px;
   left: 40px;
   width: 544.1px;
@@ -343,7 +271,6 @@
   align-items: center;
   gap: 35px; /* Space between title and carousel */
   font-family: 'Optician Sans', sans-serif;
-  /* margin: 50px 0; Optional: space around the section */
 }
 
 .our-partners {
@@ -393,7 +320,6 @@
 }
 .prop-rekomend1 {
   position: absolute;
-  /* top: 55px; */
   left: calc(50% - 634px);
   width: 1269px;
   display: flex;
@@ -452,8 +378,6 @@
   border: none;
   font-size: 24px;
   cursor: pointer;
-  /* padding: 0.05px; */
-  /* gap: 100px; */
   transition: color 0.3s ease;
   position: absolute;
   top: 50%;
@@ -468,19 +392,12 @@
 .nav-button:hover {
   color: #5c7838; /* Green shade on hover */
 }
-/* .nav-button:hover {
-  background-color: #5a7d36;
-} */
 
 /* Container untuk kartu */
 .cards-container {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  /* overflow: hidden; */
-  /* width: 100%;
-  max-width: 1100px;
-  height: 1000px; */
 }
 
 /* Kartu */
@@ -499,8 +416,6 @@
 
 /* Gambar dalam kartu */
 .image-37-icon {
-  /* width: 100%;
-  height: auto; */
   border-radius: 12px;
   max-height: 150px;
   object-fit: cover;
@@ -555,15 +470,12 @@
   /* background-color: #739646; */
   color: #000;
   padding: 6px 40px;
-  /* border-radius: 50px; */
   text-decoration: none;
   font-size: 16px;
-  /* border: 2px solid #739646; */
   transition: background-color 0.3s ease, color 0.3s ease;
   font-family: 'Poppins', sans-serif;
   display: inline-block; /* Membuat tombol mengikuti text-align */
   font-family: 'poppins';
-  /* font-weight: 300; */
 }
 .cta-button1:hover {
   color: #739646;
@@ -587,4 +499,154 @@
   font-size: 40px;
   color: #000;
   font-family: Poppins;
+}
+
+/* Footer */
+footer {
+  /* background-color: #ffffff; */
+  padding: 0px 100px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  color: #414958;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: Poppins;
+  letter-spacing: 0.04em;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-container {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-background {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  /* background-image: url("asset/footer.png"); Ganti dengan path file gambar Anda */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.5; /* Mengubah opacity menjadi lebih transparan */
+  z-index: 0; /* Menempatkan gambar di belakang tulisan */
+}
+
+.footer-background img {
+  padding-left: 110px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 10px;
+  /* margin-top: 0px; */
+  padding-right: 70px;
+}
+
+.footer-section p {
+  color: #8694b4;
+  font-size: 10px;
+  opacity: 0.75;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.footer-section-property {
+  /* margin-top: 10px; */
+  padding-left: 10px;
+  padding-right: 20px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  color: #414958;
+}
+.footer-section-property h4 {
+  color: #414958;
+  margin-bottom: 15px;
+  padding-left: 0px;
+}
+.footer-section-property p {
+  font-size: 14px;
+  color: #8694b4;
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  padding-left: 0px;
+}
+
+.footer-section-article {
+  padding-left: 30px;
+  /* margin-top: 10px; */
+}
+.footer-section-article h4 {
+  color: #414958;
+  margin-bottom: 15px;
+  padding-left: 0px;
+}
+.footer-section-article p {
+  font-size: 14px;
+  color: #8694b4;
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  padding-left: 0px;
+}
+
+.footer-section-contact {
+  padding-left: 50px;
+  /* margin-top: 10px; */
+  padding-left: 110px;
+}
+.footer-section-contact h4 {
+  color: #414958;
+  margin-bottom: 15px;
+  padding-left: 0px;
+}
+.footer-section-contact p {
+  font-size: 14px;
+  color: #8694b4;
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  padding-left: 0px;
+}
+
+.footer-section img {
+  height: 35px;
+  margin-top: 20px;
+}
+
+footer a {
+  font-size: 14px;
+  color: #8694b4;
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+
+.social-icons {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.social-icons a {
+  color: #82bbff; /* Warna biru untuk ikon sosial */
+  margin-right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0084b4; /* Warna biru lebih gelap saat hover */
 }
