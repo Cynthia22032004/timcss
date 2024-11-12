@@ -1,182 +1,180 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-        /* Reset dasar */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+/* Latar belakang halaman */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  background: url("../asset/daun.jpg");
+  background-size: cover;
+}
 
-        /* Latar belakang halaman */
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            min-height: 100vh;
-            background-color: #f5f5f5;
-            background: url("../asset/daun.jpg");
-            background-size: cover;
-        }
+/* Navbar */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Menjadikan navbar tetap di atas */
+  top: 0; /* Memastikan posisinya di bagian atas */
+  z-index: 1000; /* Memastikan berada di atas elemen lainnya */
+  padding-inline: 90px; /* Padding atas/bawah dan samping */
+  box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar total */
+  padding-bottom: 5px;
+}
 
-        /* Navbar */
-        .header {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #ffffff;
-            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-            position: fixed; /* Menjadikan navbar tetap di atas */
-            top: 0; /* Memastikan posisinya di bagian atas */
-            z-index: 1000; /* Memastikan berada di atas elemen lainnya */
-            padding-inline: 90px; /* Padding atas/bawah dan samping */
-            box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar total */
-            padding-bottom: 5px;
-          }
-          
-          .logo {
-            display: flex;
-            align-items: center;
-          }
-          
-          .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #7fbf7f;
-          }
-          
-          .nav {
-            display: flex;
-            align-items: center; /* Membuat elemen di dalamnya rata secara vertikal */
-            gap: 70px; /* Mengatur jarak antar item di navbar */
-            font-size: 15px;
-            font-family: Poppins;
-            padding-top: 10px;
-          }
-          
-          .nav a {
-            text-decoration: none;
-            color: #5c7838;
-            transition: font-weight 0.3s ease, color 0.3s ease;
-          }
-          
-          .nav a:hover {
-            font-weight: bold;
-            color: #5c7838;
-          }
-          
-          .nav .login-button {
-            padding: 7px 20px;
-            background-color: #739646;
-            color: #fff;
-            border-radius: 20px;
-            text-decoration: none;
-            font-size: 15px;
-        }
+.logo {
+  display: flex;
+  align-items: center;
+}
 
-        /* Spasi untuk mengimbangi header tetap */
-        .content-spacing {
-            height: 80px; /* Sesuaikan dengan tinggi navbar untuk menghindari tumpang tindih */
-        }
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7fbf7f;
+}
 
-        /* Kontainer utama */
-        .container {
-            display: flex;
-            border-radius: 15px;
-            background-color: #e2efdb;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-            max-width: 900px;
-            margin-top: 40px;
-            width: 100%;
-        }
+.nav {
+  display: flex;
+  align-items: center; /* Membuat elemen di dalamnya rata secara vertikal */
+  gap: 70px; /* Mengatur jarak antar item di navbar */
+  font-size: 15px;
+  font-family: Poppins;
+  padding-top: 10px;
+}
 
-        /* Bagian gambar */
-        .image-section {
-            flex: 1;
-            background: url("../asset/wave\ home.png");
-            background-size: cover;
-            background-position: right;
-            background-repeat: no-repeat;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            flex-basis: 50%;
-        }
+.nav a {
+  text-decoration: none;
+  color: #5c7838;
+  transition: font-weight 0.3s ease, color 0.3s ease;
+}
 
-        .image-section img {
-            width: 100%;
-            border-radius: 10px;
-        }
+.nav a:hover {
+  font-weight: bold;
+  color: #5c7838;
+}
 
-        /* Bagian formulir login */
-        .login-section {
-            flex: 1;
-            padding: 50px 80px;
-            background-color: #e2efdb;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            flex-basis: 50%;
-        }
+.nav .login-button {
+  padding: 7px 20px;
+  background-color: #739646;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
 
-        .login-section h2 {
-            font-size: 28px;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 20px;
-        }
+/* Spasi untuk mengimbangi header tetap */
+.content-spacing {
+  height: 80px; /* Sesuaikan dengan tinggi navbar untuk menghindari tumpang tindih */
+}
 
-        
-        .form-group {
-            margin-bottom: 15px;
-        }
+/* Kontainer utama */
+.container {
+  display: flex;
+  border-radius: 15px;
+  background-color: #e2efdb;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-width: 900px;
+  margin-top: 40px;
+  width: 100%;
+}
 
-        .form-group label {
-            font-size: 14px;
-            color: #666;
-        }
+/* Bagian gambar */
+.image-section {
+  flex: 1;
+  background: url("../asset/wave\ home.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-basis: 50%;
+}
 
-        .form-group input {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border-radius: 35px;
-            border: 1px solid #ccc;
-        }
+.image-section img {
+  width: 100%;
+  border-radius: 10px;
+}
 
-        .forgot-password {
-            font-size: 12px;
-            color: #091DFF;
-            text-align: right;
-            text-decoration: none;
-            margin-bottom: 20px;
-            display: block;
-        }
+/* Bagian formulir login */
+.login-section {
+  flex: 1;
+  padding: 50px 80px;
+  background-color: #e2efdb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 50%;
+}
 
-        .login-button-main {
-            width: 100%;
-            padding: 10px;
-            background-color: #6d9b5d;
-            color: white;
-            font-weight: bold;
-            border: none;
-            border-radius: 35px;
-            cursor: pointer;
-            font-size: 16px;
-        }
+.login-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
 
-        .signup {
-            font-size: 12px;
-            text-align: center;
-            margin-top: 20px;
-            color: #333;
-        }
+.form-group {
+  margin-bottom: 15px;
+}
 
-        .signup a {
-            color: #091DFF;
-            text-decoration: none;
-            font-weight: bold;
-        }
+.form-group label {
+  font-size: 14px;
+  color: #666;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 35px;
+  border: 1px solid #ccc;
+}
+
+.forgot-password {
+  font-size: 12px;
+  color: #091dff;
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.login-button-main {
+  width: 100%;
+  padding: 10px;
+  background-color: #6d9b5d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.signup a {
+  color: #091dff;
+  text-decoration: none;
+  font-weight: bold;
+}
