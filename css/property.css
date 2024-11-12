@@ -311,7 +311,7 @@
 /* PROPERTY REKOMENDATION */
 .prop-rekomend {
   position: absolute;
-  top: 350px;
+  top: 300px;
   left: calc(50% - 720px);
   width: 1440px;
   height: 1370px;
@@ -410,7 +410,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding: 12px;
   box-sizing: border-box;
 }
 
@@ -443,20 +443,21 @@
   text-align: left;
   margin-top: 10px;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 .div1 {
   font-size: 14px;
   color: #3c4563;
   margin-top: 5px;
+  margin-left: -140px;
 }
 
 /* Tombol More Information */
 .cta-button {
   background-color: #739646;
   color: #fff;
-  padding: 6px 20px;
+  padding: 6px 45px;
   border-radius: 50px;
   text-decoration: none;
   font-size: 12px;
@@ -493,7 +494,7 @@
   width: 100%;
   position: relative;
   background-color: #fff;
-  height: 3000px;
+  height: 2000px;
   overflow: hidden;
   text-align: center;
   font-size: 40px;
@@ -501,7 +502,7 @@
   font-family: Poppins;
 }
 
-/* Footer */
+//* Footer */
 footer {
   /* background-color: #ffffff; */
   padding: 0px 100px;
