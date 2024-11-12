@@ -1,0 +1,355 @@
+.navbar-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  width: 1440px;
+  height: 111px;
+}
+.yellow-and-green-modern-logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 284px;
+  height: 67px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.label {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.buttoncontent {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttoncontent-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.button {
+  position: absolute;
+  top: -0.5px;
+  left: -154px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 127px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+.button1 {
+  position: absolute;
+  top: -0.5px;
+  left: 33px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 127px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+.button2 {
+  position: absolute;
+  top: -0.5px;
+  left: 220px;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 113px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+.frame-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button3 {
+  position: absolute;
+  top: -0.5px;
+  left: 393px;
+  box-shadow: 0px -1px 0.5px rgba(14, 14, 44, 0.4) inset;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 113px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.buttonprimary {
+  position: absolute;
+  top: 0px;
+  left: 567px;
+  border-radius: 50px;
+  background-color: #739646;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+}
+.button-parent {
+  position: absolute;
+  top: 9.5px;
+  left: 547px;
+  width: 681px;
+  height: 48px;
+}
+.yellow-and-green-modern-logo-parent {
+  position: absolute;
+  top: 22px;
+  left: 105px;
+  width: 1228px;
+  height: 67px;
+}
+.navbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 111px;
+  font-size: 14px;
+  color: #5c7838;
+}
+.profile-page-child {
+  position: absolute;
+  top: 111px;
+  left: 0px;
+  width: 1440px;
+  height: 606px;
+  object-fit: cover;
+}
+.profile-page-item {
+  position: absolute;
+  top: 616px;
+  left: 120px;
+  border-radius: 50%;
+  width: 196px;
+  height: 202px;
+  object-fit: cover;
+}
+.ester-howard {
+  position: absolute;
+  top: 776px;
+  left: 316px;
+  font-size: 28px;
+  font-weight: 500;
+  display: inline-block;
+  width: 233px;
+}
+.hover-more {
+  position: absolute;
+  top: 741px;
+  left: 1038px;
+  border-radius: 50px;
+  background-color: #739646;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  box-sizing: border-box;
+  width: 282px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  text-align: right;
+  color: #fbfbfb;
+}
+.line {
+  position: absolute;
+  top: 865.5px;
+  left: 118.5px;
+  border-top: 1px solid #dde1e6;
+  box-sizing: border-box;
+  width: 1202px;
+  height: 1px;
+}
+.group-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 24px;
+  background-color: #f7ffec;
+  width: 1200px;
+  height: 548px;
+}
+.love-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.div {
+  position: absolute;
+  top: 7px;
+  left: 67px;
+  font-weight: 500;
+}
+.love-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 97px;
+  height: 50px;
+}
+.chat-message-parent {
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  width: 83px;
+  height: 50px;
+}
+.group-container {
+  position: absolute;
+  top: 414px;
+  left: 0px;
+  width: 316px;
+  height: 50px;
+}
+.hi-everyone {
+  margin: 0;
+}
+.hi-everyone-container {
+  position: absolute;
+  top: 204px;
+  left: 0px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1044px;
+}
+.looking-for-simple {
+  position: absolute;
+  top: 101px;
+  left: 0px;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 1044px;
+}
+.more-icon {
+  position: absolute;
+  top: 8px;
+  left: 997px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.group-item {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+.ester-howard1 {
+  position: absolute;
+  top: 4px;
+  left: 100px;
+  font-weight: 500;
+  display: inline-block;
+  width: 233px;
+}
+.aug-24-2024 {
+  position: absolute;
+  top: 40px;
+  left: 102px;
+  font-size: 11px;
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.72);
+}
+.ellipse-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 333px;
+  height: 65px;
+}
+.more-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1047px;
+  height: 65px;
+  font-size: 24px;
+  font-family: Poppins;
+}
+.looking-for-simple-tips-to-sta-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1047px;
+  height: 181px;
+  text-align: left;
+  font-size: 40px;
+  font-family: 'Optician Sans';
+}
+.hi-everyone-im-new-to-the-parent {
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  width: 1047px;
+  height: 384px;
+}
+.group-parent {
+  position: absolute;
+  top: 37px;
+  left: 73px;
+  width: 1052px;
+  height: 464px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 906px;
+  left: 120px;
+  width: 1200px;
+  height: 548px;
+  text-align: justify;
+}
+.profile-page {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 3135px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  font-family: Poppins;
+}
