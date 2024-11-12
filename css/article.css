@@ -1,8 +1,19 @@
+.article {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 3950px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 11px;
+  color: #333;
+  font-family: Poppins;
+}
 .article-child {
   position: absolute;
   top: 3774px;
   left: 826px;
-  width: 740px;
+  width: 50px;
   height: 503px;
 }
 /* NAVBAR */
@@ -63,7 +74,7 @@
   font-size: 18px;
   border: 2px solid #739646;
   transition: background-color 0.3s ease, color 0.3s ease;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: inline-block; /* Membuat tombol mengikuti text-align */
   margin-top: 20px;
 }
@@ -188,12 +199,14 @@
   font-size: 14px;
   color: #5c7838;
 }
-.in-depth-articles-for {
+
+/* Indepth article */
+.in-depth-article {
   align-self: stretch;
   position: relative;
   letter-spacing: -0.02em;
 }
-.explore-our-in-depth {
+.explore {
   width: 615px;
   position: relative;
   font-size: 24px;
@@ -203,7 +216,7 @@
 }
 .txt {
   position: absolute;
-  top: 260px;
+  top: 150px;
   left: 120px;
   width: 690px;
   display: flex;
@@ -214,9 +227,9 @@
   font-size: 64px;
   font-family: 'Optician Sans';
 }
-.icon {
+.img-article1 {
   position: absolute;
-  top: 260px;
+  top: 150px;
   left: 1116px;
   border-radius: 24px;
   width: 202px;
@@ -224,9 +237,9 @@
   overflow: hidden;
   object-fit: cover;
 }
-.icon1 {
+.img-article2 {
   position: absolute;
-  top: 304px;
+  top: 240px;
   left: 834px;
   border-radius: 24px;
   width: 204px;
@@ -234,9 +247,11 @@
   overflow: hidden;
   object-fit: cover;
 }
+
+/* All category */
 .article-item {
   position: absolute;
-  top: 1199px;
+  top: 970px;
   left: 706px;
   border-radius: 24px;
   width: 204px;
@@ -245,12 +260,76 @@
   object-fit: cover;
   cursor: pointer;
 }
-.icons-calendar {
-  width: 20px;
-  position: relative;
-  height: 20px;
-  overflow: hidden;
-  flex-shrink: 0;
+.article-categories-parent {
+  position: absolute;
+  top: calc(50% - 1122px);
+  left: calc(50% - 600px);
+  width: 1198px;
+  height: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #000;
+}
+.article-Allcategorie {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 135px;
+  height: 24px;
+}
+.article-EcoEssentials {
+  position: absolute;
+  top: 0px;
+  left: 380px;
+  width: 132px;
+  height: 24px;
+}
+.article-GreenLiving {
+  position: absolute;
+  top: 0px;
+  left: 757px;
+  width: 113px;
+  height: 24px;
+}
+.article-EcoTech {
+  position: absolute;
+  top: 0px;
+  left: 1116px;
+  width: 82px;
+  height: 24px;
+}
+.eco-tech1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  text-transform: uppercase;
+}
+.news {
+  position: absolute;
+  top: 1000px;
+  left: 123px;
+  border-radius: 24px;
+  width: 571px;
+  height: 716px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 30px;
+  box-sizing: border-box;
+  /* background-image: url('./asset/imgarticle3.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Optician Sans';
+}
+.img-article3 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 .calendar {
   display: flex;
@@ -258,6 +337,13 @@
   align-items: center;
   justify-content: flex-start;
   gap: 15px;
+}
+.icons-calendar {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .advices {
   position: relative;
@@ -311,7 +397,7 @@
 }
 .text {
   position: absolute;
-  top: 1199px;
+  top: 982px;
   left: 936px;
   width: 382px;
   display: flex;
@@ -324,8 +410,8 @@
 }
 .article-inner {
   position: absolute;
-  top: 1456px;
-  left: 706px;
+  top: 1235px;
+  left: 715px;
   border-radius: 24px;
   width: 204px;
   height: 203px;
@@ -335,7 +421,7 @@
 }
 .text1 {
   position: absolute;
-  top: 1455px;
+  top: 1240px;
   left: 938px;
   width: 379px;
   display: flex;
@@ -348,8 +434,8 @@
 }
 .frame-icon {
   position: absolute;
-  top: 1714px;
-  left: 707px;
+  top: 1481px;
+  left: 715px;
   border-radius: 24px;
   width: 203px;
   height: 201px;
@@ -359,7 +445,7 @@
 }
 .text2 {
   position: absolute;
-  top: 1711px;
+  top: 1490px;
   left: 936px;
   width: 381px;
   display: flex;
@@ -370,9 +456,11 @@
   cursor: pointer;
   color: #656565;
 }
+
+/* More Article */
 .more-articles {
   position: absolute;
-  top: 2294px;
+  top: 2000px;
   left: 120px;
   font-size: 64px;
   letter-spacing: -0.02em;
@@ -382,7 +470,7 @@
 }
 .img-icon {
   position: absolute;
-  top: 2406px;
+  top: 2150px;
   left: 121px;
   border-radius: 32px;
   width: 587px;
@@ -435,7 +523,7 @@
 }
 .body {
   position: absolute;
-  top: 2406px;
+  top: 2150px;
   left: 735px;
   width: 586px;
   height: 345px;
@@ -628,55 +716,12 @@
 }
 .icon-more {
   position: absolute;
-  top: 2311px;
+  top: 2000px;
   left: 1287px;
   width: 30.3px;
   height: 30.3px;
 }
-.eco-tech1 {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  text-transform: uppercase;
-}
-.article-categories {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 135px;
-  height: 24px;
-}
-.article-categories1 {
-  position: absolute;
-  top: 0px;
-  left: 380px;
-  width: 132px;
-  height: 24px;
-}
-.article-categories2 {
-  position: absolute;
-  top: 0px;
-  left: 757px;
-  width: 113px;
-  height: 24px;
-}
-.article-categories3 {
-  position: absolute;
-  top: 0px;
-  left: 1116px;
-  width: 82px;
-  height: 24px;
-}
-.article-categories-parent {
-  position: absolute;
-  top: calc(50% - 977px);
-  left: calc(50% - 600px);
-  width: 1198px;
-  height: 24px;
-  cursor: pointer;
-  font-size: 16px;
-  color: #000;
-}
+
 .the-concept-of-green {
   align-self: stretch;
   position: relative;
@@ -734,51 +779,10 @@
   flex: 0 0 400px; /* Tentukan ukuran lebar gambar */
 }
 
-.eco-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.news {
-  position: absolute;
-  top: 1200px;
-  left: 123px;
-  border-radius: 24px;
-  width: 510px;
-  height: 716px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 30px;
-  box-sizing: border-box;
-  /* background-image: url('./asset/imgarticle3.jpg'); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  cursor: pointer;
-  font-size: 24px;
-  color: #fff;
-  font-family: 'Optician Sans';
-}
-.article {
-  width: 100%;
-  position: relative;
-  background-color: #fff;
-  height: 4136px;
-  overflow: hidden;
-  text-align: left;
-  font-size: 11px;
-  color: #333;
-  font-family: Poppins;
-}
-
 /* Footer */
 footer {
   /* background-color: #ffffff; */
   padding: 0px 100px;
-  padding-top: 100px;
   padding-bottom: 40px;
   color: #414958;
   display: flex;
