@@ -19,7 +19,7 @@
             background: url("../asset/daun.jpg");
             background-size: cover;
         }
-
+        /* Navbar */
         .header {
             width: 100%;
             display: flex;
