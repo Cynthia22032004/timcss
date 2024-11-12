@@ -14,7 +14,7 @@
   box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar total */
   padding-bottom: 5px;
 }
-
+  
 .logo {
   display: flex;
   align-items: center;

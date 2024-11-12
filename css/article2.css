@@ -566,7 +566,7 @@
 footer {
     /* background-color: #ffffff; */
     padding: 0px 100px;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     padding-bottom: 40px;
     color: #414958;
     display: flex;
