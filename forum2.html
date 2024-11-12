@@ -7,83 +7,81 @@
 				<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
 				<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Optician Sans:wght@400&display=swap" />
 				<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap" />
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+				
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 		<title>Document</title>
 	</head>
 
 	<body>
-		<div class="forum-page-2">
-			<div class="navbar">
-				<div class="navbar-child"></div>
-					<div class="yellow-and-green-modern-logo-parent">
-							<img class="yellow-and-green-modern-logo" alt="" src="Yellow and Green Modern Logo (2).png" />
-
-							<div class="button-parent">
-								<div class="button">
-									<div class="buttoncontent-wrapper">
-										<div class="buttoncontent">
-											<div class="label">iNSPIRATION</div>
-										</div>
-									</div>
-								</div>
-								<div class="button1">
-									<div class="buttoncontent-wrapper">
-										<div class="buttoncontent">
-											<div class="label">PROPERTY</div>
-										</div>
-									</div>
-								</div>
-								<div class="button2">
-									<div class="buttoncontent-wrapper">
-										<div class="buttoncontent">
-											<div class="label">ARTICLE</div>
-										</div>
-									</div>
-								</div>
-								<div class="button3">
-									<div class="buttoncontent-wrapper">
-										<div class="buttoncontent">
-											<b class="label">FORUM</b>
-										</div>
-									</div>
-								</div>
-								<div class="buttonprimary">
-									<b class="label">LOG IN</b>
-								</div>
-							</div>
-						</div>
-					</div>
+		<!-- <div class="forum-page-2"> -->
+			<!-- NAVBAR -->
+			<header class="header">
+				<a href="homepage.html">
+				  <div class="logo">
+					<img src="asset/logo.jpg" alt="Logo" />
+				  </div>
+				</a>
+				
+				<nav class="nav">
+				  <a href="inspiration1.html">INSPIRATION</a>
+				  <a href="property.html">PROPERTY</a>
+				  <a href="article.html">ARTICLE</a>
+				  <a href="#forum">FORUM</a>
+				  <a href="login.html" class="login-button">LOG IN</a>
+				</nav>
+			  </header>
 					<div class="ellipse-parent">
-						<img class="frame-child" alt="" src="Ellipse 126.png" />
+						<img class="frame-child" alt="" src="asset/forum 2/profile pic forum.png" />
 
 						<div class="muhammad-sumbul-parent">
 							<b class="muhammad-sumbul">Muhammad Sumbul</b>
-							<div class="min-read">2 min read . 1 day ago</div>
+							<div class="min-read">Sep 29, 2024 | 10.00 am</div>
 						</div>
 					</div>
 					<div class="starting-my-eco-home">Starting My Eco-Home Journey: What's the First Step?</div>
-					<img class="back-icon" alt="" src="back.svg" id="backIcon" />
+					<img class="back-icon" alt="" src="asset/back.png" id="backIcon" />
 
 					<div class="line-parent">
-						<img class="frame-item" alt="" src="Line 13.svg" />
-
+						<div class="frame-inner"></div>
+						
 						<div class="frame-parent">
-							<div class="buttoncontent-wrapper">
-								<img class="love-icon" alt="" src="Love.png" />
-
-								<div class="div">24</div>
-							</div>
-							<div class="chat-message-parent">
-								<img class="chat-message-icon" alt="" src="Chat Message.png" />
-
-								<div class="div1">4</div>
-							</div>
+						  <!-- Love button -->
+						  <div class="frame-parent">
+							<!-- Love button -->
+							<button class="buttoncontent-wrapper" id="loveButton">
+							  <i class="bi bi-heart"></i> <!-- Icon empty heart -->
+							  <i class="bi bi-heart-fill"></i> <!-- Icon filled heart -->
+							  <span class="love-count">24</span>
+							</button>
+						  </div>
+						  
+						
+						  <!-- Comment button -->
+						  <button class="chat-message-parent" id="commentButton">
+							<i class="bi bi-chat-text"></i>
+							<span class="comment-count">4</span>
+						  </button>
 						</div>
-						<img class="more-icon" alt="" src="More.png" />
+						
+						<!-- More options button -->
+						<button class="more-icon-button" id="moreButton">
+						  <i class="bi bi-three-dots"></i>
+						</button>
 
+						<!-- Dropdown menu for More options -->
+						<div class="dropdown-menu" id="dropdownMenu">
+							<button class="edit-option">Edit</button>
+							<button class="delete-option">Delete</button>
+						</div>
+					  
 						<div class="frame-inner"></div>
 					</div>
+					  
+					  
 					<div class="rectangle-parent">
-						<img class="rectangle-icon" alt="" src="Rectangle 2723.png" />
+						<img class="rectangle-icon" alt="" src="asset/forum 2/image forum.png" />
 
 						<div class="hello-ecosphere-community-container">
 							<p class="hello-ecosphere-community">Hello, Ecosphere community! 🌿</p>
@@ -96,7 +94,7 @@
 								conservation, which also makes sense to me since we all use so much water every day. And then there’s
 								waste reduction, an area where even small lifestyle changes can make a difference over time.
 							</p>
-							<p class="hello-ecosphere-community">&nbsp;</p>
+							<!-- <p class="hello-ecosphere-community">&nbsp;</p> -->
 							<p class="hello-ecosphere-community">
 								Given that there are so many ways to start and that each one could be impactful, I’d love some advice on
 								where to begin that would make a noticeable difference without requiring a huge upfront investment. I'm
@@ -105,156 +103,167 @@
 								even just learning more about sustainable practices and I'd love to hear any suggestions or stories from
 								others who've been on this journey.
 							</p>
-							<p class="hello-ecosphere-community">&nbsp;</p>
+							<!-- <p class="hello-ecosphere-community">&nbsp;</p> -->
 							<p class="hello-ecosphere-community">
 								Any insights or advice on where to focus my efforts first would be incredibly helpful! Thanks in advance
 								for your guidance! 😊
 							</p>
 						</div>
 					</div>
-					<img class="forum-page-2-child" alt="" src="Line 13.svg" />
-
-					<img class="forum-page-2-item" alt="" src="Line 14.svg" />
-
-					<img class="forum-page-2-inner" alt="" src="Line 15.svg" />
-
-					<img class="line-icon" alt="" src="Line 16.svg" />
 
 					<div class="group-parent">
 						<div class="more-parent">
-							<img class="more-icon1" alt="" src="More.png" />
-
+							<img class="more-icon1" alt="" src="asset/forum 2/More.png" />
 							<div class="group-wrapper">
 								<div class="group-wrapper">
-									<img class="group-child" alt="" src="Ellipse 127.png" />
-
+									<img class="group-child" alt="" src="asset/forum 2/Ellipse 127.png" />
 									<div class="alexandra">Alexandra</div>
 									<div class="aug-04-2024">Aug 04, 2024 | 12.00 pm</div>
 								</div>
 							</div>
 							<div class="hi-i-just">
-								Hi! I just started too, and my advice is to begin with small steps. Switch to LED lights they save
-								energy and are affordable. Try reducing waste by bringing your own water bottle and avoiding plastic.
-								Also, check for any leaky faucets to save water. Keep it up every small step counts! 🌍💪😊
+								Hi! I just started too, and my advice is to begin with small steps. Switch to LED lights they save energy and are affordable. Try reducing waste by bringing your own water bottle and avoiding plastic. Also, check for any leaky faucets to save water. Keep it up every small step counts! 🌍💪😊
 							</div>
 						</div>
-						<div class="reply">Reply</div>
+						<button class="reply" onclick="handleClick()">Reply</button>
+						<div class="group-separator"></div> <!-- Ganti nama class di sini -->
 					</div>
+					
 					<div class="group-container">
 						<div class="more-group">
-							<img class="more-icon1" alt="" src="More.png" />
-
+							<img class="more-icon1" alt="" src="asset/forum 2/More.png" />
 							<div class="group-wrapper">
 								<div class="group-wrapper">
-									<img class="group-child" alt="" src="Ellipse 127.png" />
-
+									<img class="group-child" alt="" src="asset/forum 2/Ellipse 128.png" />
 									<div class="alexandra">Steve</div>
 									<div class="aug-04-2024">Aug 05, 2024 | 10.00 am</div>
 								</div>
 							</div>
 							<div class="hi-i-just">
-								Hey! I was in the same boat a few months ago. I started by installing water-saving showerheads and
-								aerators. They’re super affordable and really cut down on water use. You’ve got this—it’s all about
-								steady progress! 💧🙌
+								Hey! I was in the same boat a few months ago. I started by installing water-saving showerheads and aerators. They’re super affordable and really cut down on water use. You’ve got this—it’s all about steady progress! 💧🙌
 							</div>
 						</div>
-						<div class="reply1">Reply</div>
+						<button class="reply" onclick="handleClick()">Reply</button>
+						<div class="group-separator"></div> <!-- Ganti nama class di sini -->
 					</div>
+					
 					<div class="group-div">
 						<div class="more-parent">
-							<img class="more-icon1" alt="" src="More.png" />
-
+							<img class="more-icon1" alt="" src="asset/forum 2/More.png" />
 							<div class="group-wrapper">
 								<div class="group-wrapper">
-									<img class="group-child" alt="" src="Ellipse 127.png" />
-
+									<img class="group-child" alt="" src="asset/forum 2/Ellipse 129.png" />
 									<div class="alexandra">Samantha</div>
 									<div class="aug-04-2024">Aug 05, 2024 | 10.00 am</div>
 								</div>
 							</div>
 							<div class="hi-i-just">
-								I’d say check out local thrift shops or online marketplaces for second-hand items like furniture or
-								décor. Upcycling can be a fun way to make your space eco-friendly without spending a lot. Plus, you can
-								find some unique pieces! Good luck on your journey!
+								I’d say check out local thrift shops or online marketplaces for second-hand items like furniture or décor. Upcycling can be a fun way to make your space eco-friendly without spending a lot. Plus, you can find some unique pieces! Good luck on your journey!
 							</div>
 						</div>
-						<div class="reply2">Reply</div>
+						<button class="reply" onclick="handleClick()">Reply</button>
+						<div class="group-separator"></div> <!-- Ganti nama class di sini -->
 					</div>
+					
 					<div class="group-parent1">
 						<div class="more-group">
-							<img class="more-icon1" alt="" src="More.png" />
-
+							<img class="more-icon1" alt="" src="asset/forum 2/More.png" />
 							<div class="group-wrapper">
 								<div class="group-wrapper">
-									<img class="group-child" alt="" src="Ellipse 127.png" />
-
+									<img class="group-child" alt="" src="asset/forum 2/Ellipse 130.png" />
 									<div class="alexandra">Olivia Rodrigo</div>
 									<div class="aug-04-2024">Aug 05, 2024 | 10.00 am</div>
 								</div>
 							</div>
 							<div class="hi-i-just">
-								I started with cutting down on single-use plastics. Swapping plastic straws for metal ones and using
-								reusable shopping bags has been a simple and effective way to reduce waste. You’ve got this, every
-								effort counts!
+								I started with cutting down on single-use plastics. Swapping plastic straws for metal ones and using reusable shopping bags has been a simple and effective way to reduce waste. You’ve got this, every effort counts!
 							</div>
 						</div>
-						<div class="reply3">Reply</div>
+						<button class="reply" onclick="handleClick()">Reply</button>
+						<div class="group-separator"></div> <!-- Ganti nama class di sini -->
 					</div>
-					<div class="group-parent2">
-						<img class="group-icon" alt="" src="Group 14079.svg" />
+					
 
-						<div class="frame-group">
-							<div class="yellow-and-green-modern-logo-group">
-								<img class="yellow-and-green-modern-logo1" alt="" src="Yellow and Green Modern Logo (2).png" />
+					
+	<!-- Footer -->
+    <footer>
+		<div class="footer-container"></div>
+		<div class="footer-section">
+		  <img class="logo-footer" alt="Company Logo" src="asset/logo.jpg" />
+		  <p>
+			We provide information about properties such as houses, villas, and
+			apartments to help people find their dream home.
+		  </p>
+		  <div class="social-icons">
+			<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+			<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+		  </div>
+		</div>
+  
+		<div class="footer-section-property">
+		  <h4>PROPERTY</h4>
+		  <p><a href="#">Discover</a></p>
+		  <p><a href="#">Our Partners</a></p>
+		  <p><a href="#">Property Recommendation</a></p>
+		</div>
+  
+		<div class="footer-section-article">
+		  <h4>ARTICLE</h4>
+		  <p><a href="#">Eco Essentials</a></p>
+		  <p><a href="#">Green Living</a></p>
+		  <p><a href="#">Eco Tech</a></p>
+		</div>
+  
+		<div class="footer-section-contact">
+		  <h4>CONTACT</h4>
+		  <p>2444 Royal Ln. Mesa, New Jersey 45463</p>
+		  <p>(671) 555-0110</p>
+		  <p><a href="mailto:info@ecosphere.com">info@ecosphere.com</a></p>
+		</div>
+		
+		<div class="footer-background">
+		  <img class="group-child" alt="Footer Decor" src="asset/footer gr.png" />
+		</div>
+	  </footer>
+				
 
-								<div class="bio">
-									<div class="we-provide-information">
-										We provide information about properties such as houses, villas and apartments to help people find
-										their dream home
-									</div>
-									<div class="brandicofacebook-parent">
-										<img class="brandicofacebook-icon" alt="" src="brandico:facebook.svg" />
+	  <script>
+		// Love button functionality
+		const loveButton = document.getElementById('loveButton');
+		const loveCount = document.querySelector('.love-count'); // Mengambil elemen love count
 
-										<img class="brandicofacebook-icon" alt="" src="ant-design:twitter-outlined.svg" />
+		loveButton.addEventListener('click', function() {
+		// Toggle antara ikon hati kosong dan hati penuh saat tombol diklik
+		loveButton.classList.toggle('clicked');  // Menambahkan atau menghapus class 'clicked'
 
-										<img class="brandicofacebook-icon" alt="" src="ant-design:instagram-filled.svg" />
-									</div>
-								</div>
-							</div>
-							<div class="frame-wrapper">
-								<div class="property-parent">
-									<div class="property">
-										<b class="property1">Property</b>
-										<div class="hello-ecosphere-community-container">Discover</div>
-										<div class="hello-ecosphere-community-container">Our Patners</div>
-										<div class="hello-ecosphere-community-container">Property Rekomendation</div>
-									</div>
-									<div class="article">
-										<b class="article1">Article</b>
-										<div class="hello-ecosphere-community-container">Eco Essentials</div>
-										<div class="hello-ecosphere-community-container">Green Living</div>
-										<div class="eco-tech">Eco Tech</div>
-									</div>
-									<div class="contact">
-										<b class="article1">Contact</b>
-										<div class="hello-ecosphere-community-container">2464 Royal Ln. Mesa, New Jersey 45463</div>
-										<div class="hello-ecosphere-community-container">(671) 555-0110</div>
-										<div class="hello-ecosphere-community-container">info@ecosphere.com</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+		// Update love count
+		let currentCount = parseInt(loveCount.textContent); // Mendapatkan count saat ini
+		loveCount.textContent = loveButton.classList.contains('clicked') ? currentCount + 1 : currentCount - 1;
+		});
 
-				<script>
-					var backIcon = document.getElementById("backIcon");
-					if (backIcon) {
-						backIcon.addEventListener("click", function (e) {
-							// Add your code here
-						});
-					}
-				</script>
+				// Comment button functionality
+		const commentButton = document.getElementById('commentButton');
+		const commentCount = document.querySelector('.comment-count'); // Mengambil elemen comment count
+
+		commentButton.addEventListener('click', function() {
+		// Bisa menambahkan logika tambahan untuk komentar, misalnya menambahkan count atau interaksi lainnya
+		let currentCommentCount = parseInt(commentCount.textContent);
+		commentCount.textContent = currentCommentCount + 1;  // Menambah jumlah komentar
+		});
+
+		
+		// Reply button functionality
+		function handleReplyClick() {
+			alert("Reply clicked!");
+		}
+
+		// More button functionality
+		const moreButton = document.getElementById('moreButton');
+		moreButton.addEventListener('click', function() {
+			alert("More button clicked!");
+		});
+	</script>
 			</body>
 		</html>
 	</body>
