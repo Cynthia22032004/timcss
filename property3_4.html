@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="css/property2_0.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Proxima Nova:wght@600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Optician Sans:wght@400&display=swap" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+        <a href="homepage.html">
+          <div class="logo">
+            <img src="asset/logo.jpg" alt="Logo" />
+          </div>
+        </a>
+      <nav class="nav">
+        <a href="inspiration1.html">INSPIRATION</a>
+        <a href="property.html">PROPERTY</a>
+        <a href="article.html">ARTICLE</a>
+        <a href="#forum">FORUM</a>
+        <a href="login.html" class="login-button">LOG IN</a>
+      </nav>
+    </header>
+
+    <div class="product-1-material">
+      <div class="product-thumbnails">
+        <div class="img1 thumbnail" data-large="asset/home4_kecil1.jpg">
+          <div class="img2-child"></div>
+          <img class="image-41-icon" alt="" src="asset/home4_kecil1.jpg" />
+          <!-- <div class="img1-item"></div> -->
+        </div>
+        <div class="img2 thumbnail" data-large="asset/home_kecil2.jpg" id="img2Container">
+          <div class="img2-child"></div>
+          <img class="image-43-icon" alt="" src="asset/home_kecil2.jpg" />
+        </div>
+        
+      </div>
+      <div class="product-image">
+        <div class="product-image-child"></div>
+        <img class="image-40-icon" alt="" src="asset/home4_besar.jpg" id="mainImage" />
+      </div>
+      <!-- Additional HTML omitted for brevity -->
+    </div>
+    <div class="back-parent">
+      <a href="property.html">
+        <img class="back-icon" alt="Back" src="asset/back.png" id="backIcon" />
+      </a>      
+
+      <div class="breadcrumbs">
+        <a class="breadcrumb-link-1" href="property.html">Home</a>
+        <div class="divider">/</div>
+        <a class="breadcrumb-link-2" href="#">Quantis Signature Type 178 at BSD City</a>
+      </div>
+
+      <div class="bamboo-petung-dendrocalamus1">Quantis Signature Type 178 at BSD City</div>
+      <b class="gal">$543,377.29</b>
+      <div class="ratings">
+        <img class="stars-icon" alt="" src="asset/star_home1.jpg" />
+
+        <div class="div1">
+          <span>4.0 / 5.0 </span>
+          <span class="span"> (30)</span>
+        </div>
+      </div>
+      <div class="bamboo-petung-dendrocalamus2">
+        The Quantis Signature Type 178 in BSD City is a modern residence tailored for families. With a built-up area of 178 m², it features three bedrooms and two bathrooms, ensuring spacious and comfortable living. The sophisticated interior and high-quality materials create a warm atmosphere.
+        Located in the rapidly developing BSD City, the home offers easy access to shopping, schools, and recreational facilities. Its attractive, secure environment, supported by a robust security system,
+        makes Quantis Signature Type 178 an excellent choice for those seeking a premium residence in a vibrant urban setting.
+        </div>
+
+
+    <script>
+      // Select main image and thumbnails
+      const mainImage = document.getElementById("mainImage");
+      const thumbnails = document.querySelectorAll(".thumbnail");
+    
+      // Function to handle thumbnail click
+      thumbnails.forEach((thumbnail) => {
+        thumbnail.addEventListener("click", function () {
+          // Update main image src
+          const largeImageSrc = this.getAttribute("data-large");
+          mainImage.src = largeImageSrc;
+    
+          // Remove green background from all thumbnails
+          thumbnails.forEach((th) => {
+            th.style.backgroundColor = "";
+            // Remove 'active-hover' class from all other thumbnails
+            th.querySelector(".img2-child").classList.remove("active-hover");
+          });
+    
+          // Add green background and 'active-hover' class to the selected thumbnail
+          this.style.backgroundColor = "green";
+          this.querySelector(".img2-child").classList.add("active-hover");
+        });
+      });
+    </script>
+      </body>
+    </html>
+  </body>
+</html>

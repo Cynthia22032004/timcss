@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="css/property2_0.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Proxima Nova:wght@600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Optician Sans:wght@400&display=swap" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+        <a href="homepage.html">
+          <div class="logo">
+            <img src="asset/logo.jpg" alt="Logo" />
+          </div>
+        </a>
+      <nav class="nav">
+        <a href="inspiration1.html">INSPIRATION</a>
+        <a href="property.html">PROPERTY</a>
+        <a href="article.html">ARTICLE</a>
+        <a href="#forum">FORUM</a>
+        <a href="login.html" class="login-button">LOG IN</a>
+      </nav>
+    </header>
+
+    <div class="product-1-material">
+      <div class="product-thumbnails">
+        <div class="img1 thumbnail" data-large="asset/home2_kecil1.jpg">
+          <div class="img2-child"></div>
+          <img class="image-41-icon" alt="" src="asset/home2_kecil1.jpg" />
+          <!-- <div class="img1-item"></div> -->
+        </div>
+        <div class="img2 thumbnail" data-large="asset/home2_besar2.jpg" id="img2Container">
+          <div class="img2-child"></div>
+          <img class="image-43-icon" alt="" src="asset/home2_besar2.jpg" />
+        </div>
+        
+      </div>
+      <div class="product-image">
+        <div class="product-image-child"></div>
+        <img class="image-40-icon" alt="" src="asset/home2_besar.jpg" id="mainImage" />
+      </div>
+      <!-- Additional HTML omitted for brevity -->
+    </div>
+    <div class="back-parent">
+      <a href="property.html">
+        <img class="back-icon" alt="Back" src="asset/back.png" id="backIcon" />
+      </a>      
+
+      <div class="breadcrumbs">
+        <a class="breadcrumb-link-1" href="property.html">Home</a>
+        <div class="divider">/</div>
+        <a class="breadcrumb-link-2" href="#">Lavia Living Type 5 at Citra Garden City Jakarta</a>
+      </div>
+
+      <div class="bamboo-petung-dendrocalamus1">Lavia Living Type 5 at Citra Garden City Jakarta</div>
+      <b class="gal">$145,754.22</b>
+      <div class="ratings">
+        <img class="stars-icon" alt="" src="asset/star_home1.jpg" />
+
+        <div class="div1">
+          <span>4.0 / 5.0 </span>
+          <span class="span"> (100)</span>
+        </div>
+      </div>
+      <div class="bamboo-petung-dendrocalamus2">
+        The Lavia Living Type 5 in Citra Garden City, Jakarta, is a modern residence designed for comfort and functionality. 
+        With a land area of 60 m² and a building area of 95 m², it features four bedrooms and three bathrooms, making it ideal for families. 
+        The stylish interior, crafted from high-quality materials, creates a warm atmosphere.
+Citra Garden City is known for its aesthetic appeal and extensive amenities, including green spaces and convenient access to shopping and transport. 
+The residence is equipped with an advanced security system, ensuring the safety of its occupants. Overall, Lavia Living Type 5 is an excellent choice for quality housing in Jakarta.</div>
+    </div>
+
+
+    <script>
+      // Select main image and thumbnails
+      const mainImage = document.getElementById("mainImage");
+      const thumbnails = document.querySelectorAll(".thumbnail");
+    
+      // Function to handle thumbnail click
+      thumbnails.forEach((thumbnail) => {
+        thumbnail.addEventListener("click", function () {
+          // Update main image src
+          const largeImageSrc = this.getAttribute("data-large");
+          mainImage.src = largeImageSrc;
+    
+          // Remove green background from all thumbnails
+          thumbnails.forEach((th) => {
+            th.style.backgroundColor = "";
+            // Remove 'active-hover' class from all other thumbnails
+            th.querySelector(".img2-child").classList.remove("active-hover");
+          });
+    
+          // Add green background and 'active-hover' class to the selected thumbnail
+          this.style.backgroundColor = "green";
+          this.querySelector(".img2-child").classList.add("active-hover");
+        });
+      });
+    </script>
+      </body>
+    </html>
+  </body>
+</html>

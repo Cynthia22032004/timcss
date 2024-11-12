@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="css/property2_0.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Proxima Nova:wght@600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Optician Sans:wght@400&display=swap" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+        <a href="homepage.html">
+          <div class="logo">
+            <img src="asset/logo.jpg" alt="Logo" />
+          </div>
+        </a>
+      <nav class="nav">
+        <a href="inspiration1.html">INSPIRATION</a>
+        <a href="property.html">PROPERTY</a>
+        <a href="article.html">ARTICLE</a>
+        <a href="#forum">FORUM</a>
+        <a href="login.html" class="login-button">LOG IN</a>
+      </nav>
+    </header>
+
+    <div class="product-1-material">
+      <div class="product-thumbnails">
+        <div class="img1 thumbnail" data-large="asset/home1_1.jpg">
+          <div class="img2-child"></div>
+          <img class="image-41-icon" alt="" src="asset/home1_1.jpg" />
+          <!-- <div class="img1-item"></div> -->
+        </div>
+        <div class="img2 thumbnail" data-large="asset/home1_2.jpg" id="img2Container">
+          <div class="img2-child"></div>
+          <img class="image-43-icon" alt="" src="asset/home1_2.jpg" />
+        </div>
+        
+      </div>
+      <div class="product-image">
+        <div class="product-image-child"></div>
+        <img class="image-40-icon" alt="" src="asset/home1.jpg" id="mainImage" />
+      </div>
+      <!-- Additional HTML omitted for brevity -->
+    </div>
+    <div class="back-parent">
+      <a href="property.html">
+        <img class="back-icon" alt="Back" src="asset/back.png" id="backIcon" />
+      </a>      
+
+      <div class="breadcrumbs">
+        <a class="breadcrumb-link-1" href="property.html">Home</a>
+        <div class="divider">/</div>
+        <a class="breadcrumb-link-2" href="#">Apartment JKT Living Star</a>
+      </div>
+
+      <div class="bamboo-petung-dendrocalamus1">Apartment JKT Living Star</div>
+      <b class="gal">$63,371.40</b>
+      <div class="ratings">
+        <img class="stars-icon" alt="" src="asset/star_home1.jpg" />
+
+        <div class="div1">
+          <span>4.6 / 5.0</span>
+          <span class="span"> (506)</span>
+        </div>
+      </div>
+      <div class="bamboo-petung-dendrocalamus2">
+        JKT Living Star is a contemporary apartment complex situated in the heart of Jakarta, 
+        providing convenient access to urban conveniences. The aesthetic appeal and functional 
+        design of the complex includes a variety of unit types, which are well-suited for families 
+        and young professionals. Each unit is furnished with high-quality items and features large 
+        windows that allow for the entry of natural light. Residents have access to a swimming pool, 
+        a gym, and green spaces, which are conducive to relaxation. The complex is situated in a location 
+        that is convenient for shopping, dining, and public transportation, making it an ideal choice for 
+        individuals who desire a vibrant urban lifestyle. Additionally, the complex provides 24-hour security 
+        and attentive service, which contribute to a comfortable and secure living experience.</div>
+    </div>
+
+
+    <script>
+      // Select main image and thumbnails
+      const mainImage = document.getElementById("mainImage");
+      const thumbnails = document.querySelectorAll(".thumbnail");
+    
+      // Function to handle thumbnail click
+      thumbnails.forEach((thumbnail) => {
+        thumbnail.addEventListener("click", function () {
+          // Update main image src
+          const largeImageSrc = this.getAttribute("data-large");
+          mainImage.src = largeImageSrc;
+    
+          // Remove green background from all thumbnails
+          thumbnails.forEach((th) => {
+            th.style.backgroundColor = "";
+            // Remove 'active-hover' class from all other thumbnails
+            th.querySelector(".img2-child").classList.remove("active-hover");
+          });
+    
+          // Add green background and 'active-hover' class to the selected thumbnail
+          this.style.backgroundColor = "green";
+          this.querySelector(".img2-child").classList.add("active-hover");
+        });
+      });
+    </script>
+      </body>
+    </html>
+  </body>
+</html>
