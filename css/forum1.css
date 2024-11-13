@@ -406,6 +406,11 @@ body {
 	width: 1044px;
 	
 }
+
+.looking-for-simple a {
+	color: #000;
+	text-decoration: none;
+}
 .more-parent {
 	position: absolute;
 	top: 0px;
@@ -414,6 +419,7 @@ body {
 	height: 65px;
 	font-size: 24px;
 	font-family: Poppins;
+
 }
 .more-icon {
 	position: absolute;
