@@ -1,3 +1,307 @@
+thyrex
+thyxz
+Online
+Cintung — 11/12/2024 12:55 PM
+suara nya putus" daf
+mang ujang — 11/12/2024 1:39 PM
+Image
+Cintung — 11/12/2024 9:28 PM
+wait izin ke kmar mandi
+thyrex — 11/12/2024 10:41 PM
+p 
+thyrex — 11/12/2024 10:57 PM
+new 
+css 
+lala — 11/12/2024 11:13 PM
+/* Reset dasar /
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 1000vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+/ Konten utama */
+.main-content {
+    flex: 1;
+}
+Lunggg — 11/13/2024 12:05 AM
+WOIII DAPP
+mang ujang — 11/13/2024 12:05 AM
+Image
+Watch Together
+APP
+ — 11/13/2024 12:21 AM
+Activity ended. Start a new one?
+Krunker Strike FRVR
+APP
+ — 11/13/2024 12:24 AM
+Activity ended. Start a new one?
+BOPZ.io
+APP
+ — 11/13/2024 12:34 AM
+Activity ended. Start a new one?
+Goober Dash
+APP
+ — 11/13/2024 12:48 AM
+Activity ended. Start a new one?
+thyrex — 11/13/2024 1:47 AM
+css 
+thyrex — 11/13/2024 1:54 AM
+prototype nya td ga bisa karena apa deh
+Lunggg — 11/13/2024 8:11 AM
+bangun dlu dap
+mang ujang — 11/13/2024 8:25 AM
+bntr gua ngasi pesenan dulu
+thyrex — 11/13/2024 9:02 AM
+https://zoom.us/j/94339629816?pwd=3nXtVc7R2q5BNDNQ0mtZopspJqbW2g.1
+Zoom Video
+Join our Cloud HD Video Meeting
+Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as ex...
+Tom — 11/13/2024 11:54 AM
+cd c:/
+Elsi Adella — 11/13/2024 12:01 PM
+npm create vite@latest [your project name]
+thyrex — 11/13/2024 12:03 PM
+https://stackoverflow.com/questions/64633727/how-to-fix-running-scripts-is-disabled-on-this-system
+Stack Overflow
+How to fix "running scripts is disabled on this system"?
+When I try to run ionic commands like ionic serve on the VS Code terminal, it gives the following error.
+How can I fix this?
+ionic : File C:\Users\Lakshan\AppData\Roaming\npm\ionic.ps1 cannot be lo...
+Image
+mang ujang — 11/13/2024 12:16 PM
+/ @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src//*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+
+function App() {
+  function formatToIDRCurrency(value) {
+    const formattedValue = new Intl.NumberFormat('id-ID', {
+      style: 'currency',
+      currency: 'IDR',
+      minimumFractionDigits: 0
+    }).format(value)
+
+    return formattedValue.replace('Rp', 'Rp. ')
+  }
+  return (
+    <>
+      <section className='container px-24 py-4'>
+        <div className="flex flex-col max-w-[370px] flex-wrap p-[16px] bg-[#081116]" >
+          <img src="/asset/images/air-force.jpg" alt="" className="block max-h-[300px] mb-4 object-cover" />
+            <div className="flex flex-col gap-2">
+                <h4 className="font-medium text-[20px] text-white">Nike Air Force 1 &apos;07</h4>
+                <span className="block font-medium text-[14px] text-[#eaeaea]">Men&apos;s Shoe</span>
+                <span className="block font-medium text-[20px] text-white">{formatToIDRCurrency(1549000)}</span>
+                <div>
+                  <button className="inline-flex items-center justify-center gap-2 p-4 bg-[#6173E6] text-center">
+                      <FontAwesomeIcon icon={faCartShopping} className="mb-0" />
+                      <span>Add to cart</span>
+                  </button>
+                </div>
+            </div>
+          </div>
+      </section>
+    </>
+  )
+}
+
+export default App
+Krunker Strike FRVR
+APP
+ — 11/13/2024 12:19 PM
+Activity ended. Start a new one?
+mang ujang — 11/13/2024 12:27 PM
+npm install @fortawesome/fontawesome-svg-core
+    npm install @fortawesome/free-solid-svg-icons
+    npm install @fortawesome/react-fontawesome
+    npm install @fortawesome/free-brands-svg-icons
+Bloxd
+APP
+ — 11/13/2024 1:14 PM
+Activity ended. Start a new one?
+Chef Showdown
+APP
+ — 11/13/2024 2:22 PM
+Activity ended. Start a new one?
+thyrex — 11/13/2024 3:49 PM
+Image
+Magic Circle
+APP
+ — 11/13/2024 4:08 PM
+Activity ended. Start a new one?
+mang ujang — 11/14/2024 7:07 PM
+/ @type {import('tailwindcss').Config} /
+export default {
+  content: [
+    "./index.html",
+    "./src//.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+npm install @fortawesome/fontawesome-svg-core
+    npm install @fortawesome/free-solid-svg-icons
+    npm install @fortawesome/react-fontawesome
+    npm install @fortawesome/free-brands-svg-icons
+mang ujang — 11/17/2024 10:15 PM
+halo tur
+grup a
+nizar
+cry — 11/17/2024 10:15 PM
+ngomong bang
+mang ujang — Yesterday at 8:53 PM
+bagaimana agar classnamenya tidak tedeteksi oleh class yang sama di beda page
+Cintung — Yesterday at 8:57 PM
+import "./article1.css";
+
+export function Article1() {
+  const handleRedirect = (url) => {
+    window.location.href = url;
+  };
+Expand
+message.txt
+5 KB
+cry — Yesterday at 8:58 PM
+mau nanya dong
+ni tugas cuman nganu punya kak tomi kak
+mang ujang — Yesterday at 9:01 PM
+import styles from './article1.module.css';
+
+export function Article1() {
+  const handleRedirect = (url) => {
+    window.location.href = url;
+  };
+Expand
+message.txt
+5 KB
+Cintung — Yesterday at 9:05 PM
+.article {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 3950px;
+  overflow: hidden;
+Expand
+message.txt
+12 KB
+Lunggg — Yesterday at 9:50 PM
+kasian bet
+Krunker Strike FRVR
+APP
+ — Yesterday at 11:28 PM
+Activity ended. Start a new one?
+Farm Merge Valley
+APP
+ — Today at 12:14 AM
+Activity ended. Start a new one?
+Bloxd
+APP
+ — Today at 12:20 AM
+Activity ended. Start a new one?
+thyrex — Today at 12:58 PM
+knp dap?
+btw bntr dlu yh
+yanto kopling — Today at 2:02 PM
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+npm run dev
+thyrex — Today at 4:19 PM
+/* Style untuk tombol love 
+.buttoncontent-wrapper {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 15px;
+  margin-right: 30%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  position: relative; /* Menambahkan posisi relatif agar z-index bekerja 
+}
+
+button,
+#commentButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+} /
+
+/ Ikon hati kosong (hitam) 
+#loveButton i.bi-heart {
+  color: black; /* Warna hati kosong 
+  transition: color 0.3s ease;
+  position: absolute; /* Posisi absolute agar tidak mengganggu layout 
+  z-index: 1; /* Hati kosong berada di bawah hati penuh 
+  display: inline-block; /* Pastikan ikon hati kosong ditampilkan 
+}
+
+/* Ikon hati penuh (merah) 
+#loveButton i.bi-heart-fill {
+  color: red; /* Warna hati merah /
+  display: none; / Hati merah disembunyikan awalnya /
+  transition: color 0.3s ease;
+  position: absolute; / Posisi absolute agar tidak mengganggu layout /
+  z-index: 2; / Hati merah berada di atas hati kosong /
+}
+
+/ Ketika tombol diklik, tampilkan hati penuh dan sembunyikan hati kosong /
+#loveButton.clicked i.bi-heart {
+  display: none; / Sembunyikan hati kosong /
+}
+
+#loveButton.clicked i.bi-heart-fill {
+  display: inline-block; / Tampilkan hati penuh (merah) /
+  z-index: 2; / Pastikan hati merah tetap berada di atas /
+}
+
+/ Memberikan jarak antara love count dan ikon /
+.love-count {
+  margin-left: 25px; / Jarak antara angka dan ikon /
+  font-size: 16px; / Sesuaikan ukuran font jika perlu /
+  / font-weight: bold; Membuat angka lebih tebal */
+}
+Goober Dash
+APP
+ — Today at 4:33 PM
+Activity ended. Start a new one?
+thyrex — Today at 4:56 PM
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/forum1.css" />
+Expand
+message.txt
+21 KB
+/* Reset dasar */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 1000vh;
+Expand
+message.txt
+22 KB
+﻿
 /* Reset dasar */
 body {
   margin: 0;
