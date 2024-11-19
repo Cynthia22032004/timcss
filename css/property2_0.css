@@ -335,3 +335,33 @@ body {
 .div1 {
   font-family: "Poppins", sans-serif;
 }
+
+.stars {
+  font-size: 24px;
+  color: lightgray; /* Warna untuk bintang kosong */
+  position: relative;
+}
+
+.stars::before {
+  content: "★★★★★"; /* Tampilan bintang penuh */
+  color: gold; /* Warna bintang penuh */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--rating) * 20%); /* Mengatur lebar berdasarkan rating */
+  overflow: hidden;
+}
+
+/* Atur nilai rating di CSS */
+.stars[data-rating="4.5"]::before {
+  --rating: 4.5;
+}
+.stars[data-rating="4.0"]::before {
+  --rating: 4;
+}
+.stars[data-rating="3.5"]::before {
+  --rating: 3.5;
+}
+.stars[data-rating="3.0"]::before {
+  --rating: 3;
+}
