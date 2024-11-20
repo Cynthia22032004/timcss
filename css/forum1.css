@@ -122,6 +122,13 @@ body {
   top: 63px;
   left: 196px;
   font-weight: 500;
+  flex: 1; /* Agar input mengisi sisa ruang */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Menambahkan garis border */
+  border-radius: 15px; /* Membuat sudut melengkung */
+  outline: none; /* Menghilangkan garis fokus bawaan browser */
+  background-color: #f9f9f9; /* Warna latar input */
 }
 .question-for-you {
   position: absolute;
@@ -228,6 +235,7 @@ body {
   font-weight: 500;
   color: #000;
 }
+
 .comment-suggestion-2 {
   position: absolute;
   top: 302px;
