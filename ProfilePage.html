@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="css/ProfilePage.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Optician Sans:wght@400&display=swap" />
   </head>
   <body>
@@ -38,15 +39,21 @@
        
         <div class="group-parent">
           <div class="group-container">
-            <div class="love-parent">
-              <img class="love-icon" alt="" src="asset/Love1.png" />
+            <!-- Love Button -->
+				<button class="buttoncontent-wrapper" id="loveButton">
+				  <i class="bi bi-heart"></i>
+				  <i class="bi bi-heart-fill"></i>
+				  <span class="love-count">24</span>
+				</button>
+		  
+				<!-- Comment Section -->
+				<div id="commentContainer">
+				  <button class="chat-message-parent" id="commentButton">
+					<i class="bi bi-chat-text"></i>
+					<span class="comment-count">4</span>
+				  </button>
 
-              <div class="div">24</div>
-            </div>
-            <div class="chat-message-parent">
-              <img class="love-icon" alt="" src="asset/massege.png" />
-
-              <div class="div">4</div>
+				</div>
             </div>
           </div>
           <div class="hi-everyone-im-new-to-the-parent">
@@ -74,26 +81,57 @@
     </div>
 
     <script>
-      var yellowAndGreenModernLogo = document.getElementById('yellowAndGreenModernLogo');
-      if (yellowAndGreenModernLogo) {
-        yellowAndGreenModernLogo.addEventListener('click', function (e) {
-          // Add your code here
-        });
-      }
+      // Love button functionality
+		const loveButton = document.getElementById('loveButton');
+		const loveCount = document.querySelector('.love-count'); // Mengambil elemen love count
 
-      var frameContainer = document.getElementById('frameContainer');
-      if (frameContainer) {
-        frameContainer.addEventListener('click', function (e) {
-          // Add your code here
-        });
-      }
+		loveButton.addEventListener('click', function() {
+		// Toggle antara ikon hati kosong dan hati penuh saat tombol diklik
+		loveButton.classList.toggle('clicked');  // Menambahkan atau menghapus class 'clicked'
 
-      var buttonPrimaryContainer = document.getElementById('buttonPrimaryContainer');
-      if (buttonPrimaryContainer) {
-        buttonPrimaryContainer.addEventListener('click', function (e) {
-          // Add your code here
-        });
-      }
+		// Update love count
+		let currentCount = parseInt(loveCount.textContent); // Mendapatkan count saat ini
+		loveCount.textContent = loveButton.classList.contains('clicked') ? currentCount + 1 : currentCount - 1;
+		});
+
+		// button comment
+		// Get elements
+const commentButton = document.getElementById('commentButton');
+const commentModal = document.getElementById('commentModal');
+const closeModal = document.querySelector('.close');
+const addCommentBtn = document.querySelector('.add-comment-btn');
+
+// Show modal on button click
+commentButton.addEventListener('click', function () {
+    commentModal.style.display = 'block';
+});
+
+// Close modal on click of the close button
+closeModal.addEventListener('click', function () {
+    commentModal.style.display = 'none';
+});
+
+// Close modal when clicking outside of the modal content
+window.addEventListener('click', function (event) {
+    if (event.target === commentModal) {
+        commentModal.style.display = 'none';
+    }
+});
+
+// Handle comment submission
+addCommentBtn.addEventListener('click', function () {
+    const commentInput = document.querySelector('.comment-input');
+    const comment = commentInput.value.trim();
+    if (comment) {
+        alert(`Comment added: ${comment}`); // Replace with your comment saving logic
+        commentInput.value = ''; // Clear input field
+        commentModal.style.display = 'none'; // Close the modal
+    } else {
+        alert('Please enter a comment.');
+    }
+})
+
+      
     </script>
   </body>
 </html>
