@@ -228,14 +228,14 @@
   height: 202px;
   object-fit: cover;
 }
-.ester-howard {
+.muhammad-sumbul {
   position: absolute;
   top: 720px;
-  left: 316px;
+  left: 330px;
   font-size: 28px;
   font-weight: 500;
   display: inline-block;
-  width: 233px;
+  /* width: 233px; */
 }
 .more {
   position: absolute;
@@ -254,6 +254,8 @@
   text-align: right;
   font-family: poppins;
   /* color: #fbfbfb; */
+
+/* Container article */
 }
 .line {
   position: absolute;
@@ -266,47 +268,29 @@
 }
 .group-child {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: -20px;
+  left: -10px;
   border-radius: 24px;
   background-color: #f7ffec;
   width: 1200px;
   height: 548px;
 }
-.love-icon {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-}
+
 .div {
   position: absolute;
   top: 7px;
   left: 67px;
   font-weight: 500;
 }
-.love-parent {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 97px;
-  height: 50px;
-}
-.chat-message-parent {
-  position: absolute;
-  top: 0px;
-  left: 233px;
-  width: 83px;
-  height: 50px;
-}
+
 .group-container {
   position: absolute;
   top: 414px;
-  left: 0px;
-  width: 316px;
-  height: 50px;
+  left: -30px;
+  width: 300px;
+  height: 20px;
+  display: flex;
+  align-items: center;
 }
 .hi-everyone {
   margin: 0;
@@ -314,7 +298,7 @@
 .hi-everyone-container {
   position: absolute;
   top: 204px;
-  left: 0px;
+  left: 40px;
   font-weight: 500;
   display: inline-block;
   width: 1044px;
@@ -344,13 +328,14 @@
   height: 65px;
   object-fit: cover;
 }
-.ester-howard1 {
+.muhammad-sumbul1 {
   position: absolute;
   top: 4px;
   left: 100px;
   font-weight: 500;
   display: inline-block;
-  width: 233px;
+  width: 26px;
+  white-space: nowrap;
 }
 .aug-24-2024 {
   position: absolute;
@@ -371,16 +356,16 @@
 .more-parent {
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: 40px;
   width: 1047px;
   height: 65px;
   font-size: 24px;
   font-family: Poppins;
 }
-.looking-for-simple-tips-to-sta-parent {
+.starting-my-eco-home {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 110px;
+  left: 40px;
   width: 1047px;
   height: 181px;
   text-align: left;
@@ -420,3 +405,118 @@
   color: #000;
   font-family: Poppins;
 }
+
+/* Style untuk tombol love */
+.buttoncontent-wrapper {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 15px;
+  margin-right: 30%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  position: relative; /* Menambahkan posisi relatif agar z-index bekerja */
+}
+
+button,
+#commentButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Ikon hati kosong (hitam) */
+#loveButton i.bi-heart {
+  color: black; /* Warna hati kosong */
+  transition: color 0.3s ease;
+  position: absolute; /* Posisi absolute agar tidak mengganggu layout */
+  z-index: 1; /* Hati kosong berada di bawah hati penuh */
+  display: inline-block; /* Pastikan ikon hati kosong ditampilkan */
+}
+
+/* Ikon hati penuh (merah) */
+#loveButton i.bi-heart-fill {
+  color: red; /* Warna hati merah */
+  display: none; /* Hati merah disembunyikan awalnya */
+  transition: color 0.3s ease;
+  position: absolute; /* Posisi absolute agar tidak mengganggu layout */
+  z-index: 2; /* Hati merah berada di atas hati kosong */
+}
+
+/* Ketika tombol diklik, tampilkan hati penuh dan sembunyikan hati kosong */
+#loveButton.clicked i.bi-heart {
+  display: none; /* Sembunyikan hati kosong */
+}
+
+#loveButton.clicked i.bi-heart-fill {
+  display: inline-block; /* Tampilkan hati penuh (merah) */
+  z-index: 2; /* Pastikan hati merah tetap berada di atas */
+}
+
+/* Memberikan jarak antara love count dan ikon */
+.love-count {
+  margin-left: 25px; /* Jarak antara angka dan ikon */
+  font-size: 16px; /* Sesuaikan ukuran font jika perlu */
+  /* font-weight: bold; Membuat angka lebih tebal */
+}
+
+.chat-message-parent {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.chat-message-parent i {
+  margin-right: 5px;
+}
+
+/* Common styles for Love and Comment buttons */
+.buttoncontent-wrapper,
+.chat-message-parent,
+.more-icon-button {
+  border: none;
+  font-size: 20px;
+}
+
+/* Comment (speech bubble) icon */
+/* Container for comment section */
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.comment-icon {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #bbb;
+  border-radius: 3px;
+  position: relative;
+  background-color: #fff;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.comment-icon::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 4px;
+  width: 6px;
+  height: 6px;
+  background-color: #bbb;
+  transform: rotate(45deg);
+  border: 2px solid #bbb;
+  border-top: none;
+  border-right: none;
+  background: #fff;
+}
+

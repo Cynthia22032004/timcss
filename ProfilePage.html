@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="css/ProfilePage.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Optician Sans:wght@400&display=swap" />
   </head>
   <body>
@@ -26,9 +27,9 @@
       </header>
       <img class="profile-page-child" alt="" src="asset/profileforum.png" />
 
-      <img class="profile-page-item" alt="" src="asset/profile1.png" />
+      <img class="profile-page-item" alt="" src="asset/forum 2/profile pic forum.png" />
 
-      <div class="ester-howard">Ester Howard</div>
+      <div class="muhammad-sumbul">Muhammad Sumbul</div>
       <div class="more">
         <a href="" class="cta-button">EDIT PROFILE</a>
       </div>
@@ -38,32 +39,39 @@
        
         <div class="group-parent">
           <div class="group-container">
-            <div class="love-parent">
-              <img class="love-icon" alt="" src="asset/Love1.png" />
+            <!-- Love Button -->
+				<button class="buttoncontent-wrapper" id="loveButton">
+				  <i class="bi bi-heart"></i>
+				  <i class="bi bi-heart-fill"></i>
+				  <span class="love-count">24</span>
+				</button>
+		  
+				<!-- Comment Section -->
+				<div id="commentContainer">
+				  <button class="chat-message-parent" id="commentButton">
+					<i class="bi bi-chat-text"></i>
+					<span class="comment-count">4</span>
+				  </button>
 
-              <div class="div">24</div>
-            </div>
-            <div class="chat-message-parent">
-              <img class="love-icon" alt="" src="asset/massege.png" />
-
-              <div class="div">4</div>
+				</div>
             </div>
           </div>
           <div class="hi-everyone-im-new-to-the-parent">
             <div class="hi-everyone-container">
-              <p class="hi-everyone">"Hi everyone! 👋 I'm new to the eco-friendly lifestyle and looking to start with small, impactful changes at home. I've done a bit of research, but there's so much information out there that it's overwhelming! What are some simple tips or habits that helped you get started on your journey? Appreciate any advice!"</p>
-              <p class="hi-everyone">#EcoFriendlyLiving #GreenHome #TipsForBeginners</p>
+              <p class="hi-everyone">"Hello, Ecosphere community! 🌿"</p>
+              <p class="hi-everyone">I've recently become passionate about making my home more eco-friendly, and I'm excited to start making
+						positive changes! However, I'll admit I'm feeling a bit overwhelmed with all the advice out
+						there—there’s just so much information, and each area seems to offer its own benefits.</p>
             </div>
-            <div class="looking-for-simple-tips-to-sta-parent">
-              <div class="looking-for-simple">Looking for Simple Tips to Start My Eco-Friendly Journey!</div>
+            <div class="starting-my-eco-home">Starting My Eco-Home Journey: What's the First Step?</div>
               <div class="more-parent">
                 <img class="more-icon" alt="" src="asset/titik.png" />
 
                 <div class="profile">
-                  <img class="group-item" alt="" src="asset/profile1.png" />
+                  <img class="group-item" alt="" src="asset/forum 2/profile pic forum.png" />
         
-                  <div class="ester-howard1">Ester Howard</div>
-                  <div class="aug-24-2024">Aug 24, 2024 | 09.15 pm</div>
+                  <div class="muhammad-sumbul1">Muhammad Sumbul</div>
+                  <div class="aug-24-2024">Sep 29, 2024 | 10.00 am</div>
                 </div>
               </div>
             </div>
@@ -73,26 +81,57 @@
     </div>
 
     <script>
-      var yellowAndGreenModernLogo = document.getElementById('yellowAndGreenModernLogo');
-      if (yellowAndGreenModernLogo) {
-        yellowAndGreenModernLogo.addEventListener('click', function (e) {
-          // Add your code here
-        });
-      }
+      // Love button functionality
+		const loveButton = document.getElementById('loveButton');
+		const loveCount = document.querySelector('.love-count'); // Mengambil elemen love count
 
-      var frameContainer = document.getElementById('frameContainer');
-      if (frameContainer) {
-        frameContainer.addEventListener('click', function (e) {
-          // Add your code here
-        });
-      }
+		loveButton.addEventListener('click', function() {
+		// Toggle antara ikon hati kosong dan hati penuh saat tombol diklik
+		loveButton.classList.toggle('clicked');  // Menambahkan atau menghapus class 'clicked'
 
-      var buttonPrimaryContainer = document.getElementById('buttonPrimaryContainer');
-      if (buttonPrimaryContainer) {
-        buttonPrimaryContainer.addEventListener('click', function (e) {
-          // Add your code here
-        });
-      }
+		// Update love count
+		let currentCount = parseInt(loveCount.textContent); // Mendapatkan count saat ini
+		loveCount.textContent = loveButton.classList.contains('clicked') ? currentCount + 1 : currentCount - 1;
+		});
+
+		// button comment
+		// Get elements
+const commentButton = document.getElementById('commentButton');
+const commentModal = document.getElementById('commentModal');
+const closeModal = document.querySelector('.close');
+const addCommentBtn = document.querySelector('.add-comment-btn');
+
+// Show modal on button click
+commentButton.addEventListener('click', function () {
+    commentModal.style.display = 'block';
+});
+
+// Close modal on click of the close button
+closeModal.addEventListener('click', function () {
+    commentModal.style.display = 'none';
+});
+
+// Close modal when clicking outside of the modal content
+window.addEventListener('click', function (event) {
+    if (event.target === commentModal) {
+        commentModal.style.display = 'none';
+    }
+});
+
+// Handle comment submission
+addCommentBtn.addEventListener('click', function () {
+    const commentInput = document.querySelector('.comment-input');
+    const comment = commentInput.value.trim();
+    if (comment) {
+        alert(`Comment added: ${comment}`); // Replace with your comment saving logic
+        commentInput.value = ''; // Clear input field
+        commentModal.style.display = 'none'; // Close the modal
+    } else {
+        alert('Please enter a comment.');
+    }
+})
+
+      
     </script>
   </body>
 </html>
