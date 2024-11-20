@@ -4,11 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/forum1.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Optician Sans:wght@400&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Optician Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
     <title>Forum - 1</title>
   </head>
 
@@ -27,361 +42,468 @@
       </nav>
     </header>
 
-    <div class="main-content">
-      <!-- 1 -->
-      <div class="section1">
-        <div class="comment-box-wrapper">
-          <div class="comment-box"></div>
-          <img class="comment-ava" alt="" src="asset/forum1/ava-ester.svg" />
-          <input type="text" class="comment-text" placeholder="What’s Your Question?" />
-        </div>
-        <div class="comment-suggestion-wrapper">
-          <div class="comment-suggestion">
-            <div class="comment-suggestion-inner">
-              <div class="question-for-you">Question for you</div>
-              <div class="comment-suggestion-1">
-                <div class="hover-more">
-                  <a href="#" class="cta-button">Answer</a>
-                </div>
-                <!-- <div class="button">
-									<b class="label">Answer</b>
-								</div> -->
-                <div class="answer">14 Answer</div>
-                <div class="last-answer-1h">| Last answer 1h</div>
-                <div class="desc">What eco-friendly DIY projects have you tried recently?</div>
-              </div>
-              <div class="comment-suggestion-2">
-                <div class="hover-more">
-                  <a href="#" class="cta-button">Answer</a>
-                </div>
-                <div class="answer">26 Answer</div>
-                <div class="last-answer-1h">| Last answer 1h</div>
-                <div class="desc">What inspires you to make eco-friendly choices in your home?</div>
-              </div>
-              <div class="comment-suggestion-3">
-                <div class="hover-more">
-                  <a href="#" class="cta-button">Answer</a>
-                </div>
-                <div class="answer">31 Answer</div>
-                <div class="last-answer-1h">| Last answer 3h</div>
-                <div class="desc">What is the most impactful change you've made at home to support sustainability?</div>
-              </div>
-              <div class="comment-suggestion-4">
-                <div class="hover-more">
-                  <a href="#" class="cta-button">Answer</a>
-                </div>
-                <div class="answer">19 Answer</div>
-                <div class="last-answer-1h">| Last answer 5h</div>
-                <div class="desc">Which smart tech solutions have helped make your home greener?</div>
-              </div>
+    <section class="main-content">
+      <!-- Main Post -->
+      <!-- POSTINGAN 1 -->
+      <section class="main-post">
 
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-              <div class="line4"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 2 -->
-      <div class="title-section2">sharing & Discussions</div>
-      <div class="section2">
-        <div class="forum-a">
-          <div class="forum-a-inner">
-            <!-- <div class="rectangle-div"></div> -->
-            <div class="forum-a-content">
-              <div class="forum-a-desc">
-                <div class="forum-a-desc-inner">
-                  <p class="hi-everyone">
-                    "Hi everyone! 👋 I'm new to the eco-friendly lifestyle and looking to start with small, impactful changes at home. I've done a bit of research, but there's so much information out there that it's overwhelming! What are
-                    some simple tips or habits that helped you get started on your journey? Appreciate any advice!"
-                  </p>
-                  <p class="hi-everyone">#EcoFriendlyLiving #GreenHome #TipsForBeginners</p>
-                </div>
-                <div class="looking-for-simple-tips-to-sta-parent">
-                  <div class="looking-for-simple">Looking for Simple Tips to Start My Eco-Friendly Journey!</div>
-                  <div class="more-parent">
-                    <div class="ellipse-parent">
-                      <img class="ellipse-icon" alt="" src="asset/forum1/ava-ester.svg" />
-                      <div class="ester-howard">Ester Howard</div>
-                      <div class="aug-24-2024">Aug 24, 2024 | 09.15 pm</div>
-                      <!-- More Options Button -->
-                      <button class="more-icon-button" id="moreButton">
-                        <i class="bi bi-three-dots"></i>
-                      </button>
-
-                      <!-- Dropdown Menu -->
-                      <div class="dropdown-menu" id="dropdownMenu">
-                        <button class="edit-option">Update</button>
-                        <button class="delete-option">Delete</button>
-                      </div>
-                    </div>
-                    <div class="group-parent6">
-                      <!-- Love Button -->
-                      <button class="buttoncontent-wrapper" id="loveButton">
-                        <i class="bi bi-heart"></i>
-                        <i class="bi bi-heart-fill"></i>
-                        <span class="love-count">24</span>
-                      </button>
-
-                      <!-- Comment Section -->
-                      <div id="commentContainer">
-                        <button class="chat-message-parent" id="commentButton">
-                          <i class="bi bi-chat-text"></i>
-                          <span class="comment-count">4</span>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div class="main-post-1">
+          <a href="#" class="main-post-link">
+          <div class="title-section2">Sharing & Discussions</div>
+          <div class="post-container">
+            <div class="post-user">
+              <img class="user-avatar" alt="User Avatar" src="asset/forum1/profile1.png" />
+              <div class="user-info">
+                <div class="user-name">Ester Howard</div>
+                <div class="post-date">Aug 24, 2024 | 09.15 pm</div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="group-frame">
-          <div class="rectangle-parent1">
-            <div class="group-child2"></div>
-            <div class="group-parent3">
-              <div class="group-wrapper1">
-                <div class="group-parent4">
-                  <div class="starting-my-eco-home-journey-parent">
-                    <div class="looking-for-simple">
-                      <p class="hi-everyone">Starting My Eco-Home Journey:</p>
-                      <p class="hi-everyone">What's the First Step?</p>
-                    </div>
-                    <div class="group-wrapper2">
-                      <div class="ellipse-group">
-                        <img class="ellipse-icon" alt="" src="asset/forum1/ava-sumbul.svg" />
-                        <div class="muhammad-sumbul">Muhammad Sumbul</div>
-                        <div class="aug-24-2024">Aug 04, 2024 | 07.15 pm</div>
-                        <!-- More Options Button -->
-                        <button class="more-icon-button" id="moreButton">
-                          <i class="bi bi-three-dots"></i>
-                        </button>
-
-                        <!-- Dropdown Menu -->
-                        <div class="dropdown-menu" id="dropdownMenu">
-                          <button class="edit-option">Update</button>
-                          <button class="delete-option">Delete</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <img class="rectangle-icon" alt="" src="asset/forum1/image1.png" />
-                </div>
+            <div class="post-content">
+              <div class="judul-content">
+                Looking for Simple Tips to Start My Eco-Friendly Journey!
               </div>
-              <div class="group-parent5">
-                <div class="group-wrapper3">
-                  <!-- <div class="chat-message-group">
-                    <img class="love-icon" alt="" src="asset/forum1/mess.png" />
-
-                    <div class="div">4</div>
-                  </div> -->
-                </div>
-                <div class="group-parent6">
+              <p class="post-text">
+                "Hi everyone! 👋 I'm new to the eco-friendly lifestyle and looking to start with
+                small, impactful changes at home. I've done a bit of research, but there's so much
+                information out there that it's overwhelming! What are some simple tips or habits
+                that helped you get started on your journey? Appreciate any advice!"
+              </p>
+              <p class="post-tags">#EcoFriendlyLiving #GreenHome #TipsForBeginners</p>
+            </div>
+            </a>
+            <div class="post-footer">
+              <div class="post-actions">
+                <div class="action-buttons">
                   <!-- Love Button -->
-                  <button class="buttoncontent-wrapper" id="loveButton">
+                  <button class="action-button" id="loveButton">
                     <i class="bi bi-heart"></i>
                     <i class="bi bi-heart-fill"></i>
-                    <span class="love-count">24</span>
+                    <span class="action-count">24</span>
                   </button>
-
-                  <!-- Comment Section -->
-                  <div id="commentContainer">
-                    <button class="chat-message-parent" id="commentButton">
-                      <i class="bi bi-chat-text"></i>
-                      <span class="comment-count">4</span>
-                    </button>
+                  <!-- Comment Button -->
+                  <button class="action-button" id="commentButton">
+                    <i class="bi bi-chat-text"></i>
+                    <span class="action-count">4</span>
+                  </button>
+                </div>
+                <!-- Modal -->
+                <div id="commentModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="modal-body">
+                      <img
+                        src="asset/forum1/muhammad sumbul.png"
+                        alt="User Avatar"
+                        class="avatar"
+                      />
+                      <textarea class="comment-input" placeholder="Add comment..."></textarea>
+                      <button class="add-comment-btn">ADD COMMENT</button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="hello-ecosphere-community-parent">
-              <div class="hello-ecosphere-community">
-                Hello, Ecosphere community! 🌿 I've recently become passionate about making my home more eco-friendly, but I’m overwhelmed by all the advice out there. Some people say to start with energy-efficient appliances, others
-                suggest focusing on water conservation, and then there’s also waste reduction. Given so many areas to improve, where would you recommend beginning? I’m on a budget, so I’m looking...
-              </div>
-              <div class="buttonlink21">
-                <div class="buttoncontent">
-                  <div class="label4">more</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="rectangle-parent2">
-          <div class="frame-inner"></div>
-          <div class="sustainable-home-renovation">Sustainable Home Renovation: How Do You Integrate Eco-Friendly Materials?</div>
-          <div class="group-wrapper4">
-            <div class="ellipse-group">
-              <img class="ellipse-icon" alt="" src="asset/forum1/ava-java.svg" />
-              <!-- More Options Button -->
-              <div style="padding-left: 10px">
-                <button class="more-icon-button" id="moreButton">
-                  <i class="bi bi-three-dots"></i>
-                </button>
-
-                <!-- Dropdown Menu -->
-                <div class="dropdown-menu" id="dropdownMenu">
-                  <button class="edit-option">Update</button>
-                  <button class="delete-option">Delete</button>
-                </div>
-              </div>
-              <div class="java-aryani">Java Aryani</div>
-              <div class="jul-21-2024">Jul 21, 2024 | 11.25 am</div>
-            </div>
-          </div>
-          <img class="frame-child1" alt="" src="asset/forum1/image2.png" />
-
-          <div class="group-wrapper5">
-            <!-- Love button -->
-            <div class="frame-parent">
-              <!-- Love button -->
-              <button class="buttoncontent-wrapper" id="loveButton">
-                <i class="bi bi-heart"></i>
-                <!-- Icon empty heart -->
-                <i class="bi bi-heart-fill"></i>
-                <!-- Icon filled heart -->
-                <span class="love-count">24</span>
-              </button>
-            </div>
-
-            <!-- Comment button -->
-            <div>
-              <button class="chat-message-parent" id="commentButton">
-                <i class="bi bi-chat-text"></i>
-                <span class="comment-count">4</span>
-              </button>
-            </div>
-          </div>
-
-          <div class="hello-fellow-eco-enthusiasts-parent">
-            <div class="hello-fellow-eco-enthusiasts">
-              Hello, fellow eco-enthusiasts! 🏡 I’m in the middle of planning a home renovation, and as someone who values sustainability, I want to make sure I incorporate eco-friendly materials into the process. I’ve already heard about
-              using recycled materials and energy-efficient windows, but I’m wondering if there are other options I should be considering. For those who have renovated their homes with sustainability...
-            </div>
-            <div class="buttonlink22">
-              <div class="buttoncontent">
-                <div class="label4">more</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="forum-a">
-          <div class="forum-a-inner">
-            <div class="rectangle-div"></div>
-            <div class="group-parent7">
-              <div class="group-parent8">
-                <!-- Love button -->
-                <div class="frame-parent">
-                  <!-- Love button -->
-                  <button class="buttoncontent-wrapper" id="loveButton">
-                    <i class="bi bi-heart"></i>
-                    <!-- Icon empty heart -->
-                    <i class="bi bi-heart-fill"></i>
-                    <!-- Icon filled heart -->
-                    <span class="love-count">24</span>
-                  </button>
-                </div>
-
-                <!-- Comment button -->
-                <button class="chat-message-parent" id="commentButton">
-                  <i class="bi bi-chat-text"></i>
-                  <span class="comment-count">4</span>
-                </button>
-              </div>
-              <div class="hi-ecosphere-community-iv-parent">
-                <div class="hi-ecosphere-community">
-                  Hi Ecosphere community! 🌍 I’ve been working on reducing my household energy use, but I’m curious to know how others are managing. I’ve already switched to LED bulbs and unplug electronics when they’re not in use, but I
-                  feel like there’s more I can do. Have you found any effective ways to cut down on energy usage that don’t require major changes like solar panels or new appliances? I’m especially interested in small, low-cost
-                  improvements. Any tips or suggestions would be greatly appreciated!
-                </div>
-                <div class="how-do-you">How Do You Manage Your Energy Use at Home?</div>
-              </div>
-              <div class="group-wrapper7">
-                <div class="ellipse-parent">
-                  <img class="ellipse-icon" alt="" src="asset/forum1/ava-tong.svg" />
-                  <div class="ester-howard">Ah Tong</div>
-                  <div class="aug-24-2024">Jun 09, 2024 | 10.15 am</div>
-                  <!-- More Options Button -->
-                  <button class="more-icon-button" id="moreButton">
+                <!-- More Options Button -->
+                <div class="dropdown">
+                  <button class="dropdown-toggle" id="moreButton">
                     <i class="bi bi-three-dots"></i>
                   </button>
-
-                  <!-- Dropdown Menu -->
                   <div class="dropdown-menu" id="dropdownMenu">
-                    <button class="edit-option">Update</button>
-                    <button class="delete-option">Delete</button>
+                    <button class="dropdown-item">Report</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="rectangle-parent4">
-          <div class="frame-child2"></div>
-          <div class="hi-everyone1">
-            Hi, everyone! 🌍 I’ve been making a conscious effort to reduce my environmental footprint in various areas of my life, and fashion is one of the most challenging. I’ve realized that fast fashion contributes significantly to
-            waste and pollution, so I’m looking to build a more sustainable wardrobe. However, I’m overwhelmed by all the options available and unsure where to start. I’ve already begun by swapping out synthetic fabrics for natural
-            materials like cotton and linen, but...
-          </div>
-          <div class="building-a-sustainable">Building a Sustainable Wardrobe: Tips for Eco-Friendly Fashion</div>
-          <div class="group-wrapper8">
-            <div class="ellipse-parent">
-              <img class="ellipse-icon" alt="" src="asset/forum1/ava-pat.svg" />
 
-              <div class="patricia-kendrick">Patricia Kendrick</div>
-              <div class="jul-21-2024">May 25, 2024 | 12.45 pm</div>
-
-              <!-- More Options Button -->
-              <button class="more-icon-button" id="moreButton">
-                <i class="bi bi-three-dots"></i>
-              </button>
-
-              <!-- Dropdown Menu -->
-              <div class="dropdown-menu" id="dropdownMenu">
-                <button class="edit-option">Update</button>
-                <button class="delete-option">Delete</button>
+        
+          <div class="main-post-2">
+            <a href="forum2.html" class="main-post-link">
+            <div class="post-container">
+              <div class="post-user">
+                <img class="user-avatar" alt="User Avatar" src="asset/forum1/muhammad sumbul.png" />
+                <div class="user-info">
+                  <div class="user-name">Muhammad Sumbul</div>
+                  <div class="post-date">Aug 04, 2024 | 07.15 pm</div>
+                </div>
+              </div>
+              <div class="post-content">
+                <div class="judul-content">
+                  Starting My Eco-Home Journey: What's the First Step?
+                </div>
+                <img class="post-image" src="asset/forum1/forum1.png" alt="Eco-home Journey" />
+                <p class="post-text">
+                  Hello, Ecosphere community! 🌿 I've recently become passionate about making my
+                  home more eco-friendly, but I’m overwhelmed by all the advice out there. Some
+                  people say to start with energy-efficient appliances, others suggest focusing on
+                  water conservation, and then there’s also waste reduction. Given so many areas to
+                  improve, where would you recommend beginning? I’m on a budget, so I’m looking...
+                </p>
+                <p class="post-tags">#EcoFriendlyHome #SustainabilityTips #BudgetLiving</p>
+              </div>
+            </a>
+              <div class="post-footer">
+                <div class="post-actions">
+                  <div class="action-buttons">
+                    <!-- Love Button -->
+                    <button class="action-button" id="loveButton2">
+                      <i class="bi bi-heart"></i>
+                      <i class="bi bi-heart-fill"></i>
+                      <span class="action-count">12</span>
+                    </button>
+                    <!-- Comment Button -->
+                    <button class="action-button" id="commentButton2">
+                      <i class="bi bi-chat-text"></i>
+                      <span class="action-count">2</span>
+                    </button>
+                  </div>
+                  <!-- Modal -->
+                  <div id="commentModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <div class="modal-body">
+                        <img
+                          src="asset/forum1/muhammad sumbul.png"
+                          alt="User Avatar"
+                          class="avatar"
+                        />
+                        <textarea class="comment-input" placeholder="Add comment..."></textarea>
+                        <button class="add-comment-btn">ADD COMMENT</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- More Options Button -->
+                  <div class="dropdown">
+                    <button class="dropdown-toggle" id="moreButton2">
+                      <i class="bi bi-three-dots"></i>
+                    </button>
+                    <div class="dropdown-menu" id="dropdownMenu2">
+                      <button class="dropdown-item">Update</button>
+                      <button class="dropdown-item">Delete</button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="group-parent9">
-            <!-- Love button -->
-            <div class="frame-parent">
-              <!-- Love button -->
-              <button class="buttoncontent-wrapper" id="loveButton">
-                <i class="bi bi-heart"></i>
-                <!-- Icon empty heart -->
-                <i class="bi bi-heart-fill"></i>
-                <!-- Icon filled heart -->
-                <span class="love-count">24</span>
-              </button>
+      
+
+        <div class="main-post-2">
+          <a href="#" class="main-post-link">
+          <div class="post-container">
+            <div class="post-user">
+              <img class="user-avatar" alt="User Avatar" src="asset/forum1/java aryani.png" />
+              <div class="user-info">
+                <div class="user-name">Java Aryani</div>
+                <div class="post-date">Jul 21, 2024 | 11.25 am</div>
+              </div>
             </div>
-
-            <!-- Comment button -->
-            <button class="chat-message-parent" id="commentButton">
-              <i class="bi bi-chat-text"></i>
-              <span class="comment-count">4</span>
-            </button>
-          </div>
-          <img class="frame-child3" alt="" src="asset/forum1/image3.png" />
-
-          <div class="buttonlink23">
-            <div class="buttoncontent">
-              <div class="label4">more</div>
+            <div class="post-content">
+              <div class="judul-content">
+                Sustainable Home Renovation: How Do You Integrate Eco-Friendly Materials?
+              </div>
+              <img class="post-image" src="asset/forum1/forum2.png" alt="Eco-home Journey" />
+              <p class="post-text">
+                Hello, fellow eco-enthusiasts! 🏡 I’m in the middle of planning a home renovation,
+                and as someone who values sustainability, I want to make sure I incorporate
+                eco-friendly materials into the process. I’ve already heard about using recycled
+                materials and energy-efficient windows, but I’m wondering if there are other options
+                I should be considering. For those who have renovated their homes with
+                sustainability...
+              </p>
+              <p class="post-tags"></p>
+            </div>
+          </a>
+            <div class="post-footer">
+              <div class="post-actions">
+                <div class="action-buttons">
+                  <!-- Love Button -->
+                  <button class="action-button" id="loveButton2">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-heart-fill"></i>
+                    <span class="action-count">15</span>
+                  </button>
+                  <!-- Comment Button -->
+                  <button class="action-button" id="commentButton2">
+                    <i class="bi bi-chat-text"></i>
+                    <span class="action-count">2</span>
+                  </button>
+                </div>
+                <!-- Modal -->
+                <div id="commentModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="modal-body">
+                      <img
+                        src="asset/forum1/muhammad sumbul.png"
+                        alt="User Avatar"
+                        class="avatar"
+                      />
+                      <textarea class="comment-input" placeholder="Add comment..."></textarea>
+                      <button class="add-comment-btn">ADD COMMENT</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- More Options Button -->
+                <div class="dropdown">
+                  <button class="dropdown-toggle" id="moreButton2">
+                    <i class="bi bi-three-dots"></i>
+                  </button>
+                  <div class="dropdown-menu" id="dropdownMenu2">
+                    <button class="dropdown-item">Report</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+
+        <div class="main-post-1">
+          <a href="#" class="main-post-link">
+          <div class="post-container">
+            <div class="post-user">
+              <img class="user-avatar" alt="User Avatar" src="asset/forum1/ah tong.png" />
+              <div class="user-info">
+                <div class="user-name">Ah Tong</div>
+                <div class="post-date">Jun 09, 2024 | 10.15 am</div>
+              </div>
+            </div>
+            <div class="post-content">
+              <div class="judul-content">How Do You Manage Your Energy Use at Home?</div>
+              <p class="post-text">
+                Hi Ecosphere community! 🌍 I’ve been working on reducing my household energy use,
+                but I’m curious to know how others are managing. I’ve already switched to LED bulbs
+                and unplug electronics when they’re not in use, but I feel like there’s more I can
+                do. Have you found any effective ways to cut down on energy usage that don’t require
+                major changes like solar panels or new appliances? I’m especially interested in
+                small, low-cost improvements. Any tips or suggestions would be greatly appreciated!
+              </p>
+              <p class="post-tags"></p>
+            </div>
+          </a>
+            <div class="post-footer">
+              <div class="post-actions">
+                <div class="action-buttons">
+                  <!-- Love Button -->
+                  <button class="action-button" id="loveButton">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-heart-fill"></i>
+                    <span class="action-count">24</span>
+                  </button>
+                  <!-- Comment Button -->
+                  <button class="action-button" id="commentButton">
+                    <i class="bi bi-chat-text"></i>
+                    <span class="action-count">4</span>
+                  </button>
+                </div>
+                <!-- Modal -->
+                <div id="commentModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="modal-body">
+                      <img
+                        src="asset/forum1/muhammad sumbul.png"
+                        alt="User Avatar"
+                        class="avatar"
+                      />
+                      <textarea class="comment-input" placeholder="Add comment..."></textarea>
+                      <button class="add-comment-btn">ADD COMMENT</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- More Options Button -->
+                <div class="dropdown">
+                  <button class="dropdown-toggle" id="moreButton">
+                    <i class="bi bi-three-dots"></i>
+                  </button>
+                  <div class="dropdown-menu" id="dropdownMenu">
+                    <button class="dropdown-item">Report</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-post-2">
+          <a href="#" class="main-post-link">
+          <div class="post-container">
+            <div class="post-user">
+              <img class="user-avatar" alt="User Avatar" src="asset/forum1/patricia.png" />
+              <div class="user-info">
+                <div class="user-name">Patricia Lou</div>
+                <div class="post-date">May 25, 2024 | 12.45 pm</div>
+              </div>
+            </div>
+            <div class="post-content">
+              <div class="judul-content">
+                Building a Sustainable Wardrobe: Tips for Eco-Friendly Fashion
+              </div>
+              <img class="post-image" src="asset/forum1/forum1.png" alt="Eco-home Journey" />
+              <p class="post-text">
+                Hi, everyone! 🌍 I’ve been making a conscious effort to reduce my environmental
+                footprint in various areas of my life, and fashion is one of the most challenging.
+                I’ve realized that fast fashion contributes significantly to waste and pollution, so
+                I’m looking to build a more sustainable wardrobe. However, I’m overwhelmed by all
+                the options available and unsure where to start. I’ve already begun by swapping out
+                synthetic fabrics for natural materials like cotton and linen, but...
+              </p>
+              <p class="post-tags">#EcoFriendlyHome</p>
+            </div>
+          </a>
+            <div class="post-footer">
+              <div class="post-actions">
+                <div class="action-buttons">
+                  <!-- Love Button -->
+                  <button class="action-button" id="loveButton2">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-heart-fill"></i>
+                    <span class="action-count">12</span>
+                  </button>
+                  <!-- Comment Button -->
+                  <button class="action-button" id="commentButton2">
+                    <i class="bi bi-chat-text"></i>
+                    <span class="action-count">2</span>
+                  </button>
+                </div>
+                <!-- Modal -->
+                <div id="commentModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="modal-body">
+                      <img
+                        src="asset/forum1/muhammad sumbul.png"
+                        alt="User Avatar"
+                        class="avatar"
+                      />
+                      <textarea class="comment-input" placeholder="Add comment..."></textarea>
+                      <button class="add-comment-btn">ADD COMMENT</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- More Options Button -->
+                <div class="dropdown">
+                  <button class="dropdown-toggle" id="moreButton2">
+                    <i class="bi bi-three-dots"></i>
+                  </button>
+                  <div class="dropdown-menu" id="dropdownMenu2">
+                    <button class="dropdown-item">Report</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BoQ Question -->
+      <section class="boq-question">
+        <div class="question-box-wrapper">
+          <img class="question-avatar" alt="User Avatar" src="asset/forum1/muhammad sumbul.png" />
+          <div class="question-box" id="questionBoxTrigger">
+            <p class="question-placeholder">What’s Your Question?</p>
+          </div>
+        </div>
+        
+        <!-- Pop-up -->
+        <div id="questionPostPopup" class="popup">
+          <div class="popup-content-1">
+            <span class="close-popup">&times;</span>
+            <h2>Create a New Post</h2>
+            <form id="questionPostForm">
+              <label for="postTitle">Post Title:</label>
+              <input type="text" id="postTitle" name="postTitle" placeholder="Enter your post title..." required />
+        
+              <label for="postImage">Upload Image:</label>
+              <input type="file" id="postImage" name="postImage" accept="image/*" />
+        
+              <label for="postContent">Post Content:</label>
+              <textarea id="postContent" name="postContent" placeholder="Write your post content..." rows="5" required></textarea>
+        
+              <button type="submit" class="submit-post">POST</button>
+            </form>
+          </div>
+        </div>
+        
+        
+
+        <div class="suggestion-wrapper">
+          <div class="suggestion">
+            <div class="suggestion-header">Question for you</div>
+            <div class="suggestion-item">
+              <p class="suggestion-desc">What eco-friendly DIY projects have you tried recently?</p>
+              <div class="details">
+                <span class="answer-count">14 Answers</span>
+                <span class="last-answer">| Last answer 1h</span>
+              </div>
+              <div class="cta-container">
+                <a href="#" class="cta-button">ANSWER</a>
+              </div>
+              <div id="answerPopup" class="popup">
+                <div class="popup-content">
+                  <span class="close-popup">&times;</span>
+                  <h2>Answer the Question</h2>
+                  <p id="popupQuestion" class="popup-question">Question will appear here...</p>
+                  <form id="answerForm">
+                    <label for="answerContent">Your Answer:</label>
+                    <textarea id="answerContent" name="answerContent" placeholder="Write your answer here..." rows="5" required></textarea>
+                    <button type="submit" class="submit-answer">UPLOAD</button>
+                  </form>
+                </div>
+              </div>
+              
+              
+            </div>
+            <div class="suggestion-item">
+              <p class="suggestion-desc">
+                What inspires you to make eco-friendly choices in your home?
+              </p>
+              <div class="details">
+                <span class="answer-count">26 Answers</span>
+                <span class="last-answer">| Last answer 1h</span>
+              </div>
+              <div class="cta-container">
+                <a href="#" class="cta-button">ANSWER</a>
+              </div>
+            </div>
+            <div class="suggestion-item">
+              <p class="suggestion-desc">
+                What is the most impactful change you've made at home to support sustainability?
+              </p>
+              <div class="details">
+                <span class="answer-count">31 Answers</span>
+                <span class="last-answer">| Last answer 3h</span>
+              </div>
+              <div class="cta-container">
+                <a href="#" class="cta-button">ANSWER</a>
+              </div>
+            </div>
+            <div class="suggestion-item">
+              <p class="suggestion-desc">
+                Which smart tech solutions have helped make your home greener?
+              </p>
+              <div class="details">
+                <span class="answer-count">19 Answers</span>
+                <span class="last-answer">| Last answer 5h</span>
+              </div>
+
+              <div class="cta-container">
+                <a href="#" class="cta-button">ANSWER</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
 
     <!-- footer -->
     <footer>
       <div class="footer-container"></div>
       <div class="footer-section">
         <img class="logo-footer" alt="Company Logo" src="asset/logo.jpg" />
-        <p>We provide information about properties such as houses, villas, and apartments to help people find their dream home.</p>
+        <p>
+          We provide information about properties such as houses, villas, and apartments to help
+          people find their dream home.
+        </p>
         <div class="social-icons">
           <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -411,24 +533,155 @@
       </div>
 
       <div class="footer-background">
-        <img class="group-child" alt="Footer Decor" src="asset/footer gr.png" />
+        <img class="group-child" alt="Footer Decor" src="asset/" />
       </div>
     </footer>
 
     <script>
-      // Love button functionality for all "love" buttons
-      const loveButtons = document.querySelectorAll('.buttoncontent-wrapper');
-      loveButtons.forEach((loveButton) => {
-        const loveCount = loveButton.querySelector('.love-count');
-        loveButton.addEventListener('click', function () {
-          // Toggle antara ikon hati kosong dan hati penuh
-          loveButton.classList.toggle('clicked');
+      // Love button functionality
+        const loveButton = document.getElementById("loveButton");
+      const loveCount = loveButton.querySelector(".action-count"); // Mengambil elemen love count
 
-          // Update love count
-          let currentCount = parseInt(loveCount.textContent);
-          loveCount.textContent = loveButton.classList.contains('clicked') ? currentCount + 1 : currentCount - 1;
-        });
+      loveButton.addEventListener("click", function () {
+        // Toggle antara ikon hati kosong dan hati penuh saat tombol diklik
+        loveButton.classList.toggle("clicked"); // Menambahkan atau menghapus class 'clicked'
+
+        // Update love count
+        let currentCount = parseInt(loveCount.textContent); // Mendapatkan count saat ini
+        loveCount.textContent = loveButton.classList.contains("clicked")
+          ? currentCount + 1
+          : currentCount - 1;
       });
+
+      // button comment COMMENT
+      // Get elements
+      const commentButton = document.getElementById("commentButton");
+      const commentModal = document.getElementById("commentModal");
+      const closeModal = document.querySelector(".close");
+      const addCommentBtn = document.querySelector(".add-comment-btn");
+
+      // Show modal on button click
+      commentButton.addEventListener("click", function () {
+        commentModal.style.display = "block";
+      });
+
+      // Close modal on click of the close button
+      closeModal.addEventListener("click", function () {
+        commentModal.style.display = "none";
+      });
+
+      // Close modal when clicking outside of the modal content
+      window.addEventListener("click", function (event) {
+        if (event.target === commentModal) {
+          commentModal.style.display = "none";
+        }
+      });
+
+      // Handle comment submission
+      addCommentBtn.addEventListener("click", function () {
+        const commentInput = document.querySelector(".comment-input");
+        const comment = commentInput.value.trim();
+        if (comment) {
+          alert(`Comment added: ${comment}`); // Replace with your comment saving logic
+          commentInput.value = ""; // Clear input field
+          commentModal.style.display = "none"; // Close the modal
+        } else {
+          alert("Please enter a comment.");
+        }
+      });
+
+      // Dapatkan elemen penting ANSWERR
+const answerButtons = document.querySelectorAll('.cta-button');
+const popup = document.getElementById('answerPopup');
+const closePopup = document.querySelector('.close-popup');
+const popupQuestion = document.getElementById('popupQuestion');
+
+// Tampilkan pop-up saat tombol ANSWER diklik
+answerButtons.forEach(button => {
+  button.addEventListener('click', event => {
+    event.preventDefault(); // Mencegah navigasi default
+    
+    // Ambil pertanyaan terkait dari elemen parent
+    const question = button.closest('.suggestion-item').querySelector('.suggestion-desc').textContent;
+    
+    // Tampilkan pertanyaan di pop-up
+    popupQuestion.textContent = question;
+    
+    // Tampilkan pop-up
+    popup.style.display = 'flex';
+  });
+});
+
+// Sembunyikan pop-up saat tombol close diklik
+closePopup.addEventListener('click', () => {
+  popup.style.display = 'none';
+});
+
+// Sembunyikan pop-up saat area luar diklik
+window.addEventListener('click', event => {
+  if (event.target === popup) {
+    popup.style.display = 'none';
+  }
+});
+
+// Optional: Submit form logic
+document.getElementById('answerForm').addEventListener('submit', event => {
+  event.preventDefault();
+  
+  // Ambil nilai input
+  const answer = document.getElementById('answerContent').value;
+  
+  console.log('Answer:', answer);
+
+  // Tutup pop-up setelah submit
+  popup.style.display = 'none';
+});
+
+// Elemen yang diperlukan
+const questionBoxTrigger = document.getElementById('questionBoxTrigger'); // ID baru untuk trigger
+const questionPostPopup = document.getElementById('questionPostPopup'); // ID baru untuk pop-up
+const closePopupButton = questionPostPopup.querySelector('.close-popup');
+const questionPostForm = document.getElementById('questionPostForm');
+
+// Tampilkan pop-up saat "What’s Your Question?" diklik
+questionBoxTrigger.addEventListener('click', () => {
+  questionPostPopup.style.display = 'flex';
+});
+
+// Sembunyikan pop-up saat tombol close diklik
+closePopupButton.addEventListener('click', () => {
+  questionPostPopup.style.display = 'none';
+});
+
+// Sembunyikan pop-up saat area luar diklik
+window.addEventListener('click', event => {
+  if (event.target === questionPostPopup) {
+    questionPostPopup.style.display = 'none';
+  }
+});
+
+// Submit form
+questionPostForm.addEventListener('submit', event => {
+  event.preventDefault();
+
+  // Ambil data input
+  const title = document.getElementById('postTitle').value;
+  const content = document.getElementById('postContent').value;
+  const image = document.getElementById('postImage').files[0];
+
+  console.log('Post Title:', title);
+  console.log('Post Content:', content);
+  console.log('Image File:', image);
+
+  // Tutup pop-up setelah submit
+  questionPostPopup.style.display = 'none';
+
+  // Reset form
+  questionPostForm.reset();
+});
+
+    
+
     </script>
   </body>
 </html>
