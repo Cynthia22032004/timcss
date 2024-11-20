@@ -1,166 +1,166 @@
 /* Reset dasar */
 body {
-	margin: 0;
-	padding: 0;
-	font-family: Arial, sans-serif;
-	min-height: 1000vh;
-	display: flex;
-	flex-direction: column;
-	background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 1000vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
 }
 
 /* Konten utama */
 .main-content {
-	flex: 1;
+  flex: 1;
 }
 
 /* Header */
 .header {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: #ffffff;
-	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-	position: fixed; /* Menjadikan navbar tetap di atas */
-	top: 0; /* Memastikan posisinya di bagian atas */
-	z-index: 1000; /* Memastikan berada di atas elemen lainnya */
-	padding-inline: 90px; /* Padding atas/bawah dan samping */
-	box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar total */
-	padding-bottom: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Menjadikan navbar tetap di atas */
+  top: 0; /* Memastikan posisinya di bagian atas */
+  z-index: 1000; /* Memastikan berada di atas elemen lainnya */
+  padding-inline: 90px; /* Padding atas/bawah dan samping */
+  box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar total */
+  padding-bottom: 5px;
 }
 
 .logo {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-	font-size: 24px;
-	font-weight: bold;
-	color: #7fbf7f;
+  font-size: 24px;
+  font-weight: bold;
+  color: #7fbf7f;
 }
 
 .nav {
-	display: flex;
-	align-items: center; /* Membuat elemen di dalamnya rata secara vertikal */
-	gap: 70px; /* Mengatur jarak antar item di navbar */
-	font-size: 15px;
-	font-family: Poppins;
-	padding-top: 10px;
+  display: flex;
+  align-items: center; /* Membuat elemen di dalamnya rata secara vertikal */
+  gap: 70px; /* Mengatur jarak antar item di navbar */
+  font-size: 15px;
+  font-family: Poppins;
+  padding-top: 10px;
 }
 
 .nav a {
-	text-decoration: none;
-	color: #5c7838;
-	transition: font-weight 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  color: #5c7838;
+  transition: font-weight 0.3s ease, color 0.3s ease;
 }
 
 .nav a:hover {
-	font-weight: bold;
-	color: #5c7838;
+  font-weight: bold;
+  color: #5c7838;
 }
 
 .nav .login-button {
-	padding: 7px 20px;
-	background-color: #739646;
-	color: #fff;
-	border-radius: 20px;
-	text-decoration: none;
-	font-size: 15px;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	margin-left: 20px; /* Memberikan jarak dari menu */
+  padding: 7px 20px;
+  background-color: #739646;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px; /* Memberikan jarak dari menu */
 }
 
 /* 1 */
 .section1 {
-	position: absolute;
-	top: 195px;
-	left: 160px;
-	width: 1203px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	text-align: left;
-	font-size: 24px;
-	color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 195px;
+  left: 160px;
+  width: 1203px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
   border: 1px solid #739646;
   border-radius: 24px;
 }
 .comment-box-wrapper {
-	align-self: stretch;
-	position: relative;
-	border-radius: 24px 24px 0px 0px;
-	background-color: #c9dbb2;
-	height: 149px;
-	overflow: hidden;
-	flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
+  border-radius: 24px 24px 0px 0px;
+  background-color: #c9dbb2;
+  height: 149px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .comment-box {
-	position: absolute;
-	top: 45px;
-	left: 162px;
-	border-radius: 50px;
-	background-color: #fff;
-	width: 1000px;
-	height: 65px;
+  position: absolute;
+  top: 45px;
+  left: 162px;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 1000px;
+  height: 65px;
 }
 .comment-ava {
-	position: absolute;
-	top: 20px;
-	left: 32px;
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
-	object-fit: cover;
+  position: absolute;
+  top: 20px;
+  left: 32px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 .comment-text {
-	position: absolute;
-	top: 63px;
-	left: 196px;
-	font-weight: 500;
+  position: absolute;
+  top: 63px;
+  left: 196px;
+  font-weight: 500;
 }
 .question-for-you {
-	position: absolute;
-	top: 0px;
-	left: 52px;
-	font-size: 40px;
-	letter-spacing: -0.02em;
-	font-family: "Optician Sans";
-	color: #000;
+  position: absolute;
+  top: 0px;
+  left: 52px;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  color: #000;
 }
 .comment-suggestion-wrapper {
-	align-self: stretch;
-	position: relative;
-	height: 956px;
-	font-size: 16px;
-	color: rgba(0, 0, 0, 0.75);
+  align-self: stretch;
+  position: relative;
+  height: 956px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.75);
 }
 .comment-suggestion {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 1203px;
-	height: 956px;
-	background-color: #f7ffec;
-	box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1203px;
+  height: 956px;
+  background-color: #f7ffec;
+  box-sizing: border-box;
 }
 .comment-suggestion-inner {
-	position: absolute;
-	top: 44px;
-	left: 26px;
-	width: 1147px;
-	height: 848px;
+  position: absolute;
+  top: 44px;
+  left: 26px;
+  width: 1147px;
+  height: 848px;
 }
 .comment-suggestion-1 {
-	position: absolute;
-	top: 94px;
-	left: 52px;
-	width: 666px;
-	height: 130px;
+  position: absolute;
+  top: 94px;
+  left: 52px;
+  width: 666px;
+  height: 130px;
 }
 .hover-more {
   text-align: center;
@@ -183,7 +183,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
   z-index: 10;
 }
@@ -207,125 +207,122 @@ body {
 	color: #fff;
 } */
 .answer {
-	position: absolute;
-	top: 45px;
-	left: 0px;
-	line-height: 140%;
-	font-weight: 500;
-	
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  line-height: 140%;
+  font-weight: 500;
 }
 .last-answer-1h {
-	position: absolute;
-	top: 50px;
-	left: 100px;
-	font-size: 11px;
-	line-height: 140%;
-	
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-size: 11px;
+  line-height: 140%;
 }
 .desc {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	font-size: 24px;
-	font-weight: 500;
-	color: #000;
-
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
 }
 .comment-suggestion-2 {
-	position: absolute;
-	top: 302px;
-	left: 52px;
-	width: 756px;
-	height: 130px;
+  position: absolute;
+  top: 302px;
+  left: 52px;
+  width: 756px;
+  height: 130px;
 }
 .comment-suggestion-3 {
-	position: absolute;
-	top: 510px;
-	left: 52px;
-	width: 1010px;
-	height: 130px;
+  position: absolute;
+  top: 510px;
+  left: 52px;
+  width: 1010px;
+  height: 130px;
 }
 .comment-suggestion-4 {
-	position: absolute;
-	top: 718px;
-	left: 52px;
-	width: 814px;
-	height: 130px;
+  position: absolute;
+  top: 718px;
+  left: 52px;
+  width: 814px;
+  height: 130px;
 }
 
 .line1 {
-	position: absolute;
-	top: 55px;
-	left: calc(50% - 573.5px);
-	border-top: 1px solid #739646;
-	box-sizing: border-box;
-	width: 1148px;
-	height: 1px;
+  position: absolute;
+  top: 55px;
+  left: calc(50% - 573.5px);
+  border-top: 1px solid #739646;
+  box-sizing: border-box;
+  width: 1148px;
+  height: 1px;
 }
 .line2 {
-	position: absolute;
-	top: 263px;
-	left: calc(50% - 573.5px);
-	border-top: 1px solid #739646;
-	box-sizing: border-box;
-	width: 1148px;
-	height: 1px;
+  position: absolute;
+  top: 263px;
+  left: calc(50% - 573.5px);
+  border-top: 1px solid #739646;
+  box-sizing: border-box;
+  width: 1148px;
+  height: 1px;
 }
 .line3 {
-	position: absolute;
-	top: 679px;
-	left: calc(50% - 573.5px);
-	border-top: 1px solid #739646;
-	box-sizing: border-box;
-	width: 1148px;
-	height: 1px;
+  position: absolute;
+  top: 679px;
+  left: calc(50% - 573.5px);
+  border-top: 1px solid #739646;
+  box-sizing: border-box;
+  width: 1148px;
+  height: 1px;
 }
 .line4 {
-	position: absolute;
-	top: 471px;
-	left: calc(50% - 573.5px);
-	border-top: 1px solid #739646;
-	box-sizing: border-box;
-	width: 1148px;
-	height: 1px;
+  position: absolute;
+  top: 471px;
+  left: calc(50% - 573.5px);
+  border-top: 1px solid #739646;
+  box-sizing: border-box;
+  width: 1148px;
+  height: 1px;
 }
-
 
 /* 2 */
 .title-section2 {
-	position: absolute;
-	top: 1421px;
-	left: 160px;
-	font-size: 64px;
-	letter-spacing: -0.02em;
-	font-family: "Optician Sans";
+  position: absolute;
+  top: 1421px;
+  left: 160px;
+  font-size: 64px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
 }
 .section2 {
-	position: absolute;
-	top: 1524px;
-	left: 160px;
-	width: 1200px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	gap: 24px;
-	font-size: 24px;
+  position: absolute;
+  top: 1524px;
+  left: 160px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: 24px;
 }
 .forum-a {
-	align-self: stretch;
-	position: relative;
-	height: 548px;
+  align-self: stretch;
+  position: relative;
+  height: 548px;
 }
 .forum-a-inner {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 1200px;
-	height: 548px;border-radius: 24px;
-	background-color: #f7ffec;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1200px;
+  height: 548px;
+  border-radius: 24px;
+  background-color: #f7ffec;
   border: 1px solid #739646;
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* .rectangle-div {
 	position: absolute;
@@ -336,13 +333,13 @@ body {
 	height: 548px;
 } */
 .forum-a-content {
-	position: absolute;
-	top: 37px;
-	left: 73px;
-	width: 1052px;
-	height: 464px;
+  position: absolute;
+  top: 37px;
+  left: 73px;
+  width: 1052px;
+  height: 464px;
 }
-.lovencom {
+/* .lovencom {
 	position: absolute;
 	top: 414px;
 	left: 0px;
@@ -363,48 +360,102 @@ body {
 	width: 50px;
 	height: 50px;
 	object-fit: cover;
+} */
+
+/* Style untuk tombol love */
+.buttoncontent-wrapper {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 15px;
+  margin-right: 30%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  position: relative; /* Menambahkan posisi relatif agar z-index bekerja */
 }
+
+button,
+#commentButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Ikon hati kosong (hitam) */
+#loveButton i.bi-heart {
+  color: black; /* Warna hati kosong */
+  transition: color 0.3s ease;
+  position: absolute; /* Posisi absolute agar tidak mengganggu layout */
+  z-index: 1; /* Hati kosong berada di bawah hati penuh */
+  display: inline-block; /* Pastikan ikon hati kosong ditampilkan */
+}
+
+/* Ikon hati penuh (merah) */
+#loveButton i.bi-heart-fill {
+  color: red; /* Warna hati merah */
+  display: none; /* Hati merah disembunyikan awalnya */
+  transition: color 0.3s ease;
+  position: absolute; /* Posisi absolute agar tidak mengganggu layout */
+  z-index: 2; /* Hati merah berada di atas hati kosong */
+}
+
+/* Ketika tombol diklik, tampilkan hati penuh dan sembunyikan hati kosong */
+#loveButton.clicked i.bi-heart {
+  display: none; /* Sembunyikan hati kosong */
+}
+
+#loveButton.clicked i.bi-heart-fill {
+  display: inline-block; /* Tampilkan hati penuh (merah) */
+  z-index: 2; /* Pastikan hati merah tetap berada di atas */
+}
+
+/* Memberikan jarak antara love count dan ikon */
+.love-count {
+  margin-left: 25px; /* Jarak antara angka dan ikon */
+  font-size: 16px; /* Sesuaikan ukuran font jika perlu */
+  /* font-weight: bold; Membuat angka lebih tebal */
+}
+
 .div {
-	position: absolute;
-	top: 7px;
-	left: 67px;
-	font-weight: 500;
-	
+  position: absolute;
+  top: 7px;
+  left: 67px;
+  font-weight: 500;
 }
 .chat-message-parent {
-	position: absolute;
-	top: 0px;
-	left: 233px;
-	width: 83px;
-	height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  width: 83px;
+  height: 50px;
 }
 .forum-a-desc {
-	position: absolute;
-	top: 0px;
-	left: 5px;
-	width: 1047px;
-	height: 384px;
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  width: 1047px;
+  height: 384px;
 }
 .forum-a-desc-inner {
-	position: absolute;
-	top: 204px;
-	left: 0px;
-	font-weight: 500;
-	display: inline-block;
-	width: 1044px;
-	
+  position: absolute;
+  top: 204px;
+  left: 0px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1044px;
 }
 .hi-everyone {
-	margin: 0;
+  margin: 0;
 }
 .looking-for-simple {
-	position: absolute;
-	top: 101px;
-	left: 0px;
-	letter-spacing: -0.02em;
-	display: inline-block;
-	width: 1044px;
-	
+  position: absolute;
+  top: 101px;
+  left: 0px;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 1044px;
 }
 
 .looking-for-simple a {
@@ -419,705 +470,694 @@ body {
 	height: 65px;
 	font-size: 24px;
 	font-family: Poppins;
-
 }
 .more-icon {
-	position: absolute;
-	top: 8px;
-	left: 997px;
-	width: 50px;
-	height: 50px;
-	object-fit: cover;
+  position: absolute;
+  top: 8px;
+  left: 997px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
 }
 .ellipse-parent {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 333px;
-	height: 65px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 333px;
+  height: 65px;
 }
 .ellipse-icon {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 50%;
-	width: 65px;
-	height: 65px;
-	object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
 }
 .ester-howard {
-	position: absolute;
-	top: 4px;
-	left: 100px;
-	font-weight: 500;
-	display: inline-block;
-	width: 233px;
-	
+  position: absolute;
+  top: 4px;
+  left: 100px;
+  font-weight: 500;
+  display: inline-block;
+  width: 233px;
 }
 .aug-24-2024 {
-	position: absolute;
-	top: 40px;
-	left: 102px;
-	font-size: 11px;
-	line-height: 140%;
-	color: rgba(0, 0, 0, 0.72);
-	
+  position: absolute;
+  top: 40px;
+  left: 102px;
+  font-size: 11px;
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.72);
 }
 .group-frame {
-	align-self: stretch;
-	position: relative;
-	height: 1032px;
-	text-align: left;
-	font-size: 40px;
-	font-family: "Optician Sans";
+  align-self: stretch;
+  position: relative;
+  height: 1032px;
+  text-align: left;
+  font-size: 40px;
+  font-family: 'Optician Sans';
 }
 .rectangle-parent1 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 1200px;
-	height: 1032px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1200px;
+  height: 1032px;
 }
 .group-child2 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 24px;
-	background-color: #f7ffec;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 24px;
+  background-color: #f7ffec;
   border: 1px solid #739646;
-	box-sizing: border-box;
-	width: 1200px;
-	height: 1032px;
+  box-sizing: border-box;
+  width: 1200px;
+  height: 1032px;
 }
 .group-parent3 {
-	position: absolute;
-	top: 37px;
-	left: 76px;
-	width: 1049px;
-	height: 942px;
+  position: absolute;
+  top: 37px;
+  left: 76px;
+  width: 1049px;
+  height: 942px;
 }
 .group-wrapper1 {
-	position: absolute;
-	top: 0px;
-	left: 2px;
-	width: 1047px;
-	height: 656px;
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  width: 1047px;
+  height: 656px;
 }
 .group-parent4 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 1047px;
-	height: 656px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1047px;
+  height: 656px;
 }
 .starting-my-eco-home-journey-parent {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 1044px;
-	height: 181px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1044px;
+  height: 181px;
 }
 .group-wrapper2 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 367px;
-	height: 65px;
-	font-size: 24px;
-	font-family: Poppins;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 367px;
+  height: 65px;
+  font-size: 24px;
+  font-family: Poppins;
 }
 .ellipse-group {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 367px;
-	height: 65px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 367px;
+  height: 65px;
 }
 .muhammad-sumbul {
-	position: absolute;
-	top: 4px;
-	left: 100px;
-	font-weight: 500;
-	display: inline-block;
-	width: 267px;
-	
+  position: absolute;
+  top: 4px;
+  left: 100px;
+  font-weight: 500;
+  display: inline-block;
+  width: 267px;
 }
 .rectangle-icon {
-	position: absolute;
-	top: 207px;
-	left: 0px;
-	border-radius: 12px;
-	width: 1047px;
-	height: 449px;
-	object-fit: cover;
+  position: absolute;
+  top: 207px;
+  left: 0px;
+  border-radius: 12px;
+  width: 1047px;
+  height: 449px;
+  object-fit: cover;
 }
 .group-parent5 {
-	position: absolute;
-	top: 892px;
-	left: 0px;
-	width: 313px;
-	height: 50px;
-	text-align: justify;
-	font-size: 24px;
-	font-family: Poppins;
+  position: absolute;
+  top: 892px;
+  left: 0px;
+  width: 313px;
+  height: 50px;
+  text-align: justify;
+  font-size: 24px;
+  font-family: Poppins;
 }
 .group-wrapper3 {
-	position: absolute;
-	top: 0px;
-	left: 230px;
-	width: 83px;
-	height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 230px;
+  width: 83px;
+  height: 50px;
 }
 .chat-message-group {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 83px;
-	height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 83px;
+  height: 50px;
 }
 .group-parent6 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 94px;
-	height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 94px;
+  height: 50px;
 }
 .wrapper {
-	position: absolute;
-	top: 7px;
-	left: 64px;
-	width: 30px;
-	height: 36px;
+  position: absolute;
+  top: 7px;
+  left: 64px;
+  width: 30px;
+  height: 36px;
 }
+
 .div3 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	font-weight: 500;
-	
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-weight: 500;
 }
 .hello-ecosphere-community-parent {
-	position: absolute;
-	top: 719px;
-	left: 78px;
-	width: 1044px;
-	height: 187px;
-	text-align: justify;
-	font-size: 24px;
-	font-family: Poppins;
+  position: absolute;
+  top: 719px;
+  left: 78px;
+  width: 1044px;
+  height: 187px;
+  text-align: justify;
+  font-size: 24px;
+  font-family: Poppins;
 }
 .hello-ecosphere-community {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	font-weight: 500;
-	display: inline-block;
-	width: 1044px;
-	
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1044px;
 }
 .buttonlink2 {
-	position: absolute;
-	top: 2884px;
-	left: 1112px;
-	border-radius: 8px;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-start;
-	padding: 12px 0px;
-	text-align: left;
+  position: absolute;
+  top: 2884px;
+  left: 1112px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0px;
+  text-align: left;
 }
 .label4 {
-	position: relative;
-	text-decoration: underline;
-	font-weight: 500;
+  position: relative;
+  text-decoration: underline;
+  font-weight: 500;
 }
 .rectangle-parent2 {
-	align-self: stretch;
-	position: relative;
-	height: 1267px;
+  align-self: stretch;
+  position: relative;
+  height: 1267px;
 }
 .frame-inner {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 24px;
-	background-color: #f7ffec;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 24px;
+  background-color: #f7ffec;
   border: 1px solid #739646;
-	box-sizing: border-box;
-	width: 1200px;
-	height: 1267px;
+  box-sizing: border-box;
+  width: 1200px;
+  height: 1267px;
 }
 .sustainable-home-renovation {
-	position: absolute;
-	top: 138px;
-	left: 78px;
-	font-size: 40px;
-	letter-spacing: -0.02em;
-	font-family: "Optician Sans";
-	text-align: left;
-	display: inline-block;
-	width: 1044px;
+  position: absolute;
+  top: 138px;
+  left: 78px;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  text-align: left;
+  display: inline-block;
+  width: 1044px;
 }
 .group-wrapper4 {
-	position: absolute;
-	top: 37px;
-	left: 78px;
-	width: 367px;
-	height: 65px;
-	text-align: left;
+  position: absolute;
+  top: 37px;
+  left: 78px;
+  width: 367px;
+  height: 65px;
+  text-align: left;
 }
 .java-aryani {
-	position: absolute;
-	top: 4px;
-	left: 100px;
-	font-weight: 500;
-	display: inline-block;
-	width: 267px;
+  position: absolute;
+  top: 4px;
+  left: 100px;
+  font-weight: 500;
+  display: inline-block;
+  width: 267px;
 }
 .jul-21-2024 {
-	position: absolute;
-	top: 40px;
-	left: 102px;
-	font-size: 11px;
-	line-height: 140%;
-	color: rgba(0, 0, 0, 0.72);
+  position: absolute;
+  top: 40px;
+  left: 102px;
+  font-size: 11px;
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.72);
 }
 .frame-child1 {
-	position: absolute;
-	top: 246px;
-	left: 78px;
-	border-radius: 12px;
-	width: 1047px;
-	height: 677px;
-	object-fit: cover;
+  position: absolute;
+  top: 246px;
+  left: 78px;
+  border-radius: 12px;
+  width: 1047px;
+  height: 677px;
+  object-fit: cover;
 }
 .group-wrapper5 {
-	position: absolute;
-	top: 1161px;
-	left: 306px;
-	width: 97px;
-	height: 50px;
+  position: absolute;
+  top: 1161px;
+  left: 306px;
+  width: 97px;
+  height: 50px;
 }
 .div4 {
-	position: absolute;
-	top: 7px;
-	left: 67px;
-	font-weight: 500;
+  position: absolute;
+  top: 7px;
+  left: 67px;
+  font-weight: 500;
 }
 .container {
-	position: absolute;
-	top: 1168px;
-	left: 140px;
-	width: 29px;
-	height: 36px;
+  position: absolute;
+  top: 1168px;
+  left: 140px;
+  width: 29px;
+  height: 36px;
 }
 .div5 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	font-weight: 500;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-weight: 500;
 }
 .love-icon2 {
-	position: absolute;
-	top: 1161px;
-	left: 76px;
-	width: 50px;
-	height: 50px;
-	object-fit: cover;
+  position: absolute;
+  top: 1161px;
+  left: 76px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
 }
 .hello-fellow-eco-enthusiasts-parent {
-	position: absolute;
-	top: 951px;
-	left: 78px;
-	width: 1044px;
-	height: 186px;
+  position: absolute;
+  top: 951px;
+  left: 78px;
+  width: 1044px;
+  height: 186px;
 }
 .hello-fellow-eco-enthusiasts {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	font-weight: 500;
-	display: inline-block;
-	width: 1044px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1044px;
 }
 .buttonlink22 {
-	position: absolute;
-	top: 138px;
-	left: 924px;
-	border-radius: 8px;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-start;
-	padding: 12px 0px;
-	text-align: left;
-	font-size: 14px;
+  position: absolute;
+  top: 138px;
+  left: 924px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0px;
+  text-align: left;
+  font-size: 14px;
 }
 .group-parent7 {
-	position: absolute;
-	top: 37px;
-	left: 72px;
-	width: 1050px;
-	height: 460px;
+  position: absolute;
+  top: 37px;
+  left: 72px;
+  width: 1050px;
+  height: 460px;
 }
 .group-parent8 {
-	position: absolute;
-	top: 410px;
-	left: 0px;
-	width: 316px;
-	height: 50px;
+  position: absolute;
+  top: 410px;
+  left: 0px;
+  width: 316px;
+  height: 50px;
 }
 .love-group {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 90px;
-	height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 90px;
+  height: 50px;
 }
 .hi-ecosphere-community-iv-parent {
-	position: absolute;
-	top: 101px;
-	left: 6px;
-	width: 1044px;
-	height: 288px;
+  position: absolute;
+  top: 101px;
+  left: 6px;
+  width: 1044px;
+  height: 288px;
 }
 .hi-ecosphere-community {
-	position: absolute;
-	top: 61px;
-	left: 0px;
-	font-weight: 500;
-	display: inline-block;
-	width: 1044px;
-	height: 227px;
-	
+  position: absolute;
+  top: 61px;
+  left: 0px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1044px;
+  height: 227px;
 }
 .how-do-you {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	font-size: 40px;
-	letter-spacing: -0.02em;
-	font-family: "Optician Sans";
-	text-align: left;
-	display: inline-block;
-	width: 1044px;
-	
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  text-align: left;
+  display: inline-block;
+  width: 1044px;
 }
 .group-wrapper7 {
-	position: absolute;
-	top: 0px;
-	left: 6px;
-	width: 333px;
-	height: 65px;
-	text-align: left;
+  position: absolute;
+  top: 0px;
+  left: 6px;
+  width: 333px;
+  height: 65px;
+  text-align: left;
 }
 .rectangle-parent4 {
-	align-self: stretch;
-	position: relative;
-	height: 1079px;
-	text-align: left;
+  align-self: stretch;
+  position: relative;
+  height: 1079px;
+  text-align: left;
 }
 .frame-child2 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 24px;
-	background-color: #f7ffec;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 24px;
+  background-color: #f7ffec;
   border: 1px solid #739646;
-	box-sizing: border-box;
-	width: 1200px;
-	height: 1079px;
+  box-sizing: border-box;
+  width: 1200px;
+  height: 1079px;
 }
 .hi-everyone1 {
-	position: absolute;
-	top: 715px;
-	left: 77px;
-	font-weight: 500;
-	text-align: justify;
-	display: inline-block;
-	width: 1044px;
-	height: 227px;
+  position: absolute;
+  top: 715px;
+  left: 77px;
+  font-weight: 500;
+  text-align: justify;
+  display: inline-block;
+  width: 1044px;
+  height: 227px;
 }
 .building-a-sustainable {
-	position: absolute;
-	top: 138px;
-	left: 78px;
-	font-size: 40px;
-	letter-spacing: -0.02em;
-	font-family: "Optician Sans";
-	display: inline-block;
-	width: 1044px;
+  position: absolute;
+  top: 138px;
+  left: 78px;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  font-family: 'Optician Sans';
+  display: inline-block;
+  width: 1044px;
 }
 .group-wrapper8 {
-	position: absolute;
-	top: 37px;
-	left: 78px;
-	width: 333px;
-	height: 65px;
+  position: absolute;
+  top: 37px;
+  left: 78px;
+  width: 333px;
+  height: 65px;
 }
 .patricia-kendrick {
-	position: absolute;
-	top: 4px;
-	left: 100px;
-	font-weight: 500;
-	display: inline-block;
-	width: 233px;
+  position: absolute;
+  top: 4px;
+  left: 100px;
+  font-weight: 500;
+  display: inline-block;
+  width: 233px;
 }
 .group-parent9 {
-	position: absolute;
-	top: 963px;
-	left: 75px;
-	width: 319px;
-	height: 50px;
-	text-align: justify;
+  position: absolute;
+  top: 963px;
+  left: 75px;
+  width: 319px;
+  height: 50px;
+  text-align: justify;
 }
 .group-wrapper9 {
-	position: absolute;
-	top: 0px;
-	left: 229px;
-	width: 90px;
-	height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 229px;
+  width: 90px;
+  height: 50px;
 }
 .group-parent10 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 92px;
-	height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 92px;
+  height: 50px;
 }
 .frame {
-	position: absolute;
-	top: 7px;
-	left: 63px;
-	width: 29px;
-	height: 36px;
+  position: absolute;
+  top: 7px;
+  left: 63px;
+  width: 29px;
+  height: 36px;
 }
 .frame-child3 {
-	position: absolute;
-	top: 245px;
-	left: 78px;
-	border-radius: 12px;
-	width: 1047px;
-	height: 444px;
-	object-fit: cover;
+  position: absolute;
+  top: 245px;
+  left: 78px;
+  border-radius: 12px;
+  width: 1047px;
+  height: 444px;
+  object-fit: cover;
 }
 .buttonlink23 {
-	position: absolute;
-	top: 889px;
-	left: 864px;
-	border-radius: 8px;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-start;
-	padding: 12px 0px;
-	font-size: 14px;
+  position: absolute;
+  top: 889px;
+  left: 864px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0px;
+  font-size: 14px;
 }
-
-
-
-
 
 .buttonprimary-group {
-	position: absolute;
-	top: 302px;
-	left: 52px;
-	width: 756px;
-	height: 130px;
+  position: absolute;
+  top: 302px;
+  left: 52px;
+  width: 756px;
+  height: 130px;
 }
 .looking-for-simple-tips-to-sta-parent {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 1047px;
-	height: 181px;
-	text-align: left;
-	font-size: 40px;
-	font-family: "Optician Sans";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1047px;
+  height: 181px;
+  text-align: left;
+  font-size: 40px;
+  font-family: 'Optician Sans';
 }
 .buttonlink21 {
-	position: absolute;
-	top: 139px;
-	left: 905px;
-	border-radius: 8px;
-	
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-start;
-	padding: 12px 0px;
-	text-align: left;
-	font-size: 14px;
+  position: absolute;
+  top: 139px;
+  left: 905px;
+  border-radius: 8px;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0px;
+  text-align: left;
+  font-size: 14px;
 }
 .group-icon {
-	position: absolute;
-	top: 0px;
-	left: 706px;
-	width: 740px;
-	height: 537px;
+  position: absolute;
+  top: 0px;
+  left: 706px;
+  width: 740px;
+  height: 537px;
 }
 .forum {
-	width: 100%;
-	position: relative;
-	background-color: #fff;
-	height: 6689px;
-	overflow: hidden;
-	text-align: justify;
-	font-size: 14px;
-	color: #000;
-	font-family: Poppins;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 6689px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: 14px;
+  color: #000;
+  font-family: Poppins;
 }
 
 /* footer */
 footer {
-	background-color: #ffffff;
-	padding: 0px 100px;
-	padding-bottom: 40px;
-	color: #414958;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	font-family: Poppins;
-	letter-spacing: 0.04em;
-	position: relative;
-	overflow: hidden;
+  background-color: #ffffff;
+  padding: 0px 100px;
+  padding-bottom: 40px;
+  color: #414958;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: Poppins;
+  letter-spacing: 0.04em;
+  position: relative;
+  overflow: hidden;
 }
 
 .footer-container {
-	position: relative;
-	z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-background {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 50%;
-	height: 100%;
-	/* background-image: url("asset/footer.png"); Ganti dengan path file gambar Anda */
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom;
-	opacity: 0.5; /* Mengubah opacity menjadi lebih transparan */
-	z-index: 0; /* Menempatkan gambar di belakang tulisan */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  /* background-image: url("asset/footer.png"); Ganti dengan path file gambar Anda */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.5; /* Mengubah opacity menjadi lebih transparan */
+  z-index: 0; /* Menempatkan gambar di belakang tulisan */
 }
 
 .footer-background img {
-	padding-left: 165px;
+  padding-left: 165px;
 }
 
 .footer-section {
-	flex: 1;
-	min-width: 10px;
-	/* margin-top: 0px; */
-	padding-right: 70px;
+  flex: 1;
+  min-width: 10px;
+  /* margin-top: 0px; */
+  padding-right: 70px;
 }
 
 .footer-section p {
-	color: #8694b4;
-	font-size: 10px;
-	opacity: 0.75;
-	padding-left: 5px;
-	text-decoration: none;
+  color: #8694b4;
+  font-size: 10px;
+  opacity: 0.75;
+  padding-left: 5px;
+  text-decoration: none;
 }
 
 .footer-section-property {
-	/* margin-top: 10px; */
-	padding-left: 10px;
-	padding-right: 20px;
-	position: relative;
-	font-size: 16px;
-	letter-spacing: 0.04em;
-	display: inline-block;
-	color: #414958;
+  /* margin-top: 10px; */
+  padding-left: 10px;
+  padding-right: 20px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  color: #414958;
 }
 .footer-section-property h4 {
-	color: #414958;
-	margin-bottom: 15px;
-	padding-left: 0px;
+  color: #414958;
+  margin-bottom: 15px;
+  padding-left: 0px;
 }
 .footer-section-property p {
-	font-size: 14px;
-	color: #8694b4;
-	text-decoration: none;
-	align-self: stretch;
-	position: relative;
-	font-weight: 500;
-	padding-left: 0px;
+  font-size: 14px;
+  color: #8694b4;
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  padding-left: 0px;
 }
 
 .footer-section-article {
-	padding-left: 30px;
-	/* margin-top: 10px; */
+  padding-left: 30px;
+  /* margin-top: 10px; */
 }
 .footer-section-article h4 {
-	color: #414958;
-	margin-bottom: 15px;
-	padding-left: 0px;
+  color: #414958;
+  margin-bottom: 15px;
+  padding-left: 0px;
 }
 .footer-section-article p {
-	font-size: 14px;
-	color: #8694b4;
-	text-decoration: none;
-	align-self: stretch;
-	position: relative;
-	font-weight: 500;
-	padding-left: 0px;
+  font-size: 14px;
+  color: #8694b4;
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  padding-left: 0px;
 }
 
 .footer-section-contact {
-	padding-left: 50px;
-	/* margin-top: 10px; */
-	padding-left: 110px;
+  padding-left: 50px;
+  /* margin-top: 10px; */
+  padding-left: 110px;
 }
 .footer-section-contact h4 {
-	color: #414958;
-	margin-bottom: 15px;
-	padding-left: 0px;
+  color: #414958;
+  margin-bottom: 15px;
+  padding-left: 0px;
 }
 .footer-section-contact p {
-	font-size: 14px;
-	color: #8694b4;
-	text-decoration: none;
-	align-self: stretch;
-	position: relative;
-	font-weight: 500;
-	padding-left: 0px;
+  font-size: 14px;
+  color: #8694b4;
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  padding-left: 0px;
 }
 
 .footer-section img {
-	height: 35px;
-	margin-top: 20px;
+  height: 35px;
+  margin-top: 20px;
 }
 
 footer a {
-	font-size: 14px;
-	color: #8694b4;
-	text-decoration: none;
-	align-self: stretch;
-	position: relative;
-	font-weight: 500;
+  font-size: 14px;
+  color: #8694b4;
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
 }
 
 .social-icons {
-	margin-top: 20px;
-	padding-top: 10px;
-	padding-left: 5px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
 }
 
 .social-icons a {
-	color: #82bbff; /* Warna biru untuk ikon sosial */
-	margin-right: 30px;
-	font-size: 20px;
-	text-decoration: none;
-	transition: color 0.3s ease;
+  color: #82bbff; /* Warna biru untuk ikon sosial */
+  margin-right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-	color: #0084b4; /* Warna biru lebih gelap saat hover */
+  color: #0084b4; /* Warna biru lebih gelap saat hover */
 }

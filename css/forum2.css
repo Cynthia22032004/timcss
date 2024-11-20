@@ -1,13 +1,18 @@
+/* Pastikan HTML dan Body memiliki tinggi penuh */
+html,
 body {
-  font-family: Poppins;
-  display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 0;
-  /* background-color: #ffffff; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box; /* Terapkan box-sizing untuk seluruh elemen */
 }
+
+/* Atur kontainer utama */
 main {
-  flex: 1; /* Membuat area konten utama agar mengambil sisa ruang di antara header dan footer */
+  flex: 1; /* Mengisi ruang yang tersisa */
 }
 
 /* NAVBAR */
@@ -75,12 +80,20 @@ main {
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 8px 15px;
+  margin-right: 30%;
   border-radius: 20px;
   display: flex;
   align-items: center;
   cursor: pointer;
   transition: background-color 0.3s ease, border-color 0.3s ease;
   position: relative; /* Menambahkan posisi relatif agar z-index bekerja */
+}
+
+button,
+#commentButton {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 /* Ikon hati kosong (hitam) */
@@ -173,7 +186,15 @@ main {
   height: 24px;
   overflow: hidden;
   cursor: pointer;
+  z-index: 100;
 }
+
+.back-link {
+  text-decoration: none; /* Hilangkan underline */
+  display: inline-block; /* Pastikan elemen terlihat */
+  z-index: 100; /* Pastikan tautan juga di atas */
+}
+
 .frame-item {
   width: 996px;
   position: relative;
@@ -188,18 +209,20 @@ button {
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 5px;
+  position: relative; /* Pastikan tombol berada di posisi yang tepat */
+  z-index: 10; /* Pastikan tombol lebih tinggi dari elemen lain */
 }
 
 .more-icon-button {
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 8px 15px;
+  /* padding: 8px 15px; */
+  padding-left: 580%; /* geser button more */
   border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease, border-color 0.3s ease;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 /* Hover effect */
@@ -209,30 +232,27 @@ button {
 
 /* Dropdown menu yang tersembunyi */
 .dropdown-menu {
-  display: none; /* Secara default tersembunyi */
-  position: absolute; /* Agar menu muncul di atas tombol */
-  top: 100%; /* Menempatkan menu tepat di bawah tombol */
-  right: 0; /* Agar menu muncul di sisi kanan */
-  background-color: #fff;
+  display: none;
+  position: absolute;
+  background-color: white;
   border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: 5px;
-  z-index: 10;
-  flex-direction: column;
+  padding: 5px;
+  border: 1px solid #000000; /* Memberikan border untuk seluruh menu */
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  right: 0;
 }
-
 .dropdown-menu button {
-  background-color: #fff;
-  padding: 10px;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  background: none;
   border: none;
   text-align: left;
   cursor: pointer;
-  width: 150px;
 }
-
 .dropdown-menu button:hover {
-  background-color: #f0f0f0;
+  background-color: #f5f5f5;
 }
 
 /* Menambahkan margin jika diperlukan untuk tombol */
@@ -245,18 +265,21 @@ button {
 .buttoncontent-wrapper,
 .chat-message-parent,
 .more-icon-button {
-  background: none;
   border: none;
-  padding: 8px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
   font-size: 20px;
-  color: #333;
 }
 
 /* Comment (speech bubble) icon */
+/* Container for comment section */
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+}
 .comment-icon {
   width: 20px;
   height: 20px;
@@ -281,6 +304,89 @@ button {
   border-top: none;
   border-right: none;
   background: #fff;
+}
+
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* On top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto; /* 10% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal body styles */
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.comment-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  resize: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.add-comment-btn {
+  align-self: flex-end;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.add-comment-btn:hover {
+  background-color: #45a049;
 }
 
 /* Text styling */
@@ -330,17 +436,20 @@ button {
 .chat-message-parent {
   display: flex;
   align-items: center;
-  /* gap: 15px; Adjust the gap size as needed */
-  background: none;
+  background-color: transparent;
   border: none;
-  /* padding-left: 30px; */
   cursor: pointer;
-  padding-left: 50px;
+  color: #333;
 }
+
+.chat-message-parent i {
+  margin-right: 5px;
+}
+
 .frame-parent {
   display: flex;
-  align-items: center;
-  gap: 16px; /* Space between buttons */
+  justify-content: space-between; /* Menyebarkan elemen ke kiri dan kanan */
+  align-items: center; /* Vertikal center */
 }
 
 .more-icon {
@@ -370,13 +479,13 @@ button {
 .line-parent {
   position: absolute;
   top: 1600px;
-  padding-left: 140px;
+  padding-left: 190px;
   width: 996px;
   height: 77px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
   align-content: center;
   gap: 20px 699px;
@@ -546,19 +655,17 @@ button {
 
 /* Footer */
 footer {
-  padding: 0px 100px;
-  padding-top: 220%;
-  padding-bottom: 40px;
+  padding: 40px 100px;
   color: #414958;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   letter-spacing: 0.04em;
+  /* background-color: #f8f9fa; Tambahkan background jika diperlukan */
   position: relative;
-  overflow: hidden;
-  /* Sticky footer */
-  margin-top: auto; /* Untuk menjaga footer di bagian bawah */
+  top: 400%; /* Geser ke bawah */
+  bottom: -10px; /* Geser ke atas */
 }
 
 /* Elemen lain di dalam footer tetap sama */
@@ -568,25 +675,20 @@ footer {
   display: flex;
 }
 
-.footer-background {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-  height: 100%;
-  background-repeat: no-repeat;
+/* .footer-background {
+  background-image: url("../asset/footer\ gr.png");
   background-size: cover;
   background-position: bottom;
-  opacity: 0.5; /* Mengubah opacity menjadi lebih transparan */
-  z-index: -1; /* Menempatkan gambar di belakang tulisan */
-}
+  opacity: 0.5;
+  z-index: -1;
+} */
 
 .footer-background img {
-  width: 120%; /* Memastikan gambar menyesuaikan lebar kontainer */
+  width: 50%; /* Memastikan gambar menyesuaikan lebar kontainer */
   height: auto; /* Menyesuaikan tinggi gambar agar tetap proporsional */
   display: block;
   object-fit: cover; /* Agar gambar mengisi ruang dengan baik */
-  padding-top: 420%;
+  padding-top: 0%;
 }
 
 .footer-section {
